@@ -1,0 +1,39 @@
+{
+  "source_csv": ".aime/artifacts/assistants/f5cf5c7e-dd19-48ed-828d-b1a914e7c704/3cd992bf-940d-46fc-b2ac-df0c09c1e71c/v1/top_50_nocode_affiliate_programs.csv",
+  "template": "pseo_avsb_engine/page_spec_template.json",
+  "mode": "same-category",
+  "generated_at": "2026-06-01T09:30:31.509773+00:00",
+  "page_count": 5,
+  "pages": [
+    {
+      "page_key": "webflow-vs-carrd",
+      "url_path": "/compare/webflow-vs-carrd",
+      "title": "Webflow vs Carrd: Pricing, Features, Pros & Cons",
+      "file": "webflow-vs-carrd.json"
+    },
+    {
+      "page_key": "webflow-vs-framer",
+      "url_path": "/compare/webflow-vs-framer",
+      "title": "Webflow vs Framer: Pricing, Features, Pros & Cons",
+      "file": "webflow-vs-framer.json"
+    },
+    {
+      "page_key": "webflow-vs-dorik",
+      "url_path": "/compare/webflow-vs-dorik",
+      "title": "Webflow vs Dorik: Pricing, Features, Pros & Cons",
+      "file": "webflow-vs-dorik.json"
+    },
+    {
+      "page_key": "webflow-vs-ycode",
+      "url_path": "/compare/webflow-vs-ycode",
+      "title": "Webflow vs Ycode: Pricing, Features, Pros & Cons",
+      "file": "webflow-vs-ycode.json"
+    },
+    {
+      "page_key": "webflow-vs-pixpa",
+      "url_path": "/compare/webflow-vs-pixpa",
+      "title": "Webflow vs Pixpa: Pricing, Features, Pros & Cons",
+      "file": "webflow-vs-pixpa.json"
+    }
+  ]
+}

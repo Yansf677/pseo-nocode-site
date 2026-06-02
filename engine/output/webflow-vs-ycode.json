@@ -1,0 +1,157 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "webflow-vs-ycode",
+  "url_path": "/compare/webflow-vs-ycode",
+  "locale": "en",
+  "seo": {
+    "title": "Webflow vs Ycode: Pricing, Features, Pros & Cons",
+    "meta_description": "Compare Webflow and Ycode across category, pricing model, affiliate terms, positioning, pros and cons.",
+    "canonical_url": "https://example.com/compare/webflow-vs-ycode"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "Webflow vs Ycode",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit Webflow",
+      "href": "https://webflow.com/affiliates"
+    },
+    "secondary_cta": {
+      "label": "Visit Ycode",
+      "href": "https://www.ycode.com/affiliate"
+    },
+    "badges": [
+      "Website Builder",
+      "affiliate-program comparison"
+    ]
+  },
+  "summary": {
+    "winner_hint": "Tie / depends on use case",
+    "best_for_a": "Webflow is a strong fit for users evaluating website builder options and affiliates who care about 50% recurring (12 months).",
+    "best_for_b": "Ycode is a strong fit for users evaluating website builder options and affiliates who care about 50% recurring (24 months).",
+    "quick_take": "Choose Webflow if you prefer a website builder angle; choose Ycode if you prefer a website builder angle. Both sit in the broader website builder comparison set."
+  },
+  "entities": {
+    "tool_a": {
+      "name": "Webflow",
+      "slug": "webflow",
+      "category": "Website Builder",
+      "commission": "50% Recurring (12 months)",
+      "link": "https://webflow.com/affiliates"
+    },
+    "tool_b": {
+      "name": "Ycode",
+      "slug": "ycode",
+      "category": "Website Builder",
+      "commission": "50% Recurring (24 months)",
+      "link": "https://www.ycode.com/affiliate"
+    }
+  },
+  "comparison_table": {
+    "columns": [
+      "Dimension",
+      "Webflow",
+      "Ycode"
+    ],
+    "rows": [
+      {
+        "dimension": "Category",
+        "tool_a": "Website Builder",
+        "tool_b": "Website Builder"
+      },
+      {
+        "dimension": "Affiliate commission",
+        "tool_a": "50% Recurring (12 months)",
+        "tool_b": "50% Recurring (24 months)"
+      },
+      {
+        "dimension": "Official link",
+        "tool_a": "https://webflow.com/affiliates",
+        "tool_b": "https://www.ycode.com/affiliate"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "Webflow and Ycode are both relevant options in Website Builder.",
+          "This page compares positioning, monetization signals, and practical fit for different user types."
+        ]
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "Webflow is categorized under Website Builder.",
+          "Affiliate offer: 50% Recurring (12 months)."
+        ],
+        "tool_b": [
+          "Ycode is categorized under Website Builder.",
+          "Affiliate offer: 50% Recurring (24 months)."
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "What is the main difference between Webflow and Ycode?",
+            "answer": "Webflow is positioned as Website Builder, while Ycode is positioned as Website Builder."
+          },
+          {
+            "question": "Who should choose Webflow over Ycode?",
+            "answer": "Webflow is a strong fit for users evaluating website builder options and affiliates who care about 50% recurring (12 months)."
+          },
+          {
+            "question": "Who should choose Ycode over Webflow?",
+            "answer": "Ycode is a strong fit for users evaluating website builder options and affiliates who care about 50% recurring (24 months)."
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": [
+          {
+            "label": "Webflow vs Carrd",
+            "href": "/compare/webflow-vs-carrd"
+          },
+          {
+            "label": "Webflow vs Framer",
+            "href": "/compare/webflow-vs-framer"
+          },
+          {
+            "label": "Webflow vs Dorik",
+            "href": "/compare/webflow-vs-dorik"
+          }
+        ]
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "Webflow vs Ycode",
+    "secondary_keywords": [
+      "Webflow alternative to Ycode",
+      "Ycode alternative to Webflow",
+      "best Website Builder tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": ".aime/artifacts/assistants/f5cf5c7e-dd19-48ed-828d-b1a914e7c704/3cd992bf-940d-46fc-b2ac-df0c09c1e71c/v1/top_50_nocode_affiliate_programs.csv",
+    "generated_at": "2026-06-01T09:30:31.509773+00:00",
+    "generator": "generate_avsb_pages.py"
+  }
+}

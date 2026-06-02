@@ -1,0 +1,140 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "{{tool_a_slug}}-vs-{{tool_b_slug}}",
+  "url_path": "/compare/{{tool_a_slug}}-vs-{{tool_b_slug}}",
+  "locale": "en",
+  "seo": {
+    "title": "{{tool_a_name}} vs {{tool_b_name}}: Pricing, Features, Pros & Cons",
+    "meta_description": "Compare {{tool_a_name}} and {{tool_b_name}} across category, pricing model, affiliate terms, positioning, pros and cons.",
+    "canonical_url": "https://example.com/compare/{{tool_a_slug}}-vs-{{tool_b_slug}}"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "{{tool_a_name}} vs {{tool_b_name}}",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit {{tool_a_name}}",
+      "href": "{{tool_a_link}}"
+    },
+    "secondary_cta": {
+      "label": "Visit {{tool_b_name}}",
+      "href": "{{tool_b_link}}"
+    },
+    "badges": [
+      "{{comparison_category}}",
+      "{{comparison_angle}}"
+    ]
+  },
+  "summary": {
+    "winner_hint": "{{winner_hint}}",
+    "best_for_a": "{{tool_a_best_for}}",
+    "best_for_b": "{{tool_b_best_for}}",
+    "quick_take": "{{quick_take}}"
+  },
+  "entities": {
+    "tool_a": {
+      "name": "{{tool_a_name}}",
+      "slug": "{{tool_a_slug}}",
+      "category": "{{tool_a_category}}",
+      "commission": "{{tool_a_commission}}",
+      "link": "{{tool_a_link}}"
+    },
+    "tool_b": {
+      "name": "{{tool_b_name}}",
+      "slug": "{{tool_b_slug}}",
+      "category": "{{tool_b_category}}",
+      "commission": "{{tool_b_commission}}",
+      "link": "{{tool_b_link}}"
+    }
+  },
+  "comparison_table": {
+    "columns": ["Dimension", "{{tool_a_name}}", "{{tool_b_name}}"],
+    "rows": [
+      {
+        "dimension": "Category",
+        "tool_a": "{{tool_a_category}}",
+        "tool_b": "{{tool_b_category}}"
+      },
+      {
+        "dimension": "Affiliate commission",
+        "tool_a": "{{tool_a_commission}}",
+        "tool_b": "{{tool_b_commission}}"
+      },
+      {
+        "dimension": "Official link",
+        "tool_a": "{{tool_a_link}}",
+        "tool_b": "{{tool_b_link}}"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "{{tool_a_name}} and {{tool_b_name}} are both relevant options in {{comparison_category}}.",
+          "This page compares positioning, monetization signals, and practical fit for different user types."
+        ]
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "{{tool_a_name}} is categorized under {{tool_a_category}}.",
+          "Affiliate offer: {{tool_a_commission}}."
+        ],
+        "tool_b": [
+          "{{tool_b_name}} is categorized under {{tool_b_category}}.",
+          "Affiliate offer: {{tool_b_commission}}."
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "What is the main difference between {{tool_a_name}} and {{tool_b_name}}?",
+            "answer": "{{tool_a_name}} is positioned as {{tool_a_category}}, while {{tool_b_name}} is positioned as {{tool_b_category}}."
+          },
+          {
+            "question": "Who should choose {{tool_a_name}} over {{tool_b_name}}?",
+            "answer": "{{tool_a_best_for}}"
+          },
+          {
+            "question": "Who should choose {{tool_b_name}} over {{tool_a_name}}?",
+            "answer": "{{tool_b_best_for}}"
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": []
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "{{tool_a_name}} vs {{tool_b_name}}",
+    "secondary_keywords": [
+      "{{tool_a_name}} alternative to {{tool_b_name}}",
+      "{{tool_b_name}} alternative to {{tool_a_name}}",
+      "best {{comparison_category}} tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": "{{source_csv}}",
+    "generated_at": "{{generated_at}}",
+    "generator": "generate_avsb_pages.py"
+  }
+}
