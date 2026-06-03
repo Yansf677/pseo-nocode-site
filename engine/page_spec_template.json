@@ -8,7 +8,7 @@
   "seo": {
     "title": "{{tool_a_name}} vs {{tool_b_name}}: Pricing, Features, Pros & Cons",
     "meta_description": "Compare {{tool_a_name}} and {{tool_b_name}} across category, pricing model, affiliate terms, positioning, pros and cons.",
-    "canonical_url": "https://example.com/compare/{{tool_a_slug}}-vs-{{tool_b_slug}}"
+    "canonical_url": "https://stackcompare.xyz/compare/{{tool_a_slug}}-vs-{{tool_b_slug}}"
   },
   "hero": {
     "eyebrow": "No-Code Tools Comparison",

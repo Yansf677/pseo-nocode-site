@@ -8,7 +8,7 @@ interface ManifestShape {
   pages?: ManifestPage[];
 }
 
-const FALLBACK_SITE_URL = "https://example.com";
+const FALLBACK_SITE_URL = "https://stackcompare.xyz";
 
 function normalizeSiteUrl(url: string) {
   return url.endsWith("/") ? url.slice(0, -1) : url;
