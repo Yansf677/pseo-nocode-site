@@ -1,0 +1,236 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "dorik-vs-wix",
+  "url_path": "/compare/dorik-vs-wix",
+  "locale": "en",
+  "seo": {
+    "title": "Dorik vs Wix — Which Website Builder Should You Choose?",
+    "meta_description": "Compare Dorik and Wix: ease of use, performance, templates, pricing, ecommerce and SEO to find the best website builder for your project.",
+    "canonical_url": "https://example.com/compare/dorik-vs-wix"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "Dorik vs Wix",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit Dorik",
+      "href": "https://dorik.com/affiliate"
+    },
+    "secondary_cta": {
+      "label": "Visit Wix",
+      "href": "https://www.wix.com/about/affiliates"
+    },
+    "badges": [
+      "Website Builder",
+      "affiliate-program comparison"
+    ]
+  },
+  "summary": {
+    "winner_hint": "Dorik for speed, Wix for features",
+    "best_for_a": "Dorik is best for creators who want a fast, lightweight site with an intuitive editor and predictable pricing.",
+    "best_for_b": "Wix is best for users who need deep feature sets, a huge app marketplace, and flexible ecommerce or enterprise capabilities.",
+    "quick_take": "Dorik focuses on simplicity, performance, and clear pricing, making it a smart choice for small sites, portfolios, and landing pages. Wix offers a far broader feature set, templates, and apps, which suits growing businesses and complex stores but can feel heavier and pricier."
+  },
+  "entities": {
+    "tool_a": {
+      "name": "Dorik",
+      "slug": "dorik",
+      "category": "Website Builder",
+      "commission": "40% Recurring Lifetime",
+      "link": "https://dorik.com/affiliate"
+    },
+    "tool_b": {
+      "name": "Wix",
+      "slug": "wix",
+      "category": "Website Builder",
+      "commission": "$100+ One-time per sale",
+      "link": "https://www.wix.com/about/affiliates"
+    }
+  },
+  "comparison_table": {
+    "columns": [
+      "Dimension",
+      "Dorik",
+      "Wix"
+    ],
+    "rows": [
+      {
+        "dimension": "Ease of use",
+        "tool_a": "Very intuitive editor and minimal options make setup quick.",
+        "tool_b": "Flexible editor with many features — steeper learning curve."
+      },
+      {
+        "dimension": "Performance",
+        "tool_a": "Optimized for speed; lightweight templates and fast load times.",
+        "tool_b": "Feature-rich sites can be slower unless carefully optimized."
+      },
+      {
+        "dimension": "Templates & design",
+        "tool_a": "Clean, modern templates focused on simplicity.",
+        "tool_b": "Hundreds of templates with niche designs and deep customization."
+      },
+      {
+        "dimension": "Customization",
+        "tool_a": "Good for straightforward design tweaks; limited advanced controls.",
+        "tool_b": "Extensive customization with apps, code blocks, and advanced settings."
+      },
+      {
+        "dimension": "Ecommerce",
+        "tool_a": "Suitable for small stores or simple product catalogs.",
+        "tool_b": "Robust ecommerce features, multi-channel selling, and inventory tools."
+      },
+      {
+        "dimension": "SEO",
+        "tool_a": "Solid basics for SEO with fast load times helping rankings.",
+        "tool_b": "Comprehensive SEO tools and apps for advanced optimization."
+      },
+      {
+        "dimension": "Integrations",
+        "tool_a": "Core integrations available; fewer third-party apps.",
+        "tool_b": "Extensive app market with integrations for marketing, CRM, and more."
+      },
+      {
+        "dimension": "Pricing",
+        "tool_a": "Transparent, lower-cost plans that are easy to compare.",
+        "tool_b": "Wide range of plans; add-on costs can increase total spend."
+      },
+      {
+        "dimension": "Support",
+        "tool_a": "Responsive core support and community resources.",
+        "tool_b": "24/7 support options and large knowledge base plus expert services."
+      },
+      {
+        "dimension": "Scalability",
+        "tool_a": "Great for small to medium projects; less suited for enterprise scale.",
+        "tool_b": "Designed to scale with business needs and complex sites."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "Dorik and Wix are both popular website builders, but they solve different problems. Dorik aims for a minimal, fast experience while Wix provides an all-in-one platform with hundreds of features and integrations.",
+          "This comparison highlights where each tool shines — ease of use, customization, pricing, performance, ecommerce and SEO — so you can quickly decide which aligns with your project goals and budget."
+        ]
+      }
+    },
+    {
+      "type": "verdict",
+      "data": {
+        "headline": "Final verdict: pick simplicity or scope",
+        "summary": "Choose Dorik if you prioritize speed, an easy learning curve, and straightforward costs; pick Wix if you need advanced features, extensive templates, and an app ecosystem that can scale with your business."
+      }
+    },
+    {
+      "type": "pros_cons",
+      "data": {
+        "tool_a": {
+          "pros": [
+            "Lightning-fast pages and clean, minimal templates that load quickly.",
+            "Simple pricing and a straightforward editor that shortens the learning curve."
+          ],
+          "cons": [
+            "Fewer built-in apps and integrations compared with larger platforms.",
+            "Limited advanced features for complex ecommerce or membership sites."
+          ]
+        },
+        "tool_b": {
+          "pros": [
+            "Extensive template library, app market, and built-in ecommerce tools.",
+            "Powerful customizations and advanced features for growing businesses."
+          ],
+          "cons": [
+            "Can feel bloated and slower if you rely on many apps and heavy templates.",
+            "Pricing tiers and app costs can add up as you expand functionality."
+          ]
+        }
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "Fast page performance and simple drag-and-drop editor",
+          "Transparent plans with fewer surprises",
+          "Great for landing pages, portfolios, and brochure sites"
+        ],
+        "tool_b": [
+          "Massive template and app marketplace",
+          "Advanced ecommerce, SEO, and marketing features",
+          "Highly customizable with many third-party integrations"
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "Which builder is faster out of the box?",
+            "answer": "Dorik tends to deliver faster pages by default thanks to lightweight templates and fewer built-in features, while Wix may need optimization for peak speed."
+          },
+          {
+            "question": "Can I run an online store on both platforms?",
+            "answer": "Yes — both support ecommerce, but Wix has more advanced store features, payment options, and inventory tools for larger shops."
+          },
+          {
+            "question": "Which is easier for beginners?",
+            "answer": "Dorik is generally easier for absolute beginners because of its simple editor and fewer configuration choices."
+          },
+          {
+            "question": "How do the pricing models compare?",
+            "answer": "Dorik offers straightforward, lower-cost plans with predictable billing; Wix has more tiers and optional app costs that can raise the final price."
+          },
+          {
+            "question": "Which platform is better for SEO?",
+            "answer": "Both offer SEO features, but Dorik's speed helps rankings while Wix provides a deeper toolkit and apps for hands-on optimization."
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": [
+          {
+            "label": "Webflow vs Dorik",
+            "href": "/compare/webflow-vs-dorik"
+          },
+          {
+            "label": "Webflow vs Wix",
+            "href": "/compare/webflow-vs-wix"
+          },
+          {
+            "label": "Carrd vs Dorik",
+            "href": "/compare/carrd-vs-dorik"
+          }
+        ]
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "Dorik vs Wix",
+    "secondary_keywords": [
+      "Dorik alternative to Wix",
+      "Wix alternative to Dorik",
+      "best Website Builder tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
+    "generated_at": "2026-06-03T08:49:46.895345+00:00",
+    "generator": "generate_avsb_pages.py",
+    "llm_status": "llm",
+    "llm_model": "gpt-5-mini-2025-08-07"
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "dorik-vs-squarespace",
+  "url_path": "/compare/dorik-vs-squarespace",
+  "locale": "en",
+  "seo": {
+    "title": "Dorik vs Squarespace — Which Website Builder Should You Pick in 2",
+    "meta_description": "Compare Dorik and Squarespace for ease of use, templates, ecommerce, pricing and SEO. Learn which website builder is best for landing pages, portfolios or onlin",
+    "canonical_url": "https://example.com/compare/dorik-vs-squarespace"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "Dorik vs Squarespace",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit Dorik",
+      "href": "https://dorik.com/affiliate"
+    },
+    "secondary_cta": {
+      "label": "Visit Squarespace",
+      "href": "https://www.squarespace.com/affiliates"
+    },
+    "badges": [
+      "Website Builder",
+      "affiliate-program comparison"
+    ]
+  },
+  "summary": {
+    "winner_hint": "Dorik for value, Squarespace for polish",
+    "best_for_a": "Best for budget-conscious creators who want a fast, block-based builder to launch simple marketing sites and landing pages.",
+    "best_for_b": "Best for creatives and small businesses that need beautiful templates, built-in ecommerce and a fuller feature set for scaling online.",
+    "quick_take": "Dorik delivers a lightweight, affordable site builder focused on speed and ease: great for landing pages, portfolios and simple brochure sites. Squarespace trades a bit more complexity for premium templates, stronger ecommerce tools and integrated marketing features. If you want the lowest friction and best price-to-value for basic sites choose Dorik; if design polish, templates and built-in commerce matter more, Squarespace is the safer bet."
+  },
+  "entities": {
+    "tool_a": {
+      "name": "Dorik",
+      "slug": "dorik",
+      "category": "Website Builder",
+      "commission": "40% Recurring Lifetime",
+      "link": "https://dorik.com/affiliate"
+    },
+    "tool_b": {
+      "name": "Squarespace",
+      "slug": "squarespace",
+      "category": "Website Builder",
+      "commission": "$100-$200 One-time per sale",
+      "link": "https://www.squarespace.com/affiliates"
+    }
+  },
+  "comparison_table": {
+    "columns": [
+      "Dimension",
+      "Dorik",
+      "Squarespace"
+    ],
+    "rows": [
+      {
+        "dimension": "Ease of use",
+        "tool_a": "Intuitive block-based editor aimed at fast page builds and low friction.",
+        "tool_b": "Polished drag-and-drop editor with more controls—takes a bit longer to master."
+      },
+      {
+        "dimension": "Templates & design",
+        "tool_a": "Smaller template set focused on modern, simple layouts; good for landing pages.",
+        "tool_b": "Large, professionally designed templates optimized for portfolios and stores."
+      },
+      {
+        "dimension": "Ecommerce",
+        "tool_a": "Basic ecommerce options via integrations or simple product pages; suitable for low-volume stores.",
+        "tool_b": "Full ecommerce suite with inventory, subscriptions, promotions and checkout features."
+      },
+      {
+        "dimension": "Pricing",
+        "tool_a": "Generally more affordable plans for small sites and single-page projects.",
+        "tool_b": "Higher starting price but includes more built-in features and commerce-ready tiers."
+      },
+      {
+        "dimension": "Customization & developer features",
+        "tool_a": "Good CSS/HTML access and simple integrations; less extensive developer ecosystem.",
+        "tool_b": "Developer platform options, APIs and more advanced styling controls for custom builds."
+      },
+      {
+        "dimension": "SEO & marketing",
+        "tool_a": "Covers basics: meta tags, sitemaps and fast pages; fewer built-in marketing tools.",
+        "tool_b": "Stronger SEO controls plus integrated email campaigns, analytics and marketing tools."
+      },
+      {
+        "dimension": "Performance & hosting",
+        "tool_a": "Fast, lightweight pages with reliable hosting optimized for simple sites.",
+        "tool_b": "Robust hosting and CDN with well-optimized templates, though heavier pages can impact load."
+      },
+      {
+        "dimension": "Support & community",
+        "tool_a": "Responsive documentation and ticket support; smaller community.",
+        "tool_b": "Extensive help center, tutorials and a large user community with more third-party resources."
+      },
+      {
+        "dimension": "Integrations & plugins",
+        "tool_a": "Essential integrations and third-party embeds; fewer native apps.",
+        "tool_b": "Broad integrations marketplace and native services for payment, marketing and analytics."
+      },
+      {
+        "dimension": "Best use case",
+        "tool_a": "Landing pages, portfolios and small brochure sites where cost and speed matter.",
+        "tool_b": "Creative portfolios, small businesses and online stores that need built-in commerce and polish."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "Dorik and Squarespace are both website builders, but they target different priorities: Dorik emphasizes simplicity, fast setup and affordability, while Squarespace focuses on polished design, built-in ecommerce and a broader feature set.",
+          "This comparison walks through ease of use, design flexibility, ecommerce capabilities, pricing and support to help you pick the right platform for your next site—whether that’s a one-page landing site or a full ecommerce storefront."
+        ]
+      }
+    },
+    {
+      "type": "verdict",
+      "data": {
+        "headline": "Final verdict: choose based on scope — Dorik for simplicity, Squarespace for scalability",
+        "summary": "Dorik wins when you need a lean, cost-effective builder to launch quickly with minimal friction. Squarespace wins when you prioritize rich templates, advanced commerce and built-in marketing features that support a growing business. Match the tool to your priorities: speed and price or design and depth."
+      }
+    },
+    {
+      "type": "pros_cons",
+      "data": {
+        "tool_a": {
+          "pros": [
+            "Lower price and straightforward plans that cover basic needs",
+            "Fast, block-based editor that speeds up landing pages and small sites"
+          ],
+          "cons": [
+            "Fewer built-in ecommerce and advanced marketing features",
+            "Smaller template library and fewer design refinements than premium builders"
+          ]
+        },
+        "tool_b": {
+          "pros": [
+            "High-quality, responsive templates and strong design controls",
+            "Robust ecommerce and integrated marketing tools for growing businesses"
+          ],
+          "cons": [
+            "Higher cost and fewer ultra-basic plans for one-off landing pages",
+            "More features can mean a steeper learning curve for beginners"
+          ]
+        }
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "Simple visual builder with reusable blocks and fast setup",
+          "Competitive pricing and good value for brochure sites",
+          "Clean export options and straightforward domain management"
+        ],
+        "tool_b": [
+          "Industry-leading templates and designer-grade styling",
+          "Built-in ecommerce, inventory and subscriptions support",
+          "Advanced marketing integrations and analytics"
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "Which is cheaper, Dorik or Squarespace?",
+            "answer": "Dorik typically has lower-cost plans aimed at simple sites, while Squarespace’s plans are pricier but include more built-in features like ecommerce and marketing tools."
+          },
+          {
+            "question": "Can I run an online store on both platforms?",
+            "answer": "Yes—Squarespace has a full ecommerce suite built in. Dorik supports simple stores and product pages, often relying on integrations for more advanced commerce features."
+          },
+          {
+            "question": "Which builder is faster to launch with no technical skills?",
+            "answer": "Dorik’s block-based editor and minimal setup make it faster for non-technical users to launch landing pages and basic sites. Squarespace is also user-friendly but offers more options that can take longer to configure."
+          },
+          {
+            "question": "Are Dorik and Squarespace good for SEO?",
+            "answer": "Both provide core SEO features like editable meta tags and sitemaps. Squarespace includes more built-in marketing and analytics tools; Dorik focuses on performance and simplicity for SEO fundamentals."
+          },
+          {
+            "question": "Can I move my site from one platform to the other?",
+            "answer": "You can export content and migrate, but because templates and builders differ, expect manual work to recreate layouts and styling after migration."
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": [
+          {
+            "label": "Webflow vs Dorik",
+            "href": "/compare/webflow-vs-dorik"
+          },
+          {
+            "label": "Webflow vs Squarespace",
+            "href": "/compare/webflow-vs-squarespace"
+          },
+          {
+            "label": "Carrd vs Dorik",
+            "href": "/compare/carrd-vs-dorik"
+          }
+        ]
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "Dorik vs Squarespace",
+    "secondary_keywords": [
+      "Dorik alternative to Squarespace",
+      "Squarespace alternative to Dorik",
+      "best Website Builder tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
+    "generated_at": "2026-06-03T08:49:46.895345+00:00",
+    "generator": "generate_avsb_pages.py",
+    "llm_status": "llm",
+    "llm_model": "gpt-5-mini-2025-08-07"
+  }
+}

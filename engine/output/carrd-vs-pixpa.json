@@ -1,0 +1,240 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "carrd-vs-pixpa",
+  "url_path": "/compare/carrd-vs-pixpa",
+  "locale": "en",
+  "seo": {
+    "title": "Carrd vs Pixpa — One-page Simplicity vs Creative Multi-page Websi",
+    "meta_description": "Compare Carrd and Pixpa to decide: Carrd for ultra-fast, low-cost one-page sites and landing pages; Pixpa for photographers and creatives who need galleries, cl",
+    "canonical_url": "https://example.com/compare/carrd-vs-pixpa"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "Carrd vs Pixpa",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit Carrd",
+      "href": "https://carrd.co/affiliates"
+    },
+    "secondary_cta": {
+      "label": "Visit Pixpa",
+      "href": "https://www.pixpa.com/affiliate"
+    },
+    "badges": [
+      "Website Builder",
+      "affiliate-program comparison"
+    ]
+  },
+  "summary": {
+    "winner_hint": "Pixpa for creatives & small stores",
+    "best_for_a": "Best for fast, ultra-affordable one-page landing pages, link-in-bio sites, and simple portfolios where speed and cost matter most.",
+    "best_for_b": "Best for photographers, designers, and small businesses that need a multi-page portfolio, built-in e-commerce, client galleries, and a CMS tailored to creatives.",
+    "quick_take": "Carrd and Pixpa target different needs: Carrd is the go-to when you want a single, fast, low-cost page that looks modern with minimal setup; it’s ideal for landing pages, simple portfolios, and link-in-bio pages. Pixpa is a fuller website platform built for creatives and small stores — it offers multi-page sites, galleries, client proofing, blogging, and integrated e-commerce. Choose Carrd for speed and price, Pixpa when you need features, galleries, and sales tools built in."
+  },
+  "entities": {
+    "tool_a": {
+      "name": "Carrd",
+      "slug": "carrd",
+      "category": "One-page Website Builder",
+      "commission": "30% Recurring Lifetime",
+      "link": "https://carrd.co/affiliates"
+    },
+    "tool_b": {
+      "name": "Pixpa",
+      "slug": "pixpa",
+      "category": "Website Builder",
+      "commission": "55% Recurring (12 months)",
+      "link": "https://www.pixpa.com/affiliate"
+    }
+  },
+  "comparison_table": {
+    "columns": [
+      "Dimension",
+      "Carrd",
+      "Pixpa"
+    ],
+    "rows": [
+      {
+        "dimension": "Primary use case",
+        "tool_a": "One-page websites, landing pages, link-in-bio, simple portfolios",
+        "tool_b": "Multi-page portfolios, photography galleries, client proofing, and small online stores"
+      },
+      {
+        "dimension": "Ease of use",
+        "tool_a": "Very easy — drag-and-drop for one-page layouts with minimal options",
+        "tool_b": "User-friendly but broader feature set means a slightly longer setup time"
+      },
+      {
+        "dimension": "Design & templates",
+        "tool_a": "Clean, modern one-page templates focused on conversion and speed",
+        "tool_b": "Professionally styled templates for photographers and creatives, optimized for galleries and commerce"
+      },
+      {
+        "dimension": "E-commerce",
+        "tool_a": "Basic support via integrations or simple payment widgets; not ideal for a full store",
+        "tool_b": "Built-in e-commerce for selling prints, downloads, services, and products with client workflows"
+      },
+      {
+        "dimension": "Portfolio & galleries",
+        "tool_a": "Good for single-page portfolios; limited gallery features",
+        "tool_b": "Robust gallery and client-proofing tools designed for photographers and artists"
+      },
+      {
+        "dimension": "Blogging & CMS",
+        "tool_a": "No native multi-post blogging system — better for static one-page content",
+        "tool_b": "Includes blogging and CMS features for posts, collections, and dynamic pages"
+      },
+      {
+        "dimension": "SEO & analytics",
+        "tool_a": "Basic SEO options and analytics via integrations; fine for simple landing pages",
+        "tool_b": "Stronger SEO controls and built-in analytics to support multi-page sites and content marketing"
+      },
+      {
+        "dimension": "Integrations & extensibility",
+        "tool_a": "Supports simple third-party embeds and widgets; limited advanced integrations",
+        "tool_b": "Offers integrations for e-commerce, marketing tools, and social sales — better for scale"
+      },
+      {
+        "dimension": "Pricing value",
+        "tool_a": "Best value for very small budgets and single-page needs",
+        "tool_b": "Higher cost but offers more built-in tools that reduce need for third-party apps"
+      },
+      {
+        "dimension": "Ideal user",
+        "tool_a": "Solopreneurs, creators needing a fast landing page, or link-in-bio users",
+        "tool_b": "Photographers, designers, and small businesses who need galleries, client proofing, and sales features"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "Choosing the right website builder comes down to what you need to accomplish. Do you want a frictionless one-page landing site you can launch in minutes, or a full creative website with galleries, client proofing, and an online store? Carrd and Pixpa sit on different ends of that spectrum.",
+          "Carrd focuses on simplicity, affordability, and speed — perfect for single-page projects and quick launches. Pixpa focuses on creatives and small businesses that need multi-page sites, photography-focused galleries, and e-commerce features. Read on to see which tool maps to your priorities and how each stacks up on templates, customization, commerce, SEO, and support."
+        ]
+      }
+    },
+    {
+      "type": "verdict",
+      "data": {
+        "headline": "Carrd for one-page simplicity, Pixpa for creative businesses and online selling",
+        "summary": "If your goal is a quick, inexpensive landing page or single-screen portfolio, Carrd keeps things simple and fast. If you need a polished multi-page site with galleries, blogging, client proofing, and built-in commerce, Pixpa is the more complete choice — slightly pricier but designed for creative professionals who want an all-in-one site."
+      }
+    },
+    {
+      "type": "pros_cons",
+      "data": {
+        "tool_a": {
+          "pros": [
+            "Extremely low cost and lightning-fast setup for one-page sites",
+            "Very simple editor with a short learning curve — launch in minutes"
+          ],
+          "cons": [
+            "Limited to single-page layouts with basic e-commerce via third-party integrations",
+            "Not ideal for blogging, multi-page sites, or advanced client workflows"
+          ]
+        },
+        "tool_b": {
+          "pros": [
+            "Packed with features for creatives: galleries, client proofing, blogging, and built-in e-commerce",
+            "Multi-page site structure and a CMS designed for portfolios and stores"
+          ],
+          "cons": [
+            "Higher price point than Carrd and more settings to learn",
+            "Design flexibility can feel constrained by template choices if you want deep custom code control"
+          ]
+        }
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "Single-page speed: great for landing pages and link-in-bio sites",
+          "Ultra-affordable plans and a minimal learning curve",
+          "Simple integrations for forms and payments"
+        ],
+        "tool_b": [
+          "Built-in galleries, client proofing, and e-commerce tailored to photographers and creatives",
+          "Multi-page CMS and blogging tools for a full website presence",
+          "All-in-one hosting and support for selling prints, downloads, or services"
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "Can I sell products with Carrd or Pixpa?",
+            "answer": "Carrd supports simple payment widgets and third-party integrations for basic transactions, but it’s not built for full stores. Pixpa includes built-in e-commerce features to sell products, prints, and downloads with better store management."
+          },
+          {
+            "question": "Which platform is faster to launch?",
+            "answer": "Carrd is typically faster to launch — you can create and publish a one-page site in minutes. Pixpa takes longer due to multi-page setup and additional features but offers a more complete website out of the box."
+          },
+          {
+            "question": "Is Carrd suitable for photographers?",
+            "answer": "Carrd can work for a simple portfolio or link-to-gallery page, but photographers who need client proofing, high-quality galleries, and integrated sales are usually better served by Pixpa."
+          },
+          {
+            "question": "Do either platform include hosting?",
+            "answer": "Yes — both platforms handle hosting as part of their service. Pixpa includes hosting and a CMS tailored to creatives, while Carrd hosts single-page sites as part of its plans."
+          },
+          {
+            "question": "Can I connect a custom domain?",
+            "answer": "Both Carrd and Pixpa allow custom domains on paid plans, making it easy to brand your site and use your own URL."
+          },
+          {
+            "question": "Which is better for SEO and content marketing?",
+            "answer": "For simple one-page SEO optimizations, Carrd is adequate. For ongoing content marketing, multi-page SEO, and blogging, Pixpa provides stronger tools and structure."
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": [
+          {
+            "label": "Webflow vs Carrd",
+            "href": "/compare/webflow-vs-carrd"
+          },
+          {
+            "label": "Webflow vs Pixpa",
+            "href": "/compare/webflow-vs-pixpa"
+          },
+          {
+            "label": "Carrd vs Framer",
+            "href": "/compare/carrd-vs-framer"
+          }
+        ]
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "Carrd vs Pixpa",
+    "secondary_keywords": [
+      "Carrd alternative to Pixpa",
+      "Pixpa alternative to Carrd",
+      "best Website Builder tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
+    "generated_at": "2026-06-03T08:49:46.895345+00:00",
+    "generator": "generate_avsb_pages.py",
+    "llm_status": "llm",
+    "llm_model": "gpt-5-mini-2025-08-07"
+  }
+}

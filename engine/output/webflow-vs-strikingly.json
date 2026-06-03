@@ -1,0 +1,201 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "webflow-vs-strikingly",
+  "url_path": "/compare/webflow-vs-strikingly",
+  "locale": "en",
+  "seo": {
+    "title": "Webflow vs Strikingly: Verdict, Pros & Cons",
+    "meta_description": "Compare Webflow vs Strikingly with verdict, buyer fit, affiliate terms, pros and cons, and FAQ in one page.",
+    "canonical_url": "https://example.com/compare/webflow-vs-strikingly"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "Webflow vs Strikingly",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit Webflow",
+      "href": "https://webflow.com/affiliates"
+    },
+    "secondary_cta": {
+      "label": "Visit Strikingly",
+      "href": "https://www.strikingly.com/affiliate"
+    },
+    "badges": [
+      "Website Builder",
+      "affiliate-program comparison"
+    ]
+  },
+  "summary": {
+    "winner_hint": "Webflow for payout strength",
+    "best_for_a": "Webflow suits teams comparing website builder options and affiliate-focused operators who care about repeat commissions over time.",
+    "best_for_b": "Strikingly suits teams comparing website builder options and affiliate-focused operators who care about partner economics.",
+    "quick_take": "Webflow and Strikingly both sit in the broader website builder landscape, but they appeal to slightly different buying motions. Webflow leans into recurring payouts, while Strikingly leans into mixed payout terms. The better fit depends on whether you want the cleaner affiliate story, the broader positioning angle, or both."
+  },
+  "entities": {
+    "tool_a": {
+      "name": "Webflow",
+      "slug": "webflow",
+      "category": "Website Builder",
+      "commission": "50% Recurring (12 months)",
+      "link": "https://webflow.com/affiliates"
+    },
+    "tool_b": {
+      "name": "Strikingly",
+      "slug": "strikingly",
+      "category": "Website Builder",
+      "commission": "30% of first year",
+      "link": "https://www.strikingly.com/affiliate"
+    }
+  },
+  "comparison_table": {
+    "columns": [
+      "Dimension",
+      "Webflow",
+      "Strikingly"
+    ],
+    "rows": [
+      {
+        "dimension": "Best for",
+        "tool_a": "Webflow suits teams comparing website builder options and affiliate-focused operators who care about repeat commissions over time.",
+        "tool_b": "Strikingly suits teams comparing website builder options and affiliate-focused operators who care about partner economics."
+      },
+      {
+        "dimension": "Affiliate commission",
+        "tool_a": "50% Recurring (12 months)",
+        "tool_b": "30% of first year"
+      },
+      {
+        "dimension": "Monetization style",
+        "tool_a": "Recurring payouts",
+        "tool_b": "Mixed payout terms"
+      },
+      {
+        "dimension": "Official link",
+        "tool_a": "https://webflow.com/affiliates",
+        "tool_b": "https://www.strikingly.com/affiliate"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "Webflow and Strikingly both target buyers exploring website builder options, yet they frame the decision differently.",
+          "This comparison focuses on positioning, affiliate economics, and which tool is easier to back depending on whether you value recurring payouts or mixed payout terms."
+        ]
+      }
+    },
+    {
+      "type": "verdict",
+      "data": {
+        "headline": "Webflow vs Strikingly: two viable routes, different monetization stories",
+        "summary": "Webflow and Strikingly both belong in a website builder conversation, but they are easier to recommend for different reasons. Webflow is the stronger pick if you want repeat commissions over time, while Strikingly stands out if you want partner economics."
+      }
+    },
+    {
+      "type": "pros_cons",
+      "data": {
+        "tool_a": {
+          "pros": [
+            "Clear website builder positioning for focused evaluation.",
+            "Commission-led offer (50% Recurring (12 months)) creates a straightforward affiliate narrative.",
+            "Useful when the buying motion matches Webflow category framing."
+          ],
+          "cons": [
+            "Positioning may feel narrower if you want a broader website builder angle.",
+            "Commission terms alone do not explain product depth or implementation fit."
+          ]
+        },
+        "tool_b": {
+          "pros": [
+            "Strong fit for buyers scanning website builder alternatives.",
+            "Commission-led offer (30% of first year) gives it a distinct partner story.",
+            "Adds a credible alternative when you want contrast inside the same page."
+          ],
+          "cons": [
+            "May be less compelling if your primary filter is recurring payouts.",
+            "Category-level inputs still leave deeper product trade-offs unresolved."
+          ]
+        }
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "Category: Website Builder.",
+          "Affiliate structure: 50% Recurring (12 months).",
+          "Best framed around repeat commissions over time."
+        ],
+        "tool_b": [
+          "Category: Website Builder.",
+          "Affiliate structure: 30% of first year.",
+          "Best framed around partner economics."
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "What is the main difference between Webflow and Strikingly?",
+            "answer": "Webflow is framed around website builder positioning and repeat commissions over time, while Strikingly is framed around website builder positioning and partner economics."
+          },
+          {
+            "question": "Who should choose Webflow over Strikingly?",
+            "answer": "Webflow suits teams comparing website builder options and affiliate-focused operators who care about repeat commissions over time."
+          },
+          {
+            "question": "Who should choose Strikingly over Webflow?",
+            "answer": "Strikingly suits teams comparing website builder options and affiliate-focused operators who care about partner economics."
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": [
+          {
+            "label": "Webflow vs Carrd",
+            "href": "/compare/webflow-vs-carrd"
+          },
+          {
+            "label": "Webflow vs Framer",
+            "href": "/compare/webflow-vs-framer"
+          },
+          {
+            "label": "Webflow vs Dorik",
+            "href": "/compare/webflow-vs-dorik"
+          }
+        ]
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "Webflow vs Strikingly",
+    "secondary_keywords": [
+      "Webflow alternative to Strikingly",
+      "Strikingly alternative to Webflow",
+      "best Website Builder tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
+    "generated_at": "2026-06-03T08:49:46.895345+00:00",
+    "generator": "generate_avsb_pages.py",
+    "llm_status": "fallback",
+    "llm_model": "gpt-5-mini-2025-08-07",
+    "llm_error": "https://aidp-i18ntt-sg.tiktok-row.net/api/modelhub/online/v2/crawl?ak=<redacted> -> No JSON object found in LLM response"
+  }
+}

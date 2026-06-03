@@ -1,0 +1,238 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "aweber-vs-mailerlite",
+  "url_path": "/compare/aweber-vs-mailerlite",
+  "locale": "en",
+  "seo": {
+    "title": "AWeber vs MailerLite — Compare Features, Pricing & Deliverability",
+    "meta_description": "Compare AWeber and MailerLite side-by-side to find the best email marketing tool for your business. See pricing, deliverability, automation, templates, and supp",
+    "canonical_url": "https://example.com/compare/aweber-vs-mailerlite"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "AWeber vs MailerLite",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit AWeber",
+      "href": "https://www.aweber.com/affiliates.htm"
+    },
+    "secondary_cta": {
+      "label": "Visit MailerLite",
+      "href": "https://www.mailerlite.com/affiliate-program"
+    },
+    "badges": [
+      "Email Marketing",
+      "affiliate-program comparison"
+    ]
+  },
+  "summary": {
+    "winner_hint": "MailerLite for most users",
+    "best_for_a": "AWeber is best for senders who prioritize deliverability, a large template library, and dependable support.",
+    "best_for_b": "MailerLite is best for freelancers and small businesses that want an affordable, easy-to-use platform with strong automation and a generous free tier.",
+    "quick_take": "Both AWeber and MailerLite cover core email marketing needs, but they take different approaches: AWeber leans on deliverability, a mature feature set, and robust template options, while MailerLite focuses on simplicity, lower cost, and modern automation and landing-page tools. Choose AWeber if inbox placement and hands-on support matter most; choose MailerLite if you want the best value, quicker setup, and a cleaner editor."
+  },
+  "entities": {
+    "tool_a": {
+      "name": "AWeber",
+      "slug": "aweber",
+      "category": "Email Marketing",
+      "commission": "30% Recurring Lifetime",
+      "link": "https://www.aweber.com/affiliates.htm"
+    },
+    "tool_b": {
+      "name": "MailerLite",
+      "slug": "mailerlite",
+      "category": "Email Marketing",
+      "commission": "30% Recurring Lifetime",
+      "link": "https://www.mailerlite.com/affiliate-program"
+    }
+  },
+  "comparison_table": {
+    "columns": [
+      "Dimension",
+      "AWeber",
+      "MailerLite"
+    ],
+    "rows": [
+      {
+        "dimension": "Price & free plan",
+        "tool_a": "Competitive but often more expensive as lists grow; offers a free tier with basic features.",
+        "tool_b": "Market-leading value for small lists with a generous free tier and lower paid plans."
+      },
+      {
+        "dimension": "Ease of use",
+        "tool_a": "Feature-rich but can feel cluttered for new users.",
+        "tool_b": "Intuitive, modern interface that speeds up campaign creation."
+      },
+      {
+        "dimension": "Templates & design",
+        "tool_a": "Large library of templates and flexible editors.",
+        "tool_b": "Sleek templates and a simple drag-and-drop builder aimed at speed."
+      },
+      {
+        "dimension": "Automation & workflows",
+        "tool_a": "Solid autoresponders and basic automation sequences.",
+        "tool_b": "Visual automation builder with branching workflows and easier setup."
+      },
+      {
+        "dimension": "Deliverability",
+        "tool_a": "Strong reputation and tools focused on inbox placement.",
+        "tool_b": "Good deliverability for most users but may need optimization to match top-tier senders."
+      },
+      {
+        "dimension": "Segmentation & targeting",
+        "tool_a": "Robust segmentation and tag-based list management.",
+        "tool_b": "Straightforward segmentation that covers common use cases."
+      },
+      {
+        "dimension": "Integrations & API",
+        "tool_a": "Wide integration ecosystem and mature API support.",
+        "tool_b": "Plenty of integrations for common apps and a developer-friendly API."
+      },
+      {
+        "dimension": "Landing pages & forms",
+        "tool_a": "Includes signup forms and templates; solid but traditional feature set.",
+        "tool_b": "Built-in landing pages and popups designed for conversions."
+      },
+      {
+        "dimension": "Analytics & reporting",
+        "tool_a": "Detailed reporting and tracking for campaign performance.",
+        "tool_b": "Clear analytics dashboard with essential metrics and conversion tracking."
+      },
+      {
+        "dimension": "Customer support",
+        "tool_a": "Dependable support options and extensive help resources.",
+        "tool_b": "Responsive support and helpful documentation, with chat in most plans."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "AWeber and MailerLite are two popular email marketing platforms aimed at solopreneurs, small teams, and growing businesses. Both offer lists, templates, automations, and analytics, but they differ in pricing, usability, and advanced capabilities.",
+          "This comparison highlights the strengths and trade-offs so you can quickly decide which tool will convert better for your audience—whether you need the cheapest path to sending campaigns or the highest chance your emails land in the inbox."
+        ]
+      }
+    },
+    {
+      "type": "verdict",
+      "data": {
+        "headline": "Choose value and simplicity with MailerLite; choose deliverability and legacy features with AWeber",
+        "summary": "MailerLite wins for most small businesses thanks to lower cost and a smoother user experience, while AWeber remains a solid pick for senders who need proven deliverability and a broader set of legacy email features."
+      }
+    },
+    {
+      "type": "pros_cons",
+      "data": {
+        "tool_a": {
+          "pros": [
+            "Strong deliverability reputation and inbox placement tools",
+            "Large template library and reliable customer support options"
+          ],
+          "cons": [
+            "Can be pricier at higher subscriber counts compared with newer competitors",
+            "Interface and workflows feel more dated and can be less intuitive"
+          ]
+        },
+        "tool_b": {
+          "pros": [
+            "Low-cost plans and a generous free tier that reduce startup friction",
+            "Modern, clean editor with simple but powerful automation and landing pages"
+          ],
+          "cons": [
+            "Sends may require extra setup to match top-tier deliverability",
+            "Fewer advanced list-management and legacy features than some competitors"
+          ]
+        }
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "Reputation for solid inbox placement and deliverability safeguards",
+          "Extensive email template library and A/B testing features",
+          "Mature feature set with proven autoresponders and list management",
+          "Multiple support channels and documentation for onboarding"
+        ],
+        "tool_b": [
+          "Generous free tier and highly competitive paid pricing",
+          "Simple drag-and-drop editor and fast campaign creation",
+          "Visual automation builder and built-in landing pages",
+          "Clean UI that shortens the learning curve for new users"
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "Which tool is better for getting started quickly?",
+            "answer": "MailerLite is generally faster to set up thanks to a cleaner interface and prebuilt landing-page templates, making it ideal for beginners."
+          },
+          {
+            "question": "Which tool offers a better free plan?",
+            "answer": "MailerLite offers a more generous free tier for small lists and basic automation, making it a better choice for budget-conscious startups."
+          },
+          {
+            "question": "Which platform has better deliverability?",
+            "answer": "AWeber has a longstanding reputation for strong deliverability and inbox placement tools, which can help campaigns reach recipients reliably."
+          },
+          {
+            "question": "Can I migrate my subscribers between AWeber and MailerLite?",
+            "answer": "Yes — both platforms support list import/export and have guides or migration tools to move subscribers and basic campaign data."
+          },
+          {
+            "question": "Which tool is better for advanced automations?",
+            "answer": "MailerLite offers a more visual automation builder that’s easier to scale for customer journeys, while AWeber handles classic autoresponders well."
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": [
+          {
+            "label": "Kit (ConvertKit) vs AWeber",
+            "href": "/compare/kit-convertkit-vs-aweber"
+          },
+          {
+            "label": "Kit (ConvertKit) vs MailerLite",
+            "href": "/compare/kit-convertkit-vs-mailerlite"
+          },
+          {
+            "label": "ActiveCampaign vs AWeber",
+            "href": "/compare/activecampaign-vs-aweber"
+          }
+        ]
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "AWeber vs MailerLite",
+    "secondary_keywords": [
+      "AWeber alternative to MailerLite",
+      "MailerLite alternative to AWeber",
+      "best Email Marketing tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
+    "generated_at": "2026-06-03T08:49:46.895345+00:00",
+    "generator": "generate_avsb_pages.py",
+    "llm_status": "llm",
+    "llm_model": "gpt-5-mini-2025-08-07"
+  }
+}

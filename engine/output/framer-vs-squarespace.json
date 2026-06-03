@@ -1,0 +1,229 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "framer-vs-squarespace",
+  "url_path": "/compare/framer-vs-squarespace",
+  "locale": "en",
+  "seo": {
+    "title": "Framer vs Squarespace — Which Website Builder Converts Better?",
+    "meta_description": "Compare Framer and Squarespace across design, ease of use, SEO, and ecommerce. See which builder suits designers or small businesses and pick the best tool to l",
+    "canonical_url": "https://example.com/compare/framer-vs-squarespace"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "Framer vs Squarespace",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit Framer",
+      "href": "https://www.framer.com/affiliates"
+    },
+    "secondary_cta": {
+      "label": "Visit Squarespace",
+      "href": "https://www.squarespace.com/affiliates"
+    },
+    "badges": [
+      "Website Builder",
+      "affiliate-program comparison"
+    ]
+  },
+  "summary": {
+    "winner_hint": "Design-first builders often prefer Framer",
+    "best_for_a": "Framer is best for designers and teams who want pixel-perfect control, advanced animations, and the ability to prototype and ship with one tool.",
+    "best_for_b": "Squarespace is best for small businesses and creators who want an all-in-one, beginner-friendly site with elegant templates and straightforward commerce features.",
+    "quick_take": "Framer gives designers unrivaled control over layout, interactions, and modern CSS-driven visuals, making it ideal for custom, high-conversion landing pages and interactive portfolio sites. Squarespace focuses on ease and speed, offering curated templates, reliable hosting, and built-in ecommerce that helps non-technical users launch quickly. Choose Framer when design fidelity and animation matter; choose Squarespace when you need a polished site with minimal setup."
+  },
+  "entities": {
+    "tool_a": {
+      "name": "Framer",
+      "slug": "framer",
+      "category": "Website Builder",
+      "commission": "50% of first year",
+      "link": "https://www.framer.com/affiliates"
+    },
+    "tool_b": {
+      "name": "Squarespace",
+      "slug": "squarespace",
+      "category": "Website Builder",
+      "commission": "$100-$200 One-time per sale",
+      "link": "https://www.squarespace.com/affiliates"
+    }
+  },
+  "comparison_table": {
+    "columns": [
+      "Dimension",
+      "Framer",
+      "Squarespace"
+    ],
+    "rows": [
+      {
+        "dimension": "Ease of use",
+        "tool_a": "More design-oriented; requires time to learn advanced features.",
+        "tool_b": "Beginner-friendly editor designed for fast setup and edits."
+      },
+      {
+        "dimension": "Design flexibility",
+        "tool_a": "Highly flexible canvas with custom layouts, styles, and animations.",
+        "tool_b": "Beautiful templates but limited fine-grain control over complex interactions."
+      },
+      {
+        "dimension": "Templates and starter sites",
+        "tool_a": "Fewer templates; emphasis on building bespoke pages from scratch.",
+        "tool_b": "Extensive template library optimized for different industries."
+      },
+      {
+        "dimension": "SEO & performance",
+        "tool_a": "Clean code output and modern performance tools; you can optimize heavily.",
+        "tool_b": "Solid SEO basics and fast hosting; fewer advanced optimization levers."
+      },
+      {
+        "dimension": "Ecommerce",
+        "tool_a": "Capable for small stores with integrations, but not a full ecommerce suite.",
+        "tool_b": "Integrated commerce, inventory, and checkout features for small to mid stores."
+      },
+      {
+        "dimension": "Integrations & extensibility",
+        "tool_a": "Good support for modern integrations and custom code.",
+        "tool_b": "Plenty of built-in integrations and third-party extensions for business needs."
+      },
+      {
+        "dimension": "Pricing & value",
+        "tool_a": "Pricing geared toward professionals who need advanced design features.",
+        "tool_b": "Transparent tiers that bundle hosting and commerce for SMBs."
+      },
+      {
+        "dimension": "Support & community",
+        "tool_a": "Active design community and documentation; official support varies by plan.",
+        "tool_b": "24/7 support and a large user community with business-centered resources."
+      },
+      {
+        "dimension": "Best use case",
+        "tool_a": "Custom landing pages, interactive portfolios, and design-led marketing sites.",
+        "tool_b": "Small business sites, simple online stores, and creators who want speed."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "Picking the right website builder shapes how quickly you can launch, how your brand looks, and how easily you can convert visitors. Framer and Squarespace target different needs: Framer leans into design and interactivity, while Squarespace packages usability and commerce.",
+          "This comparison highlights the areas that matter for conversions—design flexibility, load speed, SEO basics, ecommerce, and setup time—so you can choose the builder that reduces friction and drives results for your project."
+        ]
+      }
+    },
+    {
+      "type": "verdict",
+      "data": {
+        "headline": "Framer for custom design, Squarespace for simplicity",
+        "summary": "If your priority is advanced design control, modern animations, and a flexible canvas, Framer wins. If you want a fast-to-launch, maintenance-light site with built-in commerce and templates that just work, Squarespace is the smarter pick."
+      }
+    },
+    {
+      "type": "pros_cons",
+      "data": {
+        "tool_a": {
+          "pros": [
+            "Exceptional visual control and animation tools for high-converting pages",
+            "Advanced layout and responsive design capabilities with modern CSS output"
+          ],
+          "cons": [
+            "Steeper learning curve for non-designers compared to template-first builders",
+            "Fewer built-in commerce features than dedicated ecommerce platforms"
+          ]
+        },
+        "tool_b": {
+          "pros": [
+            "Intuitive site editor and curated templates that speed up launch",
+            "Built-in ecommerce, hosting, and analytics in one package"
+          ],
+          "cons": [
+            "Less granular design control and limited animation options",
+            "Templates can feel similar and require customization for uniqueness"
+          ]
+        }
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "Canvas-based design with production-ready code and micro-interactions",
+          "Great for landing pages, portfolios, and campaigns focused on visual storytelling"
+        ],
+        "tool_b": [
+          "All-in-one builder with strong commerce basics and 24/7 hosting",
+          "Fast setup with polished templates optimized for conversion out of the box"
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "Which builder is faster to launch with no prior experience?",
+            "answer": "Squarespace is generally faster for beginners thanks to its template-first approach, all-in-one hosting, and guided editor."
+          },
+          {
+            "question": "Can I export code or migrate easily between the two?",
+            "answer": "Framer produces modern code and offers exportable assets, but direct migration between platforms usually requires rebuilding templates and layouts to match each system's structure."
+          },
+          {
+            "question": "Which platform is better for SEO?",
+            "answer": "Both handle basic SEO well; Framer gives more control for advanced optimizations, while Squarespace offers reliable built-in SEO tools and fast hosting for most use cases."
+          },
+          {
+            "question": "Is ecommerce robust on both platforms?",
+            "answer": "Squarespace has mature built-in ecommerce suited for most small businesses; Framer supports commerce through integrations but is less feature-rich out of the box."
+          },
+          {
+            "question": "Which one helps improve conversions out of the box?",
+            "answer": "Squarespace provides conversion-oriented templates and simple commerce flows immediately, while Framer enables higher conversion potential through custom design and tailored interactions when you invest the time."
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": [
+          {
+            "label": "Webflow vs Framer",
+            "href": "/compare/webflow-vs-framer"
+          },
+          {
+            "label": "Webflow vs Squarespace",
+            "href": "/compare/webflow-vs-squarespace"
+          },
+          {
+            "label": "Carrd vs Framer",
+            "href": "/compare/carrd-vs-framer"
+          }
+        ]
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "Framer vs Squarespace",
+    "secondary_keywords": [
+      "Framer alternative to Squarespace",
+      "Squarespace alternative to Framer",
+      "best Website Builder tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
+    "generated_at": "2026-06-03T08:49:46.895345+00:00",
+    "generator": "generate_avsb_pages.py",
+    "llm_status": "llm",
+    "llm_model": "gpt-5-mini-2025-08-07"
+  }
+}

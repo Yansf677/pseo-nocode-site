@@ -1,0 +1,230 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "getresponse-vs-aweber",
+  "url_path": "/compare/getresponse-vs-aweber",
+  "locale": "en",
+  "seo": {
+    "title": "GetResponse vs AWeber: Which Email Marketing Tool Is Best for You",
+    "meta_description": "Compare GetResponse and AWeber on automation, deliverability, landing pages, pricing and support. See which email marketing platform drives better conversions f",
+    "canonical_url": "https://example.com/compare/getresponse-vs-aweber"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "GetResponse vs AWeber",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit GetResponse",
+      "href": "https://www.getresponse.com/affiliate-programs"
+    },
+    "secondary_cta": {
+      "label": "Visit AWeber",
+      "href": "https://www.aweber.com/affiliates.htm"
+    },
+    "badges": [
+      "Email Marketing",
+      "affiliate-program comparison"
+    ]
+  },
+  "summary": {
+    "winner_hint": "GetResponse — better for growth and conversion funnels",
+    "best_for_a": "Best for marketers and businesses that want an all-in-one platform with advanced automation, built-in landing pages and webinar tools.",
+    "best_for_b": "Best for small businesses and beginners who need simple setup, reliable deliverability and straightforward autoresponders.",
+    "quick_take": "GetResponse is the stronger choice if your priority is conversion — it packs advanced automation, funnels, landing pages and webinar hosting into one platform. AWeber shines for ease of use, dependable deliverability and a gentle learning curve, making it ideal for solo entrepreneurs and small teams. Pick GetResponse to scale sophisticated campaigns; choose AWeber if you want solid email basics and fast setup."
+  },
+  "entities": {
+    "tool_a": {
+      "name": "GetResponse",
+      "slug": "getresponse",
+      "category": "Email Marketing",
+      "commission": "33% Recurring Lifetime",
+      "link": "https://www.getresponse.com/affiliate-programs"
+    },
+    "tool_b": {
+      "name": "AWeber",
+      "slug": "aweber",
+      "category": "Email Marketing",
+      "commission": "30% Recurring Lifetime",
+      "link": "https://www.aweber.com/affiliates.htm"
+    }
+  },
+  "comparison_table": {
+    "columns": [
+      "Dimension",
+      "GetResponse",
+      "AWeber"
+    ],
+    "rows": [
+      {
+        "dimension": "Ease of use",
+        "tool_a": "Feature-rich interface that takes time to master but offers powerful control.",
+        "tool_b": "Very straightforward setup and drag-and-drop email builder for fast campaigns."
+      },
+      {
+        "dimension": "Automation & segmentation",
+        "tool_a": "Advanced workflows, tagging and conditional logic for complex journeys.",
+        "tool_b": "Basic autoresponders and simple tagging — fine for many small businesses."
+      },
+      {
+        "dimension": "Templates & design",
+        "tool_a": "Modern templates and a flexible editor with landing page options.",
+        "tool_b": "Clean email templates and a reliable editor, fewer landing page choices."
+      },
+      {
+        "dimension": "Deliverability",
+        "tool_a": "Strong deliverability with list management tools to protect sender reputation.",
+        "tool_b": "Known for excellent inbox placement and consistent sending reliability."
+      },
+      {
+        "dimension": "Landing pages & webinars",
+        "tool_a": "Built-in landing page builder and webinar hosting — good for conversion funnels.",
+        "tool_b": "No built-in webinar tool and limited native landing page features."
+      },
+      {
+        "dimension": "Integrations",
+        "tool_a": "Wide integrations and API access for e-commerce and CRM connections.",
+        "tool_b": "Solid set of integrations for common tools, with many pre-built connectors."
+      },
+      {
+        "dimension": "Pricing",
+        "tool_a": "Competitive for mid-level and advanced features but can rise with list size and add-ons.",
+        "tool_b": "Simple, affordable starting plans that suit solo entrepreneurs and small lists."
+      },
+      {
+        "dimension": "Support & resources",
+        "tool_a": "Good support and educational resources, plus marketing-focused guides.",
+        "tool_b": "Strong customer service and step-by-step help ideal for beginners."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "GetResponse and AWeber are both long-standing email marketing platforms, but they target different priorities. GetResponse focuses on conversion tools and automation that help marketers scale, while AWeber focuses on reliability, simplicity and deliverability for smaller teams.",
+          "Choosing between them comes down to your goals: choose GetResponse if you want a single platform for emails, funnels, landing pages and webinars; choose AWeber if you want fast setup, straightforward autoresponders and predictable deliverability without a steep learning curve."
+        ]
+      }
+    },
+    {
+      "type": "verdict",
+      "data": {
+        "headline": "Which should you choose?",
+        "summary": "If you need advanced segmentation, conversion funnels and built-in landing pages/webinars, pick GetResponse. If you want a simple, reliable email tool that’s easy to learn and cost-effective for smaller lists, AWeber is a smart choice."
+      }
+    },
+    {
+      "type": "pros_cons",
+      "data": {
+        "tool_a": {
+          "pros": [
+            "Advanced automation workflows, segmentation and tagging for targeted campaigns",
+            "Built-in landing page and webinar tools plus conversion funnel builders"
+          ],
+          "cons": [
+            "Steeper learning curve for beginners compared with simpler email tools",
+            "Pricing can grow quickly as your contact list and feature needs increase"
+          ]
+        },
+        "tool_b": {
+          "pros": [
+            "Very easy to set up with clean autoresponder workflows and high deliverability",
+            "Clear pricing and friendly customer support that helps beginners get started"
+          ],
+          "cons": [
+            "Automation and segmentation features are more basic compared with advanced platforms",
+            "Fewer native conversion tools like webinars and funnel builders"
+          ]
+        }
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "All-in-one conversion stack: email automation, landing pages, funnels and webinars",
+          "Robust segmentation and A/B testing for higher conversions",
+          "Scales well for growing lists and marketing teams"
+        ],
+        "tool_b": [
+          "Simple, intuitive interface that reduces setup time",
+          "Strong deliverability and dependable inbox placement",
+          "Affordable entry-level plans and responsive support"
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "Which tool has better automation?",
+            "answer": "GetResponse offers more advanced automation workflows, conditional logic and tagging, while AWeber provides simpler autoresponder sequences suited to basic drip campaigns."
+          },
+          {
+            "question": "Can I build landing pages with both platforms?",
+            "answer": "GetResponse includes a built-in landing page builder and templates; AWeber has limited landing page functionality and often relies on third-party builders for advanced pages."
+          },
+          {
+            "question": "Which service is more affordable?",
+            "answer": "AWeber is generally more affordable at entry-level and for small lists, while GetResponse can deliver better value for growth-stage businesses that need advanced features despite higher costs as lists grow."
+          },
+          {
+            "question": "How do deliverability rates compare?",
+            "answer": "Both platforms maintain strong deliverability, but AWeber has a long reputation for consistent inbox placement; GetResponse matches this with strong list hygiene tools and deliverability features."
+          },
+          {
+            "question": "Do either offer a free trial?",
+            "answer": "Both platforms typically offer free trials or free plans—check each provider’s current promotions to test features like automation and landing pages before committing."
+          },
+          {
+            "question": "Which is better for webinars?",
+            "answer": "GetResponse includes native webinar hosting and registration pages, making it the better choice if webinars are a priority; AWeber does not offer native webinar tools."
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": [
+          {
+            "label": "Kit (ConvertKit) vs GetResponse",
+            "href": "/compare/kit-convertkit-vs-getresponse"
+          },
+          {
+            "label": "Kit (ConvertKit) vs AWeber",
+            "href": "/compare/kit-convertkit-vs-aweber"
+          },
+          {
+            "label": "ActiveCampaign vs GetResponse",
+            "href": "/compare/activecampaign-vs-getresponse"
+          }
+        ]
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "GetResponse vs AWeber",
+    "secondary_keywords": [
+      "GetResponse alternative to AWeber",
+      "AWeber alternative to GetResponse",
+      "best Email Marketing tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
+    "generated_at": "2026-06-03T08:49:46.895345+00:00",
+    "generator": "generate_avsb_pages.py",
+    "llm_status": "llm",
+    "llm_model": "gpt-5-mini-2025-08-07"
+  }
+}

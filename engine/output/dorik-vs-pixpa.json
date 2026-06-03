@@ -1,0 +1,241 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "dorik-vs-pixpa",
+  "url_path": "/compare/dorik-vs-pixpa",
+  "locale": "en",
+  "seo": {
+    "title": "Dorik vs Pixpa — Which Website Builder Is Best for Your Site?",
+    "meta_description": "Compare Dorik and Pixpa side-by-side: ease of use, portfolios, ecommerce, SEO and pricing to help creatives and small businesses choose the right website builde",
+    "canonical_url": "https://example.com/compare/dorik-vs-pixpa"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "Dorik vs Pixpa",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit Dorik",
+      "href": "https://dorik.com/affiliate"
+    },
+    "secondary_cta": {
+      "label": "Visit Pixpa",
+      "href": "https://www.pixpa.com/affiliate"
+    },
+    "badges": [
+      "Website Builder",
+      "affiliate-program comparison"
+    ]
+  },
+  "summary": {
+    "winner_hint": "Best for creatives vs best for simple, fast sites",
+    "best_for_a": "Dorik is best for small businesses and makers who want a fast, affordable site builder with clean templates and minimal learning curve.",
+    "best_for_b": "Pixpa is best for photographers, designers, and creatives who need built-in portfolios, client proofing, and integrated ecommerce for visual work.",
+    "quick_take": "If you want a lightweight, fast site builder that gets landing pages and simple business sites live quickly, Dorik is a great fit. If you need rich portfolio features, client galleries and ecommerce tailored to creatives, Pixpa gives you more built-in creative tools out of the box."
+  },
+  "entities": {
+    "tool_a": {
+      "name": "Dorik",
+      "slug": "dorik",
+      "category": "Website Builder",
+      "commission": "40% Recurring Lifetime",
+      "link": "https://dorik.com/affiliate"
+    },
+    "tool_b": {
+      "name": "Pixpa",
+      "slug": "pixpa",
+      "category": "Website Builder",
+      "commission": "55% Recurring (12 months)",
+      "link": "https://www.pixpa.com/affiliate"
+    }
+  },
+  "comparison_table": {
+    "columns": [
+      "Dimension",
+      "Dorik",
+      "Pixpa"
+    ],
+    "rows": [
+      {
+        "dimension": "Best for",
+        "tool_a": "Small businesses, landing pages, creators who prioritize speed and simplicity",
+        "tool_b": "Photographers, designers and creative professionals needing portfolios and client workflows"
+      },
+      {
+        "dimension": "Ease of use",
+        "tool_a": "Straightforward drag-and-drop editor that gets sites live quickly",
+        "tool_b": "User-friendly but packed with more creative-specific options to learn"
+      },
+      {
+        "dimension": "Templates & design",
+        "tool_a": "Clean, modern templates optimized for speed and conversion",
+        "tool_b": "Visually rich templates focused on portfolios and image presentation"
+      },
+      {
+        "dimension": "Ecommerce & selling",
+        "tool_a": "Basic store capability suitable for small catalogs or link-based sales",
+        "tool_b": "Full-featured ecommerce with digital delivery, prints and client sales workflows"
+      },
+      {
+        "dimension": "Portfolio & galleries",
+        "tool_a": "Capable gallery support but limited client proofing features",
+        "tool_b": "Robust galleries, proofing and client-facing tools built in"
+      },
+      {
+        "dimension": "Blogging & content",
+        "tool_a": "Simple blog support suitable for SEO basics and updates",
+        "tool_b": "Good blogging tools plus portfolio-driven content options"
+      },
+      {
+        "dimension": "SEO features",
+        "tool_a": "Essential SEO controls and clean markup for fast load times",
+        "tool_b": "Solid SEO options with media-focused features to showcase work"
+      },
+      {
+        "dimension": "Integrations & apps",
+        "tool_a": "Supports common integrations and embeds; ideal for simple stacks",
+        "tool_b": "More built-in tools for creatives; supports common third-party services"
+      },
+      {
+        "dimension": "Customization & code access",
+        "tool_a": "Templates with limited advanced customization and code injection options",
+        "tool_b": "Offers customization geared to portfolios; advanced editing available on higher plans"
+      },
+      {
+        "dimension": "Support & resources",
+        "tool_a": "Responsive support and straightforward documentation for builders",
+        "tool_b": "Dedicated help for creative workflows and ecommerce setup"
+      },
+      {
+        "dimension": "Value for money",
+        "tool_a": "High value for simple business sites and landing pages",
+        "tool_b": "High value for creatives who need integrated portfolio and sales features"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "Comparing Dorik and Pixpa? Both are website builders aimed at non-technical users, but they serve different priorities. Dorik focuses on fast setup, minimal interface and affordable hosting, while Pixpa packs features tailored to creative professionals — galleries, client proofing and a commerce engine for digital and physical sales.",
+          "This page breaks down the differences that matter: ease of use, design flexibility, selling tools, portfolio features and overall value. Use this guide to pick the builder that reduces friction and helps you convert visitors into clients or customers faster."
+        ]
+      }
+    },
+    {
+      "type": "verdict",
+      "data": {
+        "headline": "Choose Dorik for speed and simplicity, Pixpa for creative portfolios and client workflows",
+        "summary": "Dorik wins on simplicity, performance and price for straightforward sites; Pixpa wins for photographers and visual creators who need galleries, proofing and ecommerce built into the same platform."
+      }
+    },
+    {
+      "type": "pros_cons",
+      "data": {
+        "tool_a": {
+          "pros": [
+            "Very fast, lightweight pages and simple editor for quick launches",
+            "Affordable plans and straightforward pricing for small sites"
+          ],
+          "cons": [
+            "Fewer built-in creative tools like client galleries or proofing",
+            "Advanced ecommerce and marketing integrations can be limited"
+          ]
+        },
+        "tool_b": {
+          "pros": [
+            "Built-in portfolio galleries, client proofing and creative-focused features",
+            "Integrated store and digital delivery tailored for creatives"
+          ],
+          "cons": [
+            "Can feel feature-heavy if you only need a simple landing page",
+            "Higher-tier plans may be pricier for basic brochure sites"
+          ]
+        }
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "Lightweight, fast-loading sites with a minimal learning curve"
+        ],
+        "tool_b": [
+          "Portfolio-first features: galleries, client proofing and built-in ecommerce"
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "Which builder is faster to launch with?",
+            "answer": "Dorik typically lets you launch a basic site faster thanks to its lightweight editor and simpler feature set; Pixpa takes a bit longer if you configure galleries and ecommerce."
+          },
+          {
+            "question": "Can I sell prints or digital downloads?",
+            "answer": "Pixpa includes built-in ecommerce optimized for digital delivery and physical products; Dorik supports selling but may rely more on third-party integrations for advanced commerce."
+          },
+          {
+            "question": "Which platform is better for photographers?",
+            "answer": "Pixpa is designed with photographers in mind — galleries, proofing and client sales are core features — while Dorik works well for photographers who prioritize simple, fast portfolio pages."
+          },
+          {
+            "question": "How are SEO and performance handled?",
+            "answer": "Dorik emphasizes fast load times and clean markup which helps performance-focused SEO, while Pixpa provides solid SEO controls plus media features to showcase visual work effectively."
+          },
+          {
+            "question": "Can I switch platforms later if I change my mind?",
+            "answer": "Yes — both platforms allow exports and you can migrate content, but features like client proofing and ecommerce setups may require reconfiguration on the new platform."
+          },
+          {
+            "question": "Which one offers better customer support for creatives?",
+            "answer": "Pixpa tends to offer more tailored support for creative workflows and ecommerce issues, while Dorik focuses on straightforward support for getting a site live quickly."
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": [
+          {
+            "label": "Webflow vs Dorik",
+            "href": "/compare/webflow-vs-dorik"
+          },
+          {
+            "label": "Webflow vs Pixpa",
+            "href": "/compare/webflow-vs-pixpa"
+          },
+          {
+            "label": "Carrd vs Dorik",
+            "href": "/compare/carrd-vs-dorik"
+          }
+        ]
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "Dorik vs Pixpa",
+    "secondary_keywords": [
+      "Dorik alternative to Pixpa",
+      "Pixpa alternative to Dorik",
+      "best Website Builder tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
+    "generated_at": "2026-06-03T08:49:46.895345+00:00",
+    "generator": "generate_avsb_pages.py",
+    "llm_status": "llm",
+    "llm_model": "gpt-5-mini-2025-08-07"
+  }
+}

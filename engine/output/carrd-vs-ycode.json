@@ -1,0 +1,232 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "carrd-vs-ycode",
+  "url_path": "/compare/carrd-vs-ycode",
+  "locale": "en",
+  "seo": {
+    "title": "Carrd vs Ycode: Which Website Builder Is Right for Your Project?",
+    "meta_description": "Compare Carrd and Ycode to find the best website builder for your needs. Learn which is faster, cheaper, and better for landing pages, dynamic sites, e-commerce",
+    "canonical_url": "https://example.com/compare/carrd-vs-ycode"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "Carrd vs Ycode",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit Carrd",
+      "href": "https://carrd.co/affiliates"
+    },
+    "secondary_cta": {
+      "label": "Visit Ycode",
+      "href": "https://www.ycode.com/affiliate"
+    },
+    "badges": [
+      "Website Builder",
+      "affiliate-program comparison"
+    ]
+  },
+  "summary": {
+    "winner_hint": "Carrd for speed, Ycode for power",
+    "best_for_a": "Best for launching fast, lightweight landing pages or simple one-page sites on a shoestring budget.",
+    "best_for_b": "Best for building multi-page, dynamic websites or small web apps that need a CMS, user flows, or built-in e-commerce.",
+    "quick_take": "Carrd is a lean, budget-friendly builder that gets a single page live quickly with minimal learning and excellent performance. Ycode trades off some simplicity for flexibility, offering database-driven pages, user accounts and deeper integrations—making it a better choice when you need more than a static landing page."
+  },
+  "entities": {
+    "tool_a": {
+      "name": "Carrd",
+      "slug": "carrd",
+      "category": "One-page Website Builder",
+      "commission": "30% Recurring Lifetime",
+      "link": "https://carrd.co/affiliates"
+    },
+    "tool_b": {
+      "name": "Ycode",
+      "slug": "ycode",
+      "category": "Website Builder",
+      "commission": "50% Recurring (24 months)",
+      "link": "https://www.ycode.com/affiliate"
+    }
+  },
+  "comparison_table": {
+    "columns": [
+      "Dimension",
+      "Carrd",
+      "Ycode"
+    ],
+    "rows": [
+      {
+        "dimension": "Ease of use",
+        "tool_a": "Drag-and-drop single-page editor designed for beginners and fast launches.",
+        "tool_b": "Visual builder with database concepts—more power but requires time to learn."
+      },
+      {
+        "dimension": "Speed to launch",
+        "tool_a": "Minutes for a polished landing page using templates.",
+        "tool_b": "Days to configure multi-page sites or dynamic content correctly."
+      },
+      {
+        "dimension": "Pricing",
+        "tool_a": "Very affordable tiers and a robust free plan for basic pages.",
+        "tool_b": "Higher tiers for database and advanced features; free plan limited."
+      },
+      {
+        "dimension": "Customization",
+        "tool_a": "Good design control for single pages; limited app-like behavior.",
+        "tool_b": "Deeper customization with data bindings, conditions and integrations."
+      },
+      {
+        "dimension": "Integrations & plugins",
+        "tool_a": "Supports common embeds and simple form integrations.",
+        "tool_b": "Native integrations for payments, APIs and automation workflows."
+      },
+      {
+        "dimension": "Dynamic content / CMS",
+        "tool_a": "Not designed as a CMS—best for static or manually updated content.",
+        "tool_b": "Built-in database and CMS features for dynamic listings and user content."
+      },
+      {
+        "dimension": "E-commerce",
+        "tool_a": "Basic selling via embeds or simple payment buttons.",
+        "tool_b": "Better suited for small-store setups or subscription flows without external dev."
+      },
+      {
+        "dimension": "Scalability",
+        "tool_a": "Excellent for small projects; not ideal for growing, feature-rich sites.",
+        "tool_b": "Designed to support more complex sites and evolving requirements."
+      },
+      {
+        "dimension": "Support & community",
+        "tool_a": "Active community and straightforward docs for templates and forms.",
+        "tool_b": "Growing docs and examples for building database-driven workflows."
+      },
+      {
+        "dimension": "Ideal use case",
+        "tool_a": "Landing pages, personal profiles, simple portfolios, event signups.",
+        "tool_b": "Small business sites, marketplaces, directories and web apps with dynamic data."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "Picking the right website tool matters for conversions: the wrong builder wastes time and introduces friction, while the right one helps you launch faster and iterate on what works. Carrd and Ycode take very different approaches—Carrd focuses on ultra-simple one-page sites, while Ycode aims to replace traditional CMS and handle dynamic features without code.",
+          "This comparison breaks down where each tool shines so you can decide quickly: choose the one that removes obstacles for your specific goal—fast lead capture or a richer multi-page experience with data and workflows."
+        ]
+      }
+    },
+    {
+      "type": "verdict",
+      "data": {
+        "headline": "Choose Carrd for speed and simplicity, Ycode for dynamic sites and scale",
+        "summary": "If you want a fast, low-cost landing page builder with minimal overhead, Carrd wins. If your project needs dynamic content, multi-page structure, or built-in app-like features, Ycode is worth the extra investment and learning curve."
+      }
+    },
+    {
+      "type": "pros_cons",
+      "data": {
+        "tool_a": {
+          "pros": [
+            "Extremely fast to learn and launch a single-page site",
+            "Very affordable with great free and low-cost plans"
+          ],
+          "cons": [
+            "Limited for multi-page or database-driven sites",
+            "Fewer built-in advanced integrations and e-commerce features"
+          ]
+        },
+        "tool_b": {
+          "pros": [
+            "Supports dynamic content, databases and multi-page apps",
+            "Built-in tools for forms, payments and user flows reduce custom dev"
+          ],
+          "cons": [
+            "Steeper learning curve and longer setup time",
+            "Higher cost for advanced features and production-grade sites"
+          ]
+        }
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "Quick one-page builds, lightweight performance, very low cost"
+        ],
+        "tool_b": [
+          "Database-driven pages, multi-page sites, native app-like features"
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "Which is better for a single landing page?",
+            "answer": "Carrd is the better choice for single landing pages thanks to its speed, simplicity and low cost—ideal for lead capture and quick campaigns."
+          },
+          {
+            "question": "Can I add custom code or integrations?",
+            "answer": "Both allow custom embeds and scripts to an extent, but Ycode provides deeper native integrations and database-driven actions, while Carrd focuses on simple embeds and form hooks."
+          },
+          {
+            "question": "Which tool handles e-commerce and payments?",
+            "answer": "Ycode provides more built-in options for payments and subscription flows; Carrd can accept payments via embeds or third-party buttons but isn’t a full e-commerce solution."
+          },
+          {
+            "question": "How do they compare on pricing?",
+            "answer": "Carrd is generally much cheaper for simple sites. Ycode costs more once you need its database and production features, but that cost buys more functionality."
+          },
+          {
+            "question": "Can I migrate from Carrd to Ycode later?",
+            "answer": "Yes—content and assets can be moved, but multi-page or dynamic features will require rebuilding; plan migration if you expect to scale."
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": [
+          {
+            "label": "Webflow vs Carrd",
+            "href": "/compare/webflow-vs-carrd"
+          },
+          {
+            "label": "Webflow vs Ycode",
+            "href": "/compare/webflow-vs-ycode"
+          },
+          {
+            "label": "Carrd vs Framer",
+            "href": "/compare/carrd-vs-framer"
+          }
+        ]
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "Carrd vs Ycode",
+    "secondary_keywords": [
+      "Carrd alternative to Ycode",
+      "Ycode alternative to Carrd",
+      "best Website Builder tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
+    "generated_at": "2026-06-03T08:49:46.895345+00:00",
+    "generator": "generate_avsb_pages.py",
+    "llm_status": "llm",
+    "llm_model": "gpt-5-mini-2025-08-07"
+  }
+}

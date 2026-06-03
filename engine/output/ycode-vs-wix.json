@@ -1,0 +1,238 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "ycode-vs-wix",
+  "url_path": "/compare/ycode-vs-wix",
+  "locale": "en",
+  "seo": {
+    "title": "Ycode vs Wix: Which Website Builder Is Right for Your Site?",
+    "meta_description": "Compare Ycode and Wix to find the best website builder for your needs. Learn which platform wins for customization, ease of use, SEO, e-commerce, and launch spe",
+    "canonical_url": "https://example.com/compare/ycode-vs-wix"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "Ycode vs Wix",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit Ycode",
+      "href": "https://www.ycode.com/affiliate"
+    },
+    "secondary_cta": {
+      "label": "Visit Wix",
+      "href": "https://www.wix.com/about/affiliates"
+    },
+    "badges": [
+      "Website Builder",
+      "affiliate-program comparison"
+    ]
+  },
+  "summary": {
+    "winner_hint": "Wix for most users",
+    "best_for_a": "Ycode is best for teams and developers who need database-driven sites, custom interactions, and granular control without writing full-stack code.",
+    "best_for_b": "Wix is best for small businesses, creators, and non-technical users who want a fast route to a polished site with lots of templates and app integrations.",
+    "quick_take": "Ycode and Wix both build websites, but they target different priorities: Ycode leans toward app-style sites with a focus on database-driven content and developer-friendly control, while Wix prioritizes ease, template variety, and an ecosystem of apps. Choose Ycode if you need custom workflows and dynamic pages; choose Wix if you want quicker setup, more out-of-the-box marketing features, and broad template support."
+  },
+  "entities": {
+    "tool_a": {
+      "name": "Ycode",
+      "slug": "ycode",
+      "category": "Website Builder",
+      "commission": "50% Recurring (24 months)",
+      "link": "https://www.ycode.com/affiliate"
+    },
+    "tool_b": {
+      "name": "Wix",
+      "slug": "wix",
+      "category": "Website Builder",
+      "commission": "$100+ One-time per sale",
+      "link": "https://www.wix.com/about/affiliates"
+    }
+  },
+  "comparison_table": {
+    "columns": [
+      "Dimension",
+      "Ycode",
+      "Wix"
+    ],
+    "rows": [
+      {
+        "dimension": "Ease of use",
+        "tool_a": "Visual builder aimed at technical users; comfortable for teams that want more control but requires learning.",
+        "tool_b": "Beginner-friendly drag-and-drop editor with guided setup tools for fast launches."
+      },
+      {
+        "dimension": "Customization & flexibility",
+        "tool_a": "High — supports dynamic content, custom data structures, and tailored interactions.",
+        "tool_b": "Moderate — many design options and apps, but less granular code-level control."
+      },
+      {
+        "dimension": "Templates & design",
+        "tool_a": "Smaller library with flexible building blocks; great for bespoke layouts.",
+        "tool_b": "Large template collection across industries, ready-made designs for quick use."
+      },
+      {
+        "dimension": "Integrations & apps",
+        "tool_a": "Integrates via APIs and built-in data tools; fewer turnkey marketplace add-ons.",
+        "tool_b": "Extensive app marketplace with many third-party marketing and commerce plugins."
+      },
+      {
+        "dimension": "Performance & code control",
+        "tool_a": "Offers cleaner, app-oriented outputs and more control over data-driven performance.",
+        "tool_b": "Good performance for most sites, but plugins and heavy templates can impact load times."
+      },
+      {
+        "dimension": "SEO & marketing",
+        "tool_a": "Basic SEO controls plus dynamic page support; requires manual setup for advanced SEO workflows.",
+        "tool_b": "Built-in SEO tools, wizards, and integrations that simplify on-page optimization."
+      },
+      {
+        "dimension": "E-commerce",
+        "tool_a": "Capable for custom commerce-like workflows when paired with external services or custom logic.",
+        "tool_b": "Robust built-in e-commerce features and payment options suitable for most stores."
+      },
+      {
+        "dimension": "Pricing & scalability",
+        "tool_a": "Pricing scalable with usage; ideal for custom projects where control matters more than low entry cost.",
+        "tool_b": "Transparent tiers aimed at different business sizes; many users can start on lower plans."
+      },
+      {
+        "dimension": "Support & community",
+        "tool_a": "Growing community and developer-focused resources; support may lean technical.",
+        "tool_b": "Large user base, extensive documentation, and broad customer support options."
+      },
+      {
+        "dimension": "Learning curve",
+        "tool_a": "Moderate to steep if using advanced features; rewarding for custom needs.",
+        "tool_b": "Low — designed for fast onboarding and non-technical site owners."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "Choosing between Ycode and Wix comes down to trade-offs: flexibility versus speed. Both let you publish professional websites, but they take different approaches to customization, workflows, and the developer experience.",
+          "This comparison highlights the features that matter for conversions — page speed and SEO basics, design control, integrations, and the learning curve — so you can quickly decide which platform helps you launch and grow faster."
+        ]
+      }
+    },
+    {
+      "type": "verdict",
+      "data": {
+        "headline": "Pick the tool that matches your goals — Ycode for custom web apps, Wix for ready-made sites",
+        "summary": "Wix is the safer choice for most site owners thanks to its template library, apps, and user-friendly editor; Ycode shines when a site needs dynamic data, custom logic, or a more developer-oriented build environment."
+      }
+    },
+    {
+      "type": "pros_cons",
+      "data": {
+        "tool_a": {
+          "pros": [
+            "Strong support for dynamic, database-driven pages and custom workflows",
+            "More granular control for developers and technically minded teams"
+          ],
+          "cons": [
+            "Smaller template and plugin ecosystem, so more configuration may be required",
+            "Steeper learning curve if you want to leverage advanced features"
+          ]
+        },
+        "tool_b": {
+          "pros": [
+            "Large template library and app marketplace for fast, polished launches",
+            "Intuitive drag-and-drop editor that’s friendly for non-technical users"
+          ],
+          "cons": [
+            "Templates and apps can create mixed performance unless optimized",
+            "Less transparent control over underlying code and hosting compared to developer-oriented tools"
+          ]
+        }
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "Database-driven pages and forms for app-like sites",
+          "More developer-oriented controls and custom logic without full backend coding"
+        ],
+        "tool_b": [
+          "Wide range of templates, integrated marketing tools, and a large app marketplace",
+          "User-friendly editor with built-in SEO and e-commerce features"
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "Can I migrate a site between Ycode and Wix?",
+            "answer": "There’s no one-click migration; content export/import and manual recreation of layouts and dynamic logic are typically required, so plan for some rebuilding when switching platforms."
+          },
+          {
+            "question": "Which platform is better for SEO?",
+            "answer": "Both provide core SEO features; Wix offers more guided tools and wizards for beginners, while Ycode gives finer control over dynamic pages if you configure SEO manually."
+          },
+          {
+            "question": "Is one platform faster to launch on?",
+            "answer": "Wix is generally faster to launch from a template with built-in apps; Ycode can be quick for simple sites but takes more time for custom, data-driven projects."
+          },
+          {
+            "question": "Which is better for e-commerce?",
+            "answer": "Wix provides a more complete out-of-the-box e-commerce solution, whereas Ycode is better for custom commerce experiences that integrate with external services."
+          },
+          {
+            "question": "Do either platform require coding?",
+            "answer": "Neither requires coding for basic sites; Ycode offers more developer-friendly tools for custom logic, while Wix focuses on visual building with optional developer features."
+          },
+          {
+            "question": "Which platform scales better for complex web apps?",
+            "answer": "Ycode is designed to handle dynamic, database-driven sites and custom workflows, making it the stronger choice for app-like projects; Wix can scale for many businesses but is more template- and app-centric."
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": [
+          {
+            "label": "Webflow vs Ycode",
+            "href": "/compare/webflow-vs-ycode"
+          },
+          {
+            "label": "Webflow vs Wix",
+            "href": "/compare/webflow-vs-wix"
+          },
+          {
+            "label": "Carrd vs Ycode",
+            "href": "/compare/carrd-vs-ycode"
+          }
+        ]
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "Ycode vs Wix",
+    "secondary_keywords": [
+      "Ycode alternative to Wix",
+      "Wix alternative to Ycode",
+      "best Website Builder tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
+    "generated_at": "2026-06-03T08:49:46.895345+00:00",
+    "generator": "generate_avsb_pages.py",
+    "llm_status": "llm",
+    "llm_model": "gpt-5-mini-2025-08-07"
+  }
+}

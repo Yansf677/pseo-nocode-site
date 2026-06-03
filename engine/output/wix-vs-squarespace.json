@@ -1,0 +1,232 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "wix-vs-squarespace",
+  "url_path": "/compare/wix-vs-squarespace",
+  "locale": "en",
+  "seo": {
+    "title": "Wix vs Squarespace: Which Website Builder Should You Choose?",
+    "meta_description": "Compare Wix and Squarespace head-to-head: ease of use, design, ecommerce, pricing, and features to help you decide whether Wix's flexibility or Squarespace's de",
+    "canonical_url": "https://example.com/compare/wix-vs-squarespace"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "Wix vs Squarespace",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit Wix",
+      "href": "https://www.wix.com/about/affiliates"
+    },
+    "secondary_cta": {
+      "label": "Visit Squarespace",
+      "href": "https://www.squarespace.com/affiliates"
+    },
+    "badges": [
+      "Website Builder",
+      "affiliate-program comparison"
+    ]
+  },
+  "summary": {
+    "winner_hint": "Wix for flexibility, Squarespace for design",
+    "best_for_a": "Wix is best for people who want drag-and-drop freedom, broad app integrations, and granular control over layouts without writing code.",
+    "best_for_b": "Squarespace is best for creatives and small businesses that need polished, modern templates and a streamlined setup with strong built-in ecommerce.",
+    "quick_take": "Wix and Squarespace both make it fast to launch a professional site, but they take different approaches. Wix gives you unmatched layout freedom, an extensive app marketplace, and lots of template choices — ideal if you plan to customize heavily or scale features over time. Squarespace delivers fewer customization options but consistently beautiful templates, integrated commerce tools, and a simpler publishing workflow — ideal if you want a refined site quickly with minimal maintenance."
+  },
+  "entities": {
+    "tool_a": {
+      "name": "Wix",
+      "slug": "wix",
+      "category": "Website Builder",
+      "commission": "$100+ One-time per sale",
+      "link": "https://www.wix.com/about/affiliates"
+    },
+    "tool_b": {
+      "name": "Squarespace",
+      "slug": "squarespace",
+      "category": "Website Builder",
+      "commission": "$100-$200 One-time per sale",
+      "link": "https://www.squarespace.com/affiliates"
+    }
+  },
+  "comparison_table": {
+    "columns": [
+      "Dimension",
+      "Wix",
+      "Squarespace"
+    ],
+    "rows": [
+      {
+        "dimension": "Ease of use",
+        "tool_a": "Intuitive drag-and-drop editor with lots of controls; steeper learning curve for advanced customization.",
+        "tool_b": "Cleaner, opinionated builder that guides design decisions—easier to get a polished result fast."
+      },
+      {
+        "dimension": "Design & templates",
+        "tool_a": "Hundreds of templates and a blank-canvas editor for total layout freedom.",
+        "tool_b": "Fewer templates but consistently modern, mobile-ready designs that require less tweaking."
+      },
+      {
+        "dimension": "Customization",
+        "tool_a": "High — edit almost any element, add custom code, and mix features freely.",
+        "tool_b": "Moderate — style and layout options are cohesive but intentionally limited to maintain design integrity."
+      },
+      {
+        "dimension": "Ecommerce",
+        "tool_a": "Solid ecommerce features with many apps available; competitive for small stores but requires more setup for advanced features.",
+        "tool_b": "Robust built-in ecommerce tools, simple inventory and checkout management, great for creator and small business shops."
+      },
+      {
+        "dimension": "SEO",
+        "tool_a": "Good SEO controls across pages and apps to extend capabilities; requires configuration.",
+        "tool_b": "Strong core SEO features baked into templates, easy to manage metadata and sitemaps."
+      },
+      {
+        "dimension": "Apps & integrations",
+        "tool_a": "Extensive app market for marketing, bookings, payments, and more.",
+        "tool_b": "Limited marketplace but includes popular integrations and many native tools."
+      },
+      {
+        "dimension": "Performance",
+        "tool_a": "Performance depends on template and apps used; optimization options available.",
+        "tool_b": "Consistent performance optimized for templates, fewer variables to manage."
+      },
+      {
+        "dimension": "Support",
+        "tool_a": "Knowledge base, community forums, and direct support; response times vary by plan.",
+        "tool_b": "24/7 email and chat support on many plans plus thorough documentation."
+      },
+      {
+        "dimension": "Pricing & value",
+        "tool_a": "Flexible pricing tiers and many feature add-ons; can become more expensive as you add apps.",
+        "tool_b": "Transparent pricing with strong built-in value for designers and ecommerce sellers."
+      },
+      {
+        "dimension": "Blogging",
+        "tool_a": "Capable blog with good formatting controls and app-driven enhancements.",
+        "tool_b": "Simple, attractive blogging tools ideal for spotlighting content alongside portfolio or shop."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "Choosing between Wix and Squarespace comes down to whether you value creative control or curated design. Both platforms make it easy to launch a site, but their strengths serve different needs.",
+          "Use Wix when you want to experiment, add plugins, and shape every page element. Pick Squarespace when you want a high-quality template, built-in ecommerce, and fewer design choices to manage."
+        ]
+      }
+    },
+    {
+      "type": "verdict",
+      "data": {
+        "headline": "Pick Wix for customization, Squarespace for design-driven simplicity",
+        "summary": "If you prioritize flexibility, a rich app ecosystem, and complete control over page layout, Wix is the better choice. If you prefer elegant templates, cohesive branding, and a more opinionated platform that reduces design decisions, go with Squarespace."
+      }
+    },
+    {
+      "type": "pros_cons",
+      "data": {
+        "tool_a": {
+          "pros": [
+            "Powerful drag-and-drop editor with near-complete layout control",
+            "Large app marketplace and flexible feature set for scaling"
+          ],
+          "cons": [
+            "Can feel overwhelming because of the many customization choices",
+            "Some advanced features require third-party apps or paid plans"
+          ]
+        },
+        "tool_b": {
+          "pros": [
+            "Consistently professional templates that work well out of the box",
+            "Strong built-in ecommerce and unified design tools"
+          ],
+          "cons": [
+            "Less customizable layout control compared with Wix",
+            "Fewer third-party integrations and addons"
+          ]
+        }
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "Best for hands-on customization, extensive app options, and building unique layouts"
+        ],
+        "tool_b": [
+          "Best for designers and businesses who want a refined, ready-made website with powerful native ecommerce"
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "Which builder is better for ecommerce?",
+            "answer": "Squarespace offers stronger native ecommerce features out of the box, while Wix gives more flexibility through apps — choose Squarespace for simplicity and Wix if you need specific integrations."
+          },
+          {
+            "question": "Can I switch templates once my site is live?",
+            "answer": "Wix lets you change templates with more flexibility by editing pages directly, whereas Squarespace makes redesigns easier within its template family but moving between very different templates may require content adjustments."
+          },
+          {
+            "question": "Do either platform support custom code and plugins?",
+            "answer": "Both support custom code: Wix through its editor and Velo platform plus an app market, and Squarespace via inject code areas and native integrations, though Wix typically offers more extensibility."
+          },
+          {
+            "question": "Which platform is better for beginners?",
+            "answer": "Squarespace is often easier for beginners who want a polished site quickly, while Wix is beginner-friendly too but has more options that can require extra time to master."
+          },
+          {
+            "question": "How do they compare on SEO?",
+            "answer": "Both platforms provide solid SEO basics like metadata, sitemaps, and mobile optimization; Wix has broader SEO app support, while Squarespace emphasizes clean, semantic templates that help search performance."
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": [
+          {
+            "label": "Webflow vs Wix",
+            "href": "/compare/webflow-vs-wix"
+          },
+          {
+            "label": "Webflow vs Squarespace",
+            "href": "/compare/webflow-vs-squarespace"
+          },
+          {
+            "label": "Carrd vs Wix",
+            "href": "/compare/carrd-vs-wix"
+          }
+        ]
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "Wix vs Squarespace",
+    "secondary_keywords": [
+      "Wix alternative to Squarespace",
+      "Squarespace alternative to Wix",
+      "best Website Builder tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
+    "generated_at": "2026-06-03T08:49:46.895345+00:00",
+    "generator": "generate_avsb_pages.py",
+    "llm_status": "llm",
+    "llm_model": "gpt-5-mini-2025-08-07"
+  }
+}

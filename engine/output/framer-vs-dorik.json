@@ -1,0 +1,222 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "framer-vs-dorik",
+  "url_path": "/compare/framer-vs-dorik",
+  "locale": "en",
+  "seo": {
+    "title": "Framer vs Dorik — Which Website Builder Is Right for You?",
+    "meta_description": "Compare Framer and Dorik side-by-side. Get a quick verdict on design control, ease of use, CMS, pricing, and which builder converts better for your website goal",
+    "canonical_url": "https://example.com/compare/framer-vs-dorik"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "Framer vs Dorik",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit Framer",
+      "href": "https://www.framer.com/affiliates"
+    },
+    "secondary_cta": {
+      "label": "Visit Dorik",
+      "href": "https://dorik.com/affiliate"
+    },
+    "badges": [
+      "Website Builder",
+      "affiliate-program comparison"
+    ]
+  },
+  "summary": {
+    "winner_hint": "Framer for design freedom",
+    "best_for_a": "Framer is best for design-forward teams and creators who want pixel-perfect control, advanced interactions, and a modern developer-friendly workflow.",
+    "best_for_b": "Dorik is best for solo founders, small businesses, and agencies that need a fast, low-cost way to launch clean, responsive sites without a learning curve.",
+    "quick_take": "Framer and Dorik both build attractive websites quickly, but they serve different priorities: Framer focuses on visual precision, motion, and a flexible CMS developer path, while Dorik prioritizes simplicity, affordability, and rapid setup with ready-made templates. Choose Framer if you value design control and advanced interactions; choose Dorik if you want a straightforward, budget-friendly site builder that gets you live fast."
+  },
+  "entities": {
+    "tool_a": {
+      "name": "Framer",
+      "slug": "framer",
+      "category": "Website Builder",
+      "commission": "50% of first year",
+      "link": "https://www.framer.com/affiliates"
+    },
+    "tool_b": {
+      "name": "Dorik",
+      "slug": "dorik",
+      "category": "Website Builder",
+      "commission": "40% Recurring Lifetime",
+      "link": "https://dorik.com/affiliate"
+    }
+  },
+  "comparison_table": {
+    "columns": [
+      "Dimension",
+      "Framer",
+      "Dorik"
+    ],
+    "rows": [
+      {
+        "dimension": "Ease of use",
+        "tool_a": "Powerful visual tools that reward designers but take time to learn",
+        "tool_b": "Simple, drag-and-drop editor ideal for non-technical users"
+      },
+      {
+        "dimension": "Design flexibility",
+        "tool_a": "Advanced layout controls, animation options, and custom styling",
+        "tool_b": "Attractive templates with limited custom layout freedom"
+      },
+      {
+        "dimension": "Templates & starters",
+        "tool_a": "Designer-focused templates and blank canvases for bespoke builds",
+        "tool_b": "Wide range of prebuilt templates designed for quick launches"
+      },
+      {
+        "dimension": "CMS & content",
+        "tool_a": "Built-in CMS with developer APIs for dynamic content and blogs",
+        "tool_b": "Basic CMS capabilities suitable for simple sites and landing pages"
+      },
+      {
+        "dimension": "Performance & hosting",
+        "tool_a": "Fast static export and modern hosting optimized for core web vitals",
+        "tool_b": "Reliable hosting with good speed for small-to-medium sites"
+      },
+      {
+        "dimension": "Integrations",
+        "tool_a": "Strong developer integrations and ability to add custom code",
+        "tool_b": "Covers common marketing tools but fewer advanced developer hooks"
+      },
+      {
+        "dimension": "Ecommerce",
+        "tool_a": "Supports commerce workflows via integrations and custom implementations",
+        "tool_b": "Basic ecommerce options suitable for small stores and simple sales"
+      },
+      {
+        "dimension": "Pricing value",
+        "tool_a": "Higher tiers for teams and advanced features; better value if you need design power",
+        "tool_b": "Lower-cost plans focused on solo users and small businesses"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "Choosing between Framer and Dorik comes down to what you value most: high-fidelity design and interactions or quick, affordable site launches. Both tools let you create responsive websites without managing infrastructure, but their approaches and capabilities differ.",
+          "This comparison breaks down core differences — from design freedom and templates to CMS, integrations, and pricing — so you can pick the builder that converts visitors into customers with the least friction."
+        ]
+      }
+    },
+    {
+      "type": "verdict",
+      "data": {
+        "headline": "Design control vs. simplicity — pick based on your priorities",
+        "summary": "Framer wins when you need sophisticated design, animations, and a scalable front-end workflow. Dorik wins when speed, ease-of-use, and cost-efficiency matter more than custom interactions or advanced developer integrations."
+      }
+    },
+    {
+      "type": "pros_cons",
+      "data": {
+        "tool_a": {
+          "pros": [
+            "Exceptional visual design control and advanced interactions for polished, modern sites",
+            "Built-in hosting and CMS with performance-first output and developer-friendly options"
+          ],
+          "cons": [
+            "Higher learning curve for non-designers and more advanced features can feel complex",
+            "Costs can be higher for teams that need commercial-grade features and collaboration"
+          ]
+        },
+        "tool_b": {
+          "pros": [
+            "Very user-friendly with fast setup and clean templates for getting live quickly",
+            "Affordable pricing and straightforward features make it attractive for small budgets"
+          ],
+          "cons": [
+            "Less flexibility for complex animations, custom layouts, or developer workflows",
+            "Fewer built-in integrations and advanced CMS features compared with more mature platforms"
+          ]
+        }
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "Pixel-perfect design tools, micro-interactions, and responsive control"
+        ],
+        "tool_b": [
+          "Intuitive editor, ready-made templates, and value pricing for fast launches"
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "Which builder is better for SEO?",
+            "answer": "Both platforms offer SEO basics like custom meta tags and clean markup, but Framer's performance optimizations and advanced control can make it easier to fine-tune for search. Dorik still performs well for most small business needs."
+          },
+          {
+            "question": "Can I migrate content between Framer and Dorik?",
+            "answer": "You can export and move content manually (copying pages, images, and posts), but there’s no native one-click migration. Expect some rebuilding of templates and layout adjustments after moving platforms."
+          },
+          {
+            "question": "Which tool is more affordable?",
+            "answer": "Dorik generally offers lower entry-level pricing and simple plans for individuals and small teams, while Framer targets users willing to pay more for advanced design tools and collaboration features."
+          },
+          {
+            "question": "Do either of these platforms require coding?",
+            "answer": "Neither requires coding for basic site building. Framer offers more opportunities to add custom code or integrate a developer workflow, while Dorik focuses on no-code simplicity."
+          },
+          {
+            "question": "Which is better for agencies or client work?",
+            "answer": "Framer is often preferred by agencies for client projects that demand bespoke design and advanced interactions. Dorik can work well for agencies handling multiple small clients who need fast, affordable sites."
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": [
+          {
+            "label": "Webflow vs Framer",
+            "href": "/compare/webflow-vs-framer"
+          },
+          {
+            "label": "Webflow vs Dorik",
+            "href": "/compare/webflow-vs-dorik"
+          },
+          {
+            "label": "Carrd vs Framer",
+            "href": "/compare/carrd-vs-framer"
+          }
+        ]
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "Framer vs Dorik",
+    "secondary_keywords": [
+      "Framer alternative to Dorik",
+      "Dorik alternative to Framer",
+      "best Website Builder tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
+    "generated_at": "2026-06-03T08:49:46.895345+00:00",
+    "generator": "generate_avsb_pages.py",
+    "llm_status": "llm",
+    "llm_model": "gpt-5-mini-2025-08-07"
+  }
+}

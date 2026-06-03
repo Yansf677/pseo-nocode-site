@@ -1,0 +1,228 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "dorik-vs-ycode",
+  "url_path": "/compare/dorik-vs-ycode",
+  "locale": "en",
+  "seo": {
+    "title": "Dorik vs Ycode: Choose the Right Website Builder for Static Sites",
+    "meta_description": "Compare Dorik and Ycode to find the best website builder for your project. Dorik excels for fast, polished static sites; Ycode is stronger for dynamic, database",
+    "canonical_url": "https://example.com/compare/dorik-vs-ycode"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "Dorik vs Ycode",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit Dorik",
+      "href": "https://dorik.com/affiliate"
+    },
+    "secondary_cta": {
+      "label": "Visit Ycode",
+      "href": "https://www.ycode.com/affiliate"
+    },
+    "badges": [
+      "Website Builder",
+      "affiliate-program comparison"
+    ]
+  },
+  "summary": {
+    "winner_hint": "Dorik for most websites",
+    "best_for_a": "Dorik is best for small businesses, freelancers, and marketers who want fast, beautiful landing pages and sites with minimal setup.",
+    "best_for_b": "Ycode is best for makers and teams building custom web apps or dynamic sites that need a visual database and more advanced workflows.",
+    "quick_take": "Dorik focuses on simplicity: drag-and-drop design, fast static hosting, and polished templates that get sites live quickly. Ycode trades some of that simplicity for power, offering a visual database and logic layer suited to dynamic web apps. Choose Dorik for speed and ease of use; choose Ycode if you need dynamic data, custom user flows, or a lightweight no-code backend."
+  },
+  "entities": {
+    "tool_a": {
+      "name": "Dorik",
+      "slug": "dorik",
+      "category": "Website Builder",
+      "commission": "40% Recurring Lifetime",
+      "link": "https://dorik.com/affiliate"
+    },
+    "tool_b": {
+      "name": "Ycode",
+      "slug": "ycode",
+      "category": "Website Builder",
+      "commission": "50% Recurring (24 months)",
+      "link": "https://www.ycode.com/affiliate"
+    }
+  },
+  "comparison_table": {
+    "columns": [
+      "Dimension",
+      "Dorik",
+      "Ycode"
+    ],
+    "rows": [
+      {
+        "dimension": "Ease of use",
+        "tool_a": "Very beginner-friendly: drag-and-drop and prebuilt blocks get you started fast.",
+        "tool_b": "More complex: visual database and logic require time to learn but unlock powerful features."
+      },
+      {
+        "dimension": "Design & customization",
+        "tool_a": "Polished templates and intuitive styling for consistent, attractive pages.",
+        "tool_b": "Flexible layouts and custom components, but more manual work to reach polish."
+      },
+      {
+        "dimension": "Dynamic content & database",
+        "tool_a": "Primarily static content with simple CMS options.",
+        "tool_b": "Built-in visual database and dynamic bindings for app-like experiences."
+      },
+      {
+        "dimension": "Integrations & APIs",
+        "tool_a": "Supports common integrations and webhooks; best for marketing stacks.",
+        "tool_b": "Stronger API and automation capabilities designed for custom workflows."
+      },
+      {
+        "dimension": "Templates & starters",
+        "tool_a": "Large library of ready-made templates for landing pages, agencies, and portfolios.",
+        "tool_b": "Fewer marketing templates but focused starters for dashboards and apps."
+      },
+      {
+        "dimension": "Performance & hosting",
+        "tool_a": "Static hosting with CDN ensures fast load times and reliability.",
+        "tool_b": "Can perform well for dynamic sites but depends on data and logic complexity."
+      },
+      {
+        "dimension": "Pricing & value",
+        "tool_a": "Affordable tiers aimed at individuals and small teams; good value for static sites.",
+        "tool_b": "Pricing reflects app capabilities—more valuable if you need DB and logic features."
+      },
+      {
+        "dimension": "Ideal use case",
+        "tool_a": "Landing pages, brochure sites, portfolios, and simple blogs.",
+        "tool_b": "Dynamic marketplaces, membership sites, dashboards, and SaaS prototypes."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "Choosing between Dorik and Ycode comes down to whether speed and simplicity matter more than dynamic capabilities. Both are modern no-code builders, but they target different needs: Dorik streamlines static site creation, while Ycode adds a visual database and app-building features.",
+          "This comparison highlights what each tool does best—design, dynamic content, integrations, pricing and who will get the most value—so you can pick the builder that accelerates your project instead of holding it back."
+        ]
+      }
+    },
+    {
+      "type": "verdict",
+      "data": {
+        "headline": "Pick Dorik for quick, polished sites — pick Ycode for app-like flexibility",
+        "summary": "If you want to launch a professional website or landing page fast with minimal learning, Dorik gives you the best mix of speed, templates, and affordability. If your priority is building dynamic, data-driven experiences without writing backend code, Ycode provides the tools and visual logic to make that possible, though with a steeper learning curve."
+      }
+    },
+    {
+      "type": "pros_cons",
+      "data": {
+        "tool_a": {
+          "pros": [
+            "Clean, easy drag-and-drop editor with polished templates that minimize design work",
+            "Fast static hosting and CDN—sites load quickly and are low maintenance"
+          ],
+          "cons": [
+            "Limited native backend or database features for complex, dynamic apps",
+            "Fewer advanced automation and logic options compared with app-focused builders"
+          ]
+        },
+        "tool_b": {
+          "pros": [
+            "Visual database and API builder enable dynamic, data-driven websites and web apps",
+            "Flexible workflows and logic let you prototype SaaS features without a backend team"
+          ],
+          "cons": [
+            "Steeper learning curve and more setup required to make polished marketing sites",
+            "Design templates and out-of-the-box polish can feel less refined than simpler builders"
+          ]
+        }
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "One of the fastest paths from template to live site",
+          "Streamlined editor ideal for landing pages and brochure sites",
+          "Reliable static hosting with built-in CDN",
+          "Competitive pricing for solo creators and small teams"
+        ],
+        "tool_b": [
+          "Visual database and content modeling for dynamic pages",
+          "Custom logic, user flows, and API endpoints without code",
+          "Better suited for marketplaces, dashboards, and membership sites",
+          "Extensible for builders who need app-like features"
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "Can I build an ecommerce store with Dorik or Ycode?",
+            "answer": "Dorik supports simple ecommerce through integrations and static product pages—great for small catalogs. Ycode can power more customized commerce experiences when paired with its database and logic, but both may require third-party payment and inventory integrations for full-featured stores."
+          },
+          {
+            "question": "Which builder is faster to launch a marketing site?",
+            "answer": "Dorik is faster to launch thanks to its drag-and-drop editor and ready-made templates—ideal for campaigns and agency work where time-to-live matters."
+          },
+          {
+            "question": "Do either tools require coding skills?",
+            "answer": "Both are designed to be no-code friendly, but Ycode may require more technical understanding to model data and set up logic. Dorik minimizes coding for common site needs."
+          },
+          {
+            "question": "Can I migrate my site away later?",
+            "answer": "Yes—both platforms allow exports and integrations, but the ease of migration depends on how dynamic your site is. Static sites from Dorik are generally easier to export, while data-driven projects in Ycode may need additional migration planning."
+          },
+          {
+            "question": "Which platform offers better value for solo creators?",
+            "answer": "For most solo creators focused on portfolios, landing pages, or small business sites, Dorik delivers better value. If your solo project requires a database-backed app or custom user flows, Ycode's capabilities justify the investment."
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": [
+          {
+            "label": "Webflow vs Dorik",
+            "href": "/compare/webflow-vs-dorik"
+          },
+          {
+            "label": "Webflow vs Ycode",
+            "href": "/compare/webflow-vs-ycode"
+          },
+          {
+            "label": "Carrd vs Dorik",
+            "href": "/compare/carrd-vs-dorik"
+          }
+        ]
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "Dorik vs Ycode",
+    "secondary_keywords": [
+      "Dorik alternative to Ycode",
+      "Ycode alternative to Dorik",
+      "best Website Builder tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
+    "generated_at": "2026-06-03T08:49:46.895345+00:00",
+    "generator": "generate_avsb_pages.py",
+    "llm_status": "llm",
+    "llm_model": "gpt-5-mini-2025-08-07"
+  }
+}

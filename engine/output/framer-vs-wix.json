@@ -1,0 +1,250 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "framer-vs-wix",
+  "url_path": "/compare/framer-vs-wix",
+  "locale": "en",
+  "seo": {
+    "title": "Framer vs Wix: Which Website Builder Should You Choose?",
+    "meta_description": "Compare Framer and Wix — design control, ease of use, performance, e-commerce, and pricing. Learn which website builder fits designers, small businesses, and be",
+    "canonical_url": "https://example.com/compare/framer-vs-wix"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "Framer vs Wix",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit Framer",
+      "href": "https://www.framer.com/affiliates"
+    },
+    "secondary_cta": {
+      "label": "Visit Wix",
+      "href": "https://www.wix.com/about/affiliates"
+    },
+    "badges": [
+      "Website Builder",
+      "affiliate-program comparison"
+    ]
+  },
+  "summary": {
+    "winner_hint": "Design-first: Framer",
+    "best_for_a": "Framer is best for designers and product teams who want pixel-perfect control, modern interactions, and a lightweight code-forward site.",
+    "best_for_b": "Wix is best for beginners, small businesses, and anyone who wants an all-in-one solution with templates, apps, and easy e-commerce setup.",
+    "quick_take": "Framer delivers a design-first experience with advanced layout controls, modern animations, and clean output that appeals to designers and developers who value performance and customization. Wix offers a full-featured, user-friendly platform with a large template library, an app marketplace, and guided tools that make launching stores, portfolios, and local business sites fast and straightforward. Choose Framer when design fidelity and fast, minimal sites matter; choose Wix when you want an easy, feature-packed path to a live site without handing off tasks to developers."
+  },
+  "entities": {
+    "tool_a": {
+      "name": "Framer",
+      "slug": "framer",
+      "category": "Website Builder",
+      "commission": "50% of first year",
+      "link": "https://www.framer.com/affiliates"
+    },
+    "tool_b": {
+      "name": "Wix",
+      "slug": "wix",
+      "category": "Website Builder",
+      "commission": "$100+ One-time per sale",
+      "link": "https://www.wix.com/about/affiliates"
+    }
+  },
+  "comparison_table": {
+    "columns": [
+      "Dimension",
+      "Framer",
+      "Wix"
+    ],
+    "rows": [
+      {
+        "dimension": "Ease of use",
+        "tool_a": "Designer-focused interface with a learning curve for beginners.",
+        "tool_b": "Intuitive drag-and-drop editor with guided setup for novices."
+      },
+      {
+        "dimension": "Design flexibility",
+        "tool_a": "High — fine-grained control over layout, spacing, and motion.",
+        "tool_b": "Moderate — fast to assemble but more template-constrained."
+      },
+      {
+        "dimension": "Templates & themes",
+        "tool_a": "Smaller collection focused on starting from design blocks.",
+        "tool_b": "Large library of ready-made templates for many industries."
+      },
+      {
+        "dimension": "Performance & speed",
+        "tool_a": "Optimized, lightweight output and fast load times by default.",
+        "tool_b": "Generally good, but pages can become heavier with many apps."
+      },
+      {
+        "dimension": "Customization & code access",
+        "tool_a": "Strong — exportable code and developer-friendly options.",
+        "tool_b": "Limited direct code control; mostly through built-in editors and APIs."
+      },
+      {
+        "dimension": "Ecommerce",
+        "tool_a": "Capable via integrations and custom setups, but not focused on built-in store features.",
+        "tool_b": "Robust built-in e-commerce tools, payments, and inventory management."
+      },
+      {
+        "dimension": "SEO",
+        "tool_a": "Good SEO fundamentals with fast pages and clean markup.",
+        "tool_b": "Comprehensive SEO tools and step-by-step guidance in the dashboard."
+      },
+      {
+        "dimension": "Integrations & apps",
+        "tool_a": "Fewer native apps; relies more on integrations and custom code.",
+        "tool_b": "Large app marketplace covering marketing, bookings, e-commerce, and more."
+      },
+      {
+        "dimension": "Pricing & value",
+        "tool_a": "Pricing geared toward designers and teams; value increases with performance needs.",
+        "tool_b": "Flexible plans for individuals to businesses with many built-in features on mid-tier plans."
+      },
+      {
+        "dimension": "Hosting & security",
+        "tool_a": "Managed hosting focused on speed and modern deployment.",
+        "tool_b": "Fully managed hosting, backups, and security features included."
+      },
+      {
+        "dimension": "Support & resources",
+        "tool_a": "Growing documentation and community resources aimed at designers/devs.",
+        "tool_b": "Extensive help center, tutorials, and customer support for beginners."
+      },
+      {
+        "dimension": "Best use case",
+        "tool_a": "Portfolio sites, product landing pages, and design-led projects.",
+        "tool_b": "Small business sites, online stores, service providers, and rapid launches."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "Framer and Wix are both popular website builders, but they target different priorities. Framer emphasizes design control, motion, and clean front-end output, while Wix prioritizes accessibility, a broad feature set, and quick time-to-launch with minimal setup.",
+          "Deciding between them comes down to trade-offs: Framer offers greater design fidelity and performance-friendly output, whereas Wix provides more built-in tools, templates, and an app marketplace that helps small businesses and nontechnical users get online fast."
+        ]
+      }
+    },
+    {
+      "type": "verdict",
+      "data": {
+        "headline": "Framer for design precision, Wix for out-of-the-box convenience",
+        "summary": "If your priority is control, modern interactions, and a lightweight production site, Framer is the stronger pick. If you need broad features, templates, integrated apps, and an easier setup for nontechnical users, Wix wins. Both are capable builders—pick the one that matches your workflow and growth needs."
+      }
+    },
+    {
+      "type": "pros_cons",
+      "data": {
+        "tool_a": {
+          "pros": [
+            "Pixel-perfect design controls and modern animation tools",
+            "Lightweight, performance-oriented output and code export options"
+          ],
+          "cons": [
+            "Higher learning curve for non-designers compared with drag-and-drop builders",
+            "Smaller app ecosystem and fewer built-in business features than Wix"
+          ]
+        },
+        "tool_b": {
+          "pros": [
+            "Large template library, app marketplace, and built-in business features",
+            "Very beginner-friendly with guided setup and integrated hosting"
+          ],
+          "cons": [
+            "Templates and interactions can feel less refined; pages may be heavier",
+            "Customization beyond the editor can become restrictive without advanced workarounds"
+          ]
+        }
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "Advanced layout and animation controls",
+          "Clean, exportable front-end and performant pages",
+          "Great for designers who want final output control"
+        ],
+        "tool_b": [
+          "Extensive template library and ready-made sections",
+          "Built-in e-commerce, SEO tools, and app marketplace",
+          "Best-in-class ease of use for nontechnical site owners"
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "Which platform produces faster-loading sites?",
+            "answer": "Framer generally produces lighter, faster pages by design, while Wix sites can be fast but may slow down as you add apps and complex features."
+          },
+          {
+            "question": "Can I run an online store on both platforms?",
+            "answer": "Yes — Wix includes built-in e-commerce tools for full store management. Framer can support e-commerce via integrations or custom setups but lacks Wix's out-of-the-box store features."
+          },
+          {
+            "question": "Which is easier for a nontechnical user?",
+            "answer": "Wix is easier for nontechnical users thanks to its drag-and-drop editor, templates, and guided tools; Framer is more designer-oriented and may require more time to learn."
+          },
+          {
+            "question": "Can I export code or host elsewhere?",
+            "answer": "Framer provides cleaner front-end export and developer options for hosting elsewhere; Wix is a fully managed platform and does not offer the same easy code export."
+          },
+          {
+            "question": "How do they compare for SEO?",
+            "answer": "Both offer SEO tools, but Framer's speed and clean markup help technical SEO, while Wix provides built-in SEO guidance and easy-to-use on-page controls for beginners."
+          },
+          {
+            "question": "Which is a better long-term choice for growing businesses?",
+            "answer": "If you prioritize rapid scaling with built-in business tools, Wix is convenient. If you need performance, design control, and developer-friendly output as you scale, Framer may be the better long-term choice."
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": [
+          {
+            "label": "Webflow vs Framer",
+            "href": "/compare/webflow-vs-framer"
+          },
+          {
+            "label": "Webflow vs Wix",
+            "href": "/compare/webflow-vs-wix"
+          },
+          {
+            "label": "Carrd vs Framer",
+            "href": "/compare/carrd-vs-framer"
+          }
+        ]
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "Framer vs Wix",
+    "secondary_keywords": [
+      "Framer alternative to Wix",
+      "Wix alternative to Framer",
+      "best Website Builder tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
+    "generated_at": "2026-06-03T08:49:46.895345+00:00",
+    "generator": "generate_avsb_pages.py",
+    "llm_status": "llm",
+    "llm_model": "gpt-5-mini-2025-08-07"
+  }
+}

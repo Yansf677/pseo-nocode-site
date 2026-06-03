@@ -1,0 +1,226 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "ycode-vs-squarespace",
+  "url_path": "/compare/ycode-vs-squarespace",
+  "locale": "en",
+  "seo": {
+    "title": "Ycode vs Squarespace — Choose the Right Website Builder",
+    "meta_description": "Compare Ycode and Squarespace: see which website builder fits your needs for customization, templates, ecommerce, and SEO. Quick verdict and practical buying gu",
+    "canonical_url": "https://example.com/compare/ycode-vs-squarespace"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "Ycode vs Squarespace",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit Ycode",
+      "href": "https://www.ycode.com/affiliate"
+    },
+    "secondary_cta": {
+      "label": "Visit Squarespace",
+      "href": "https://www.squarespace.com/affiliates"
+    },
+    "badges": [
+      "Website Builder",
+      "affiliate-program comparison"
+    ]
+  },
+  "summary": {
+    "winner_hint": "Flexible builder: Ycode",
+    "best_for_a": "Ycode is best for makers and small teams who need a no-code platform with database-driven pages, custom logic, and flexible app-like websites.",
+    "best_for_b": "Squarespace is best for creatives and small businesses that prioritize polished templates, simple site management, and an all-in-one hosting + commerce experience.",
+    "quick_take": "Ycode and Squarespace both build websites quickly, but they solve different problems: Ycode gives more control for data-driven sites and custom workflows without coding, while Squarespace delivers refined templates, built-in commerce, and a lower learning curve. Pick Ycode when flexibility and app-like behavior matter; pick Squarespace when speed, design polish, and simplicity win."
+  },
+  "entities": {
+    "tool_a": {
+      "name": "Ycode",
+      "slug": "ycode",
+      "category": "Website Builder",
+      "commission": "50% Recurring (24 months)",
+      "link": "https://www.ycode.com/affiliate"
+    },
+    "tool_b": {
+      "name": "Squarespace",
+      "slug": "squarespace",
+      "category": "Website Builder",
+      "commission": "$100-$200 One-time per sale",
+      "link": "https://www.squarespace.com/affiliates"
+    }
+  },
+  "comparison_table": {
+    "columns": [
+      "Dimension",
+      "Ycode",
+      "Squarespace"
+    ],
+    "rows": [
+      {
+        "dimension": "Ease of use",
+        "tool_a": "Visual editor with a learning curve — great once you learn data-driven concepts.",
+        "tool_b": "Intuitive drag-and-drop and guided setup for fast launch."
+      },
+      {
+        "dimension": "Design & templates",
+        "tool_a": "Flexible canvas you can shape around your data, fewer prebuilt themes.",
+        "tool_b": "Large library of polished, conversion-oriented templates."
+      },
+      {
+        "dimension": "Customization & logic",
+        "tool_a": "Strong — build conditional content, dynamic pages, and custom workflows without code.",
+        "tool_b": "Limited to template edits and code injections for advanced behavior."
+      },
+      {
+        "dimension": "Ecommerce",
+        "tool_a": "Supports product listings and custom storefronts via collections and integrations.",
+        "tool_b": "Built-in commerce with payments, inventory, subscriptions, and checkout."
+      },
+      {
+        "dimension": "Integrations",
+        "tool_a": "Good API and webhook support for third-party services and custom integrations.",
+        "tool_b": "Strong ecosystem of native integrations and extensions for marketing tools."
+      },
+      {
+        "dimension": "Performance & SEO",
+        "tool_a": "Optimizable: you control structures for fast, SEO-friendly dynamic pages.",
+        "tool_b": "Solid out-of-the-box SEO basics and fast hosting for most sites."
+      },
+      {
+        "dimension": "Pricing & scaling",
+        "tool_a": "Pricing favors builders who need app-like features; may scale with usage.",
+        "tool_b": "Simple tiered plans with clear commerce features; predictable for small businesses."
+      },
+      {
+        "dimension": "Support & community",
+        "tool_a": "Developer-focused docs and community; support varies by plan.",
+        "tool_b": "Extensive help center, templates, and 24/7 customer support on paid plans."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "Choosing between Ycode and Squarespace comes down to control versus convenience. Both let you launch a professional site without managing servers, but Ycode leans into data-driven features while Squarespace focuses on design and simplicity.",
+          "This comparison walks through usability, customization, ecommerce, integrations, pricing, and support so you can pick the tool that helps you launch faster and convert more visitors."
+        ]
+      }
+    },
+    {
+      "type": "verdict",
+      "data": {
+        "headline": "Pick Ycode for flexibility, Squarespace for ease",
+        "summary": "If you want database-powered pages, conditional logic, and a platform that scales like an app, Ycode is the better fit. If you want beautiful templates, fast setup, and integrated commerce with minimal configuration, Squarespace is the safer choice."
+      }
+    },
+    {
+      "type": "pros_cons",
+      "data": {
+        "tool_a": {
+          "pros": [
+            "Powerful no-code database and dynamic pages for app-like sites",
+            "Advanced conditional logic and customization without writing backend code"
+          ],
+          "cons": [
+            "Steeper learning curve for non-technical users compared to template-first builders",
+            "Fewer professionally designed templates out of the box"
+          ]
+        },
+        "tool_b": {
+          "pros": [
+            "Beautiful, conversion-focused templates and easy drag-and-drop editing",
+            "All-in-one hosting, commerce tools, and 24/7 customer resources"
+          ],
+          "cons": [
+            "Less flexible for complex, data-driven workflows and custom backend logic",
+            "Some advanced customizations require developer mode or code injection"
+          ]
+        }
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "Database-powered pages and collections",
+          "Conditional workflows and visual logic builder",
+          "API integrations and webhook support"
+        ],
+        "tool_b": [
+          "Polished templates optimized for conversion",
+          "Integrated commerce, inventory, and checkout",
+          "Built-in hosting, analytics, and domain management"
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "Which is easier to learn for a non-technical user?",
+            "answer": "Squarespace is generally easier thanks to guided templates and a simpler editor, while Ycode requires learning data-structure and logic concepts for full power."
+          },
+          {
+            "question": "Can I build an online store on both platforms?",
+            "answer": "Yes — Squarespace offers built-in ecommerce with checkout and inventory tools, while Ycode can power custom storefronts and integrate with payment providers via APIs."
+          },
+          {
+            "question": "Which platform is better for SEO?",
+            "answer": "Both can be SEO-friendly: Squarespace provides reliable defaults and speed, while Ycode gives more control over dynamic pages and structured content, which can be advantageous for complex SEO needs."
+          },
+          {
+            "question": "Can I add custom code?",
+            "answer": "Ycode supports custom scripts and API interactions for advanced use cases; Squarespace allows code injection and developer mode but some features may require workarounds."
+          },
+          {
+            "question": "Is it easy to migrate away later?",
+            "answer": "Both platforms have limitations when exporting complex sites: Squarespace offers content export for pages and blog posts, while Ycode's dynamic structures may need custom migration planning."
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": [
+          {
+            "label": "Webflow vs Ycode",
+            "href": "/compare/webflow-vs-ycode"
+          },
+          {
+            "label": "Webflow vs Squarespace",
+            "href": "/compare/webflow-vs-squarespace"
+          },
+          {
+            "label": "Carrd vs Ycode",
+            "href": "/compare/carrd-vs-ycode"
+          }
+        ]
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "Ycode vs Squarespace",
+    "secondary_keywords": [
+      "Ycode alternative to Squarespace",
+      "Squarespace alternative to Ycode",
+      "best Website Builder tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
+    "generated_at": "2026-06-03T08:49:46.895345+00:00",
+    "generator": "generate_avsb_pages.py",
+    "llm_status": "llm",
+    "llm_model": "gpt-5-mini-2025-08-07"
+  }
+}

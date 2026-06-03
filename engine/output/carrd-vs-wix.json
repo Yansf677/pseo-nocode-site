@@ -1,0 +1,240 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "carrd-vs-wix",
+  "url_path": "/compare/carrd-vs-wix",
+  "locale": "en",
+  "seo": {
+    "title": "Carrd vs Wix — Choose the Best Website Builder for Landing Pages ",
+    "meta_description": "Compare Carrd and Wix: speed, price, ease of use, features, and e-commerce. Find out whether a simple landing page (Carrd) or a scalable website (Wix) is right ",
+    "canonical_url": "https://example.com/compare/carrd-vs-wix"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "Carrd vs Wix",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit Carrd",
+      "href": "https://carrd.co/affiliates"
+    },
+    "secondary_cta": {
+      "label": "Visit Wix",
+      "href": "https://www.wix.com/about/affiliates"
+    },
+    "badges": [
+      "Website Builder",
+      "affiliate-program comparison"
+    ]
+  },
+  "summary": {
+    "winner_hint": "Best for fast, low-cost landing pages",
+    "best_for_a": "Carrd is ideal for creators and small businesses who need a single fast, affordable landing page, link-in-bio, or portfolio without a learning curve.",
+    "best_for_b": "Wix is best for users who want a full-featured website builder with drag-and-drop design, e-commerce, and an app marketplace to scale a brand or online store.",
+    "quick_take": "Choose Carrd when you want the quickest route to a clean, focused one-page site at a tiny price. Choose Wix when you need breadth: advanced design controls, apps, and commerce tools that let your site grow into a full business presence. Carrd wins on simplicity and cost; Wix wins on features and scale."
+  },
+  "entities": {
+    "tool_a": {
+      "name": "Carrd",
+      "slug": "carrd",
+      "category": "One-page Website Builder",
+      "commission": "30% Recurring Lifetime",
+      "link": "https://carrd.co/affiliates"
+    },
+    "tool_b": {
+      "name": "Wix",
+      "slug": "wix",
+      "category": "Website Builder",
+      "commission": "$100+ One-time per sale",
+      "link": "https://www.wix.com/about/affiliates"
+    }
+  },
+  "comparison_table": {
+    "columns": [
+      "Dimension",
+      "Carrd",
+      "Wix"
+    ],
+    "rows": [
+      {
+        "dimension": "Ease of use",
+        "tool_a": "Extremely simple — minimal controls focused on one-page layouts.",
+        "tool_b": "User-friendly but feature-rich — drag-and-drop freedom requires a short learning curve."
+      },
+      {
+        "dimension": "Pricing",
+        "tool_a": "Very low-cost plans and a usable free tier; paid upgrades are inexpensive.",
+        "tool_b": "Free plan available, but premium features, apps, and e-commerce raise monthly cost."
+      },
+      {
+        "dimension": "Templates & design",
+        "tool_a": "Clean, modern one-page templates optimized for conversion and speed.",
+        "tool_b": "Huge template library and pixel-level design control across multiple pages."
+      },
+      {
+        "dimension": "Features & flexibility",
+        "tool_a": "Focused feature set for forms, embeds, and basic media — limited extensibility.",
+        "tool_b": "Robust feature set including blogging, bookings, memberships, and advanced site logic."
+      },
+      {
+        "dimension": "E-commerce",
+        "tool_a": "Very limited — best for linking to external payment pages or simple donations.",
+        "tool_b": "Comprehensive e-commerce tools with product catalogs, checkout, and payment options."
+      },
+      {
+        "dimension": "SEO & marketing",
+        "tool_a": "Basic SEO controls and fast load times that help performance.",
+        "tool_b": "Built-in SEO tools, marketing integrations, and advanced settings for growth."
+      },
+      {
+        "dimension": "Performance & hosting",
+        "tool_a": "Lightweight pages load very fast; hosting included and optimized for small sites.",
+        "tool_b": "Hosting included but larger sites and apps can slow load times without optimization."
+      },
+      {
+        "dimension": "Integrations & extensions",
+        "tool_a": "Limited integrations; supports embeds and simple third-party tools.",
+        "tool_b": "Large app marketplace and extensive third-party integrations for marketing and commerce."
+      },
+      {
+        "dimension": "Support & resources",
+        "tool_a": "Documentation and community help; no premium support layers required for simple sites.",
+        "tool_b": "Extensive help center, tutorials, and paid support options for businesses."
+      },
+      {
+        "dimension": "Best use case",
+        "tool_a": "Landing pages, event pages, link-in-bio, and micro sites.",
+        "tool_b": "Business websites, stores, blogs, and multi-page brand sites."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "Picking the right website tool comes down to scope: a single fast landing page or a full website with store and apps. Carrd and Wix both help you get online quickly, but they solve different problems.",
+          "This comparison cuts through features, cost, ease of use, and real-world use cases so you can decide which platform turns visitors into customers faster for your project."
+        ]
+      }
+    },
+    {
+      "type": "verdict",
+      "data": {
+        "headline": "Simplicity vs. Scale",
+        "summary": "If your goal is a fast, inexpensive landing page or portfolio, Carrd gives the most value with zero fuss. If you need a multi-page site, e-commerce, or a customizable platform to expand, Wix is the more capable choice despite higher cost and complexity."
+      }
+    },
+    {
+      "type": "pros_cons",
+      "data": {
+        "tool_a": {
+          "pros": [
+            "Ultra-simple editor and setup — launch a one-page site in minutes",
+            "Very affordable with generous free/low-cost plans"
+          ],
+          "cons": [
+            "Limited to mostly one-page layouts — not designed for large websites",
+            "Restricted built-in features and integrations compared to full site builders"
+          ]
+        },
+        "tool_b": {
+          "pros": [
+            "Powerful drag-and-drop design, multi-page sites, and e-commerce",
+            "Large template library and app market for adding features"
+          ],
+          "cons": [
+            "Can be slower to load and more complex to learn",
+            "Higher cost once you add premium features and apps"
+          ]
+        }
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "Best for landing pages, link-in-bio, and simple portfolios",
+          "Fast performance and minimal maintenance",
+          "Low monthly cost and straightforward publishing"
+        ],
+        "tool_b": [
+          "Full website builder with e-commerce and blogging",
+          "Deep customization with apps, SEO tools, and templates",
+          "Scales from small sites to online stores and business sites"
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "Can I sell products on Carrd or Wix?",
+            "answer": "Carrd supports basic payment embeds and redirects to payment providers but isn’t a full e-commerce platform; Wix provides built-in e-commerce features for product listings, checkout, and payments."
+          },
+          {
+            "question": "Which platform is faster to launch?",
+            "answer": "Carrd is faster to launch — you can have a one-page site live in minutes. Wix takes longer if you customize templates or set up commerce and apps."
+          },
+          {
+            "question": "Do both platforms support custom domains and SSL?",
+            "answer": "Yes — both Carrd and Wix support custom domains and include SSL, though connecting a domain may require a paid plan on each platform."
+          },
+          {
+            "question": "Which is better for SEO?",
+            "answer": "Wix offers more advanced SEO tools and settings for multi-page sites; Carrd benefits from fast load times and simple markup for basic SEO needs."
+          },
+          {
+            "question": "Can I move my site from Carrd to Wix or vice versa?",
+            "answer": "There’s no automated exporter between platforms; you can migrate content manually, but design and structure will need rebuilding when switching builders."
+          },
+          {
+            "question": "Which platform has a lower ongoing cost?",
+            "answer": "Carrd generally has a lower ongoing cost for simple one-page sites. Wix can become more expensive once you add premium plans, apps, and e-commerce features."
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": [
+          {
+            "label": "Webflow vs Carrd",
+            "href": "/compare/webflow-vs-carrd"
+          },
+          {
+            "label": "Webflow vs Wix",
+            "href": "/compare/webflow-vs-wix"
+          },
+          {
+            "label": "Carrd vs Framer",
+            "href": "/compare/carrd-vs-framer"
+          }
+        ]
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "Carrd vs Wix",
+    "secondary_keywords": [
+      "Carrd alternative to Wix",
+      "Wix alternative to Carrd",
+      "best Website Builder tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
+    "generated_at": "2026-06-03T08:49:46.895345+00:00",
+    "generator": "generate_avsb_pages.py",
+    "llm_status": "llm",
+    "llm_model": "gpt-5-mini-2025-08-07"
+  }
+}

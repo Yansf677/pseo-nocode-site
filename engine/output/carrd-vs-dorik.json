@@ -1,0 +1,241 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "carrd-vs-dorik",
+  "url_path": "/compare/carrd-vs-dorik",
+  "locale": "en",
+  "seo": {
+    "title": "Carrd vs Dorik — Which Website Builder Should You Pick?",
+    "meta_description": "Compare Carrd and Dorik side-by-side to find the best builder for your project. See which platform wins for landing pages, multi-page sites, e-commerce, pricing",
+    "canonical_url": "https://example.com/compare/carrd-vs-dorik"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "Carrd vs Dorik",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit Carrd",
+      "href": "https://carrd.co/affiliates"
+    },
+    "secondary_cta": {
+      "label": "Visit Dorik",
+      "href": "https://dorik.com/affiliate"
+    },
+    "badges": [
+      "Website Builder",
+      "affiliate-program comparison"
+    ]
+  },
+  "summary": {
+    "winner_hint": "Best for simple, fast landing pages",
+    "best_for_a": "Carrd is ideal for creators, freelancers, and startups who need a single-page site or landing page launched in minutes.",
+    "best_for_b": "Dorik is better for small businesses and teams that want a fuller multi-page site with more built-in features and integrations.",
+    "quick_take": "If you want a lightning-fast way to publish a single, beautiful landing page or link-in-bio site, Carrd is the cleaner, cheaper choice. If you need a more traditional website with multiple pages, built-in widgets, and stronger integrations, Dorik gives you more structure and features at the cost of a slight learning curve."
+  },
+  "entities": {
+    "tool_a": {
+      "name": "Carrd",
+      "slug": "carrd",
+      "category": "One-page Website Builder",
+      "commission": "30% Recurring Lifetime",
+      "link": "https://carrd.co/affiliates"
+    },
+    "tool_b": {
+      "name": "Dorik",
+      "slug": "dorik",
+      "category": "Website Builder",
+      "commission": "40% Recurring Lifetime",
+      "link": "https://dorik.com/affiliate"
+    }
+  },
+  "comparison_table": {
+    "columns": [
+      "Dimension",
+      "Carrd",
+      "Dorik"
+    ],
+    "rows": [
+      {
+        "dimension": "Best use case",
+        "tool_a": "Single landing pages, link-in-bio, lightweight portfolios launched fast",
+        "tool_b": "Multi-page business sites, brochure sites, and projects needing integrations"
+      },
+      {
+        "dimension": "Ease of use",
+        "tool_a": "Extremely beginner-friendly editor focused on simplicity",
+        "tool_b": "Intuitive but slightly more complex due to multi-page and extra features"
+      },
+      {
+        "dimension": "Design flexibility",
+        "tool_a": "Good for minimalist designs; fewer advanced layout controls",
+        "tool_b": "More layout blocks and customization for richer pages"
+      },
+      {
+        "dimension": "Pages & structure",
+        "tool_a": "Optimized for single-page sites only",
+        "tool_b": "Built for multi-page sites with navigation and sections"
+      },
+      {
+        "dimension": "Templates & themes",
+        "tool_a": "Lean, polished templates tuned for one-pagers",
+        "tool_b": "Larger template library geared to full websites"
+      },
+      {
+        "dimension": "Custom code & integrations",
+        "tool_a": "Limited custom code; basic embed options",
+        "tool_b": "Better custom code support and more third-party integrations"
+      },
+      {
+        "dimension": "E-commerce",
+        "tool_a": "Possible with embedded checkout or third-party widgets, but not native",
+        "tool_b": "Supports simple e-commerce flows and Stripe integrations natively"
+      },
+      {
+        "dimension": "Performance & hosting",
+        "tool_a": "Lightweight pages load fast; hosting included",
+        "tool_b": "Performance is solid; hosting included but pages can be heavier"
+      },
+      {
+        "dimension": "SEO & analytics",
+        "tool_a": "Basic SEO controls and easy metadata editing",
+        "tool_b": "More SEO tools and integrations for analytics and tracking"
+      },
+      {
+        "dimension": "Support & docs",
+        "tool_a": "Clear docs and community resources; limited direct support on free plans",
+        "tool_b": "Comprehensive docs and support options, better for team workflows"
+      },
+      {
+        "dimension": "Price/value",
+        "tool_a": "Excellent value for single-page projects and tight budgets",
+        "tool_b": "Better return for sites needing multi-page structure and integrations"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "Both Carrd and Dorik let you build attractive sites without hiring a developer, but they target different needs. Carrd focuses on single-page sites and extreme simplicity; Dorik aims to replace basic website platforms with multi-page layouts and more built-in functionality.",
+          "This comparison breaks down the key differences—ease of use, customization, e-commerce, integrations, price, and real-world use cases—so you can pick the tool that best matches your project and budget."
+        ]
+      }
+    },
+    {
+      "type": "verdict",
+      "data": {
+        "headline": "Choose Carrd for speed and simplicity, Dorik for multi-page features",
+        "summary": "Carrd wins when your priority is speed, price, and an ultra-simple workflow for one-page sites. Dorik wins when you need multi-page support, more built-in components, and better integration options for a small-business site."
+      }
+    },
+    {
+      "type": "pros_cons",
+      "data": {
+        "tool_a": {
+          "pros": [
+            "Fast setup for single-page sites with an extremely intuitive editor",
+            "Very affordable—great free tier and inexpensive upgrades"
+          ],
+          "cons": [
+            "Limited to one-page layouts and relatively basic site features",
+            "Fewer native integrations and limited e-commerce options"
+          ]
+        },
+        "tool_b": {
+          "pros": [
+            "Supports multi-page sites with more built-in components and blocks",
+            "Stronger integration options and simple e-commerce support"
+          ],
+          "cons": [
+            "Slightly steeper learning curve than Carrd for newcomers",
+            "Advanced features and smoother workflows require higher tiers"
+          ]
+        }
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "Ultra-simple one-page builder",
+          "Quick publishing and low cost",
+          "Great for landing pages, portfolios, and link-in-bio"
+        ],
+        "tool_b": [
+          "Multi-page support and richer block library",
+          "More integrations and basic e-commerce",
+          "Better suited for small business websites"
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "Can I use a custom domain with Carrd or Dorik?",
+            "answer": "Yes—both platforms let you connect custom domains on paid plans, making either tool suitable for professional sites."
+          },
+          {
+            "question": "Which platform is cheaper?",
+            "answer": "Carrd is generally cheaper for single-page needs; Dorik’s pricing is slightly higher but gives more multi-page and feature value."
+          },
+          {
+            "question": "Can I sell products or accept payments?",
+            "answer": "Dorik has more built-in e-commerce capabilities and payment integrations; Carrd can accept payments via embedded checkout solutions but lacks full native e-commerce."
+          },
+          {
+            "question": "Which one is better for SEO?",
+            "answer": "Both offer basic SEO controls; Dorik provides additional features and integrations that can help larger sites manage SEO and analytics more effectively."
+          },
+          {
+            "question": "Can I export my site if I want to move?",
+            "answer": "Export options are limited on both platforms; Dorik sometimes offers better export flexibility, but moving complex sites often requires manual migration."
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": [
+          {
+            "label": "Webflow vs Carrd",
+            "href": "/compare/webflow-vs-carrd"
+          },
+          {
+            "label": "Webflow vs Dorik",
+            "href": "/compare/webflow-vs-dorik"
+          },
+          {
+            "label": "Carrd vs Framer",
+            "href": "/compare/carrd-vs-framer"
+          }
+        ]
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "Carrd vs Dorik",
+    "secondary_keywords": [
+      "Carrd alternative to Dorik",
+      "Dorik alternative to Carrd",
+      "best Website Builder tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
+    "generated_at": "2026-06-03T08:49:46.895345+00:00",
+    "generator": "generate_avsb_pages.py",
+    "llm_status": "llm",
+    "llm_model": "gpt-5-mini-2025-08-07"
+  }
+}

@@ -64,6 +64,19 @@ interface SectionHighlights {
   data: { tool_a: string[]; tool_b: string[] };
 }
 
+interface SectionVerdict {
+  type: "verdict";
+  data: { headline: string; summary: string };
+}
+
+interface SectionProsCons {
+  type: "pros_cons";
+  data: {
+    tool_a: { pros: string[]; cons: string[] };
+    tool_b: { pros: string[]; cons: string[] };
+  };
+}
+
 interface SectionFaqItem {
   question: string;
   answer: string;
@@ -86,6 +99,8 @@ interface SectionRelatedComparisons {
 
 type SectionSpec =
   | SectionIntro
+  | SectionVerdict
+  | SectionProsCons
   | SectionHighlights
   | SectionFaq
   | SectionRelatedComparisons;
@@ -412,6 +427,53 @@ export default function ComparePage({
                   {section.data.paragraphs.map((paragraph) => (
                     <p key={paragraph}>{paragraph}</p>
                   ))}
+                </div>
+              </section>
+            );
+          }
+
+          if (section.type === "verdict") {
+            return (
+              <section key={section.type} className="glass-panel content-panel">
+                <h2 className="section-title">Verdict</h2>
+                <h3 className="section-heading">{section.data.headline}</h3>
+                <p className="section-body">{section.data.summary}</p>
+              </section>
+            );
+          }
+
+          if (section.type === "pros_cons") {
+            return (
+              <section key={section.type} className="compare-highlights-grid">
+                <div className="glass-panel content-panel">
+                  <h2 className="section-title">Pros & cons · {entities.tool_a.name}</h2>
+                  <h3 className="section-heading">Pros</h3>
+                  <ul className="highlight-list">
+                    {section.data.tool_a.pros.map((item) => (
+                      <li key={"item-a" + item}>{item}</li>
+                    ))}
+                  </ul>
+                  <h3 className="section-heading">Cons</h3>
+                  <ul className="highlight-list">
+                    {section.data.tool_a.cons.map((item) => (
+                      <li key={"item-a-con" + item}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+                <div className="glass-panel content-panel">
+                  <h2 className="section-title">Pros & cons · {entities.tool_b.name}</h2>
+                  <h3 className="section-heading">Pros</h3>
+                  <ul className="highlight-list">
+                    {section.data.tool_b.pros.map((item) => (
+                      <li key={"item-b" + item}>{item}</li>
+                    ))}
+                  </ul>
+                  <h3 className="section-heading">Cons</h3>
+                  <ul className="highlight-list">
+                    {section.data.tool_b.cons.map((item) => (
+                      <li key={"item-b-con" + item}>{item}</li>
+                    ))}
+                  </ul>
                 </div>
               </section>
             );

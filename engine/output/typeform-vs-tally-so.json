@@ -1,0 +1,224 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "typeform-vs-tally-so",
+  "url_path": "/compare/typeform-vs-tally-so",
+  "locale": "en",
+  "seo": {
+    "title": "Typeform vs Tally.so — Compare Online Form Builders",
+    "meta_description": "Compare Typeform and Tally.so side-by-side: design, logic, pricing, integrations, and speed. Find whether the polished experience of Typeform or the fast, affor",
+    "canonical_url": "https://example.com/compare/typeform-vs-tally-so"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "Typeform vs Tally.so",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit Typeform",
+      "href": "https://www.typeform.com/affiliates"
+    },
+    "secondary_cta": {
+      "label": "Visit Tally.so",
+      "href": "https://tally.so/help/affiliate-program"
+    },
+    "badges": [
+      "Online Forms",
+      "affiliate-program comparison"
+    ]
+  },
+  "summary": {
+    "winner_hint": "Typeform for polish, Tally for value",
+    "best_for_a": "Typeform is best for teams that need highly polished, conversational forms, advanced branching, and a branded, user-friendly experience.",
+    "best_for_b": "Tally is best for creators and small teams who want to launch simple, no-friction forms quickly with a generous free tier and lower overall cost.",
+    "quick_take": "Typeform focuses on design-forward, conversational forms with robust conditional logic and enterprise-ready features — ideal when user experience and brand presentation matter. Tally.so prioritizes speed, simplicity, and affordability: it’s fast to build, easy to share, and generous on the free plan, making it a strong choice for simple lead capture, signups, and internal forms."
+  },
+  "entities": {
+    "tool_a": {
+      "name": "Typeform",
+      "slug": "typeform",
+      "category": "Online Forms",
+      "commission": "20% Recurring Lifetime",
+      "link": "https://www.typeform.com/affiliates"
+    },
+    "tool_b": {
+      "name": "Tally.so",
+      "slug": "tally-so",
+      "category": "Online Forms",
+      "commission": "20% Recurring Lifetime",
+      "link": "https://tally.so/help/affiliate-program"
+    }
+  },
+  "comparison_table": {
+    "columns": [
+      "Dimension",
+      "Typeform",
+      "Tally.so"
+    ],
+    "rows": [
+      {
+        "dimension": "Ease of use",
+        "tool_a": "Intuitive drag-and-drop with conversation-style flows — slightly more to learn for advanced features.",
+        "tool_b": "Extremely quick to start and publish; minimal configuration required."
+      },
+      {
+        "dimension": "Design & customization",
+        "tool_a": "Strong visual design options and branded experiences with custom layouts and animations.",
+        "tool_b": "Clean, functional designs focused on speed; fewer advanced styling controls."
+      },
+      {
+        "dimension": "Logic & branching",
+        "tool_a": "Robust conditional logic and advanced branching suitable for complex surveys and workflows.",
+        "tool_b": "Supports conditional rules for common use cases but fewer enterprise-grade workflow options."
+      },
+      {
+        "dimension": "Templates & question types",
+        "tool_a": "Wide template library and diverse question types tailored to marketing, research, and onboarding.",
+        "tool_b": "Good selection of templates and core question types aimed at fast deployment."
+      },
+      {
+        "dimension": "Pricing & value",
+        "tool_a": "Higher-tier pricing for advanced features and heavy response volumes; better for teams that need premium features.",
+        "tool_b": "Generous free plan and lower-paid tiers, offering strong value for lightweight to mid-level use."
+      },
+      {
+        "dimension": "Integrations & automation",
+        "tool_a": "Native integrations plus strong Zapier and API support for enterprise stacks.",
+        "tool_b": "Solid integration options and Zapier support, simpler automation setup for most workflows."
+      },
+      {
+        "dimension": "Data & reporting",
+        "tool_a": "Built-in analytics, export options, and richer response visualizations for insights.",
+        "tool_b": "Basic reporting and export capabilities suitable for most small teams; less advanced visualization."
+      },
+      {
+        "dimension": "Embedding & publishing",
+        "tool_a": "Embed options and hosted forms with strong branding controls and mobile-friendly layouts.",
+        "tool_b": "Fast embed and share options with lightweight hosted pages optimized for speed."
+      },
+      {
+        "dimension": "Speed of building",
+        "tool_a": "Quick for standard forms; more time needed to craft branded, complex flows.",
+        "tool_b": "Very fast — ideal when you need a working form in minutes."
+      },
+      {
+        "dimension": "Privacy & security",
+        "tool_a": "Offers enterprise-level controls and compliance features; good for regulated use.",
+        "tool_b": "Provides standard privacy controls and secure hosting suitable for most SMB needs."
+      },
+      {
+        "dimension": "Support & documentation",
+        "tool_a": "Extensive help docs and business-grade support on paid plans.",
+        "tool_b": "Clear documentation and responsive support; high-touch support available on paid tiers."
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "Forms power everything from lead capture to customer research. Choosing the right builder affects completion rates, brand perception, and how quickly you can iterate.",
+          "This side-by-side look at Typeform and Tally.so highlights where each shines — design, logic, pricing, integrations, and speed — so you can pick the tool that actually moves your goals forward."
+        ]
+      }
+    },
+    {
+      "type": "verdict",
+      "data": {
+        "headline": "Choose Typeform for premium form experiences; choose Tally for speed and value",
+        "summary": "If you need a polished, highly customizable form that feels like part of your brand and supports complex branching, Typeform is the smarter investment. If you want to launch forms fast, avoid tool overhead, and keep costs low while still getting solid features, Tally.so delivers the best value."
+      }
+    },
+    {
+      "type": "pros_cons",
+      "data": {
+        "tool_a": {
+          "pros": [
+            "Polished, conversational UI that improves completion rates and brand trust",
+            "Advanced logic, conditional branching and enterprise integrations for complex workflows"
+          ],
+          "cons": [
+            "Higher price for advanced features and larger response volumes",
+            "Design flexibility can require a learning curve to master advanced styling and behaviors"
+          ]
+        },
+        "tool_b": {
+          "pros": [
+            "Fast to build with a generous free tier and straightforward pricing",
+            "Simple embedding and sharing, ideal for quick campaigns and internal forms"
+          ],
+          "cons": [
+            "Less refined visual polish and fewer built-in analytics compared with Typeform",
+            "Some advanced features (payment integration, advanced logic) may be limited to paid plans"
+          ]
+        }
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "Best-in-class conversational forms and advanced branching for customer-facing workflows"
+        ],
+        "tool_b": [
+          "Fast setup and excellent free plan suited for creators and small teams"
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "Which tool has a better free plan?",
+            "answer": "Tally.so generally provides a more generous free tier for unlimited forms and responses, while Typeform’s free plan is more limited and meant for trialing core features."
+          },
+          {
+            "question": "Can I accept payments with both tools?",
+            "answer": "Both platforms support payments, but payment features and gateways vary by plan — check each provider’s paid features to confirm the options and fees you need."
+          },
+          {
+            "question": "Which is better for enterprise use?",
+            "answer": "Typeform is typically the better fit for enterprise needs due to advanced security, compliance options, and deeper integrations; Tally can work for smaller teams but may lack some enterprise controls."
+          },
+          {
+            "question": "How do integrations compare?",
+            "answer": "Typeform offers a wide set of native integrations plus robust API and Zapier support. Tally covers common integrations and Zapier workflows, focusing on ease of automation for smaller teams."
+          },
+          {
+            "question": "Which tool drives higher form completion?",
+            "answer": "Typeform’s conversational design and polished UX can improve completion rates for customer-facing surveys, while Tally’s simplicity reduces friction for quick signups and internal forms."
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": []
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "Typeform vs Tally.so",
+    "secondary_keywords": [
+      "Typeform alternative to Tally.so",
+      "Tally.so alternative to Typeform",
+      "best Online Forms tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
+    "generated_at": "2026-06-03T08:49:46.895345+00:00",
+    "generator": "generate_avsb_pages.py",
+    "llm_status": "llm",
+    "llm_model": "gpt-5-mini-2025-08-07"
+  }
+}
