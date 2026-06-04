@@ -74,6 +74,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="impact-site-verification"
+          value="3e02df2f-dfdd-49cd-a867-a40beb52249f"
+        />
+      </head>
       <body className="app-body">
         <script
           type="application/ld+json"
