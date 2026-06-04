@@ -96,7 +96,7 @@ export default function VoteBattle({ slug, toolAName, toolBName }: VoteBattlePro
       aPercent,
       bPercent,
       leadLabel:
-        aVotes === bVotes ? "目前打平，战况胶着" : `${aVotes > bVotes ? toolAName : toolBName} 暂时领先`
+        aVotes === bVotes ? "It's a tie! Every vote counts." : `${aVotes > bVotes ? toolAName : toolBName} is in the lead`
     };
   }, [toolAName, toolBName, voteState]);
 
@@ -119,7 +119,7 @@ export default function VoteBattle({ slug, toolAName, toolBName }: VoteBattlePro
       <div className="vote-battle-header">
         <div>
           <p className="section-title">Vote battle</p>
-          <h2 className="section-heading">站队一下：你更看好谁？</h2>
+          <h2 className="section-heading">Who&apos;s your winner?</h2>
         </div>
         <span className="vote-battle-status">⚡ {metrics.leadLabel}</span>
       </div>
@@ -135,13 +135,13 @@ export default function VoteBattle({ slug, toolAName, toolBName }: VoteBattlePro
           <div className="vote-score-card vote-score-card-a">
             <span className="vote-score-label">{toolAName}</span>
             <strong className="vote-score-value">{metrics.aPercent.toFixed(1)}%</strong>
-            <span className="vote-score-meta">{metrics.aVotes} 票</span>
+            <span className="vote-score-meta">{metrics.aVotes} votes</span>
           </div>
           <div className="vote-score-divider">VS</div>
           <div className="vote-score-card vote-score-card-b">
             <span className="vote-score-label">{toolBName}</span>
             <strong className="vote-score-value">{metrics.bPercent.toFixed(1)}%</strong>
-            <span className="vote-score-meta">{metrics.bVotes} 票</span>
+            <span className="vote-score-meta">{metrics.bVotes} votes</span>
           </div>
         </div>
       </div>
@@ -153,7 +153,7 @@ export default function VoteBattle({ slug, toolAName, toolBName }: VoteBattlePro
           onClick={() => handleVote("a")}
           disabled={Boolean(voteState?.votedFor)}
         >
-          <span className="vote-battle-button-kicker">支持 A 阵营</span>
+          <span className="vote-battle-button-kicker">Support Side A</span>
           <span className="vote-battle-button-name">{toolAName}</span>
         </button>
         <button
@@ -162,7 +162,7 @@ export default function VoteBattle({ slug, toolAName, toolBName }: VoteBattlePro
           onClick={() => handleVote("b")}
           disabled={Boolean(voteState?.votedFor)}
         >
-          <span className="vote-battle-button-kicker">支持 B 阵营</span>
+          <span className="vote-battle-button-kicker">Support Side B</span>
           <span className="vote-battle-button-name">{toolBName}</span>
         </button>
       </div>
@@ -170,13 +170,13 @@ export default function VoteBattle({ slug, toolAName, toolBName }: VoteBattlePro
       <div className="vote-battle-footer">
         <p className="section-body vote-battle-caption">
           {voteState?.votedFor
-            ? `你已投给 ${voteState.votedFor === "a" ? toolAName : toolBName}，本设备将记住这次站队。`
-            : "第一版为轻量投票：使用随机初始票数 + localStorage，在你的设备上记录投票结果。"}
+            ? `You've voted for ${voteState.votedFor === "a" ? toolAName : toolBName}. We'll remember your choice on this device.`
+            : "Beta: Lightweight voting with randomized initial counts + localStorage to save your choice."}
         </p>
-        <span className="vote-battle-total">总票数 {metrics.totalVotes}</span>
+        <span className="vote-battle-total">Total votes: {metrics.totalVotes}</span>
       </div>
 
-      {!isHydrated ? <div className="vote-battle-loading">正在加载战况…</div> : null}
+      {!isHydrated ? <div className="vote-battle-loading">Loading battle status...</div> : null}
     </section>
   );
 }
