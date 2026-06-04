@@ -3,6 +3,7 @@ import Link from "next/link";
 import path from "node:path";
 import fs from "node:fs";
 import { dedupeKeywords, stripHtml, toAbsoluteUrl } from "../../../lib/seo";
+import VoteBattle from "../../../components/VoteBattle";
 
 interface SeoSpec {
   title: string;
@@ -414,6 +415,12 @@ export default function ComparePage({
             </div>
           </section>
         ) : null}
+
+        <VoteBattle
+          slug={params.slug}
+          toolAName={entities.tool_a.name}
+          toolBName={entities.tool_b.name}
+        />
 
         {sections?.map((section) => {
           if (section.type === "intro") {
