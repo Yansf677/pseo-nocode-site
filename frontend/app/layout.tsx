@@ -50,6 +50,11 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-video-preview": -1
     }
+  },
+  verification: {
+    other: {
+      'impact-site-verification': ['3e02df2f-dfdd-49cd-a867-a40beb52249f']
+    }
   }
 };
 
@@ -75,10 +80,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta
-          name="impact-site-verification"
-          value="3e02df2f-dfdd-49cd-a867-a40beb52249f"
-        />
       </head>
       <body className="app-body">
         <script
