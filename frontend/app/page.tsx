@@ -12,7 +12,7 @@ interface ManifestPage {
 const pages = ((manifest as { pages?: ManifestPage[] }).pages ?? []) as ManifestPage[];
 const pageTitle = "Best Software Comparison Battles – Community Hub";
 const pageDescription =
-  "Discover crowd-favorite A vs B software battles with votes, tags, and trending matchups.";
+  "Discover crowd-favorite A vs B battles across AI, SaaS, productivity, design, and trending software matchups.";
 
 export const metadata: Metadata = {
   title: pageTitle,
@@ -104,7 +104,7 @@ export default function HomePage() {
                 不只是网址列表，而是一整个「工具对决」社区场。
               </h1>
               <p className="max-w-2xl text-sm text-slate-300 md:text-base">
-                浏览热门 A vs B 对决、模拟投票热度和标签分类，灵感更像刷社区，而不是在查表格。
+                浏览热门 AI、SaaS、效率与设计工具 A vs B 对决，配上模拟投票热度和标签分类，逛起来更像社区，不像在查表格。
               </p>
               <div className="flex flex-wrap items-center gap-3">
                 {pages[0] ? (
@@ -188,17 +188,26 @@ export default function HomePage() {
           <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-4 md:flex-row md:items-center md:justify-between">
             <div className="flex flex-wrap items-center gap-2 text-xs md:text-sm">
               <span className="rounded-full bg-slate-900/80 px-3 py-1 text-slate-200">All</span>
-              <button className="rounded-full border border-slate-700 bg-slate-900/40 px-3 py-1 text-slate-300 hover:border-amber-400 hover:text-amber-200">
-                Web Builder
+              <button className="rounded-full border border-slate-700 bg-slate-900/40 px-3 py-1 text-slate-300 hover:border-sky-400 hover:text-sky-200">
+                AI
+              </button>
+              <button className="rounded-full border border-slate-700 bg-slate-900/40 px-3 py-1 text-slate-300 hover:border-violet-400 hover:text-violet-200">
+                AI Agents
               </button>
               <button className="rounded-full border border-slate-700 bg-slate-900/40 px-3 py-1 text-slate-300 hover:border-emerald-400 hover:text-emerald-200">
+                Productivity
+              </button>
+              <button className="rounded-full border border-slate-700 bg-slate-900/40 px-3 py-1 text-slate-300 hover:border-fuchsia-400 hover:text-fuchsia-200">
+                Design
+              </button>
+              <button className="rounded-full border border-slate-700 bg-slate-900/40 px-3 py-1 text-slate-300 hover:border-amber-400 hover:text-amber-200">
+                Website Builder
+              </button>
+              <button className="rounded-full border border-slate-700 bg-slate-900/40 px-3 py-1 text-slate-300 hover:border-cyan-400 hover:text-cyan-200">
                 Automation
               </button>
-              <button className="rounded-full border border-slate-700 bg-slate-900/40 px-3 py-1 text-slate-300 hover:border-sky-400 hover:text-sky-200">
-                AI & Agents
-              </button>
               <button className="rounded-full border border-slate-700 bg-slate-900/40 px-3 py-1 text-slate-300 hover:border-rose-400 hover:text-rose-200">
-                Marketing
+                SaaS
               </button>
             </div>
             <p className="text-xs text-slate-400 md:text-sm">

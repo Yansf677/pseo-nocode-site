@@ -6,8 +6,8 @@
   "url_path": "/compare/framer-vs-pixpa",
   "locale": "en",
   "seo": {
-    "title": "Framer vs Pixpa — Best Website Builder for Designers vs Photograp",
-    "meta_description": "Compare Framer and Pixpa to find the right website builder: Framer for pixel-perfect design and interactions, Pixpa for portfolios, client proofing, and photo s",
+    "title": "Framer vs Pixpa: Verdict, Pros & Cons",
+    "meta_description": "Compare Framer vs Pixpa with verdict, buyer fit, affiliate terms, pros and cons, and FAQ in one page.",
     "canonical_url": "https://stackcompare.xyz/compare/framer-vs-pixpa"
   },
   "hero": {
@@ -28,10 +28,10 @@
     ]
   },
   "summary": {
-    "winner_hint": "Designers: Framer — Photographers: Pixpa",
-    "best_for_a": "Best for designers, startups, and teams that need pixel-perfect layouts, advanced interactions, and a design-first workflow.",
-    "best_for_b": "Best for photographers, creatives, and freelancers who need ready-made portfolios, client proofing, and built-in selling tools.",
-    "quick_take": "Framer and Pixpa solve different problems: Framer is a design-forward website builder that gives you fine-grained control over layout, animations, and performance — ideal when visual polish and custom interactions matter. Pixpa is an all-in-one portfolio platform built for creatives who want galleries, client proofing, and simple e-commerce without hiring a developer. Choose Framer for design flexibility, Pixpa for photography workflows and out-of-the-box portfolio features."
+    "winner_hint": "Framer for payout strength",
+    "best_for_a": "Framer suits teams comparing website builder options and affiliate-focused operators who care about partner economics.",
+    "best_for_b": "Pixpa suits teams comparing website builder options and affiliate-focused operators who care about repeat commissions over time.",
+    "quick_take": "Framer and Pixpa both sit in the broader website builder landscape, but they appeal to slightly different buying motions. Framer leans into mixed payout terms, while Pixpa leans into recurring payouts. The better fit depends on whether you want the cleaner affiliate story, the broader positioning angle, or both."
   },
   "entities": {
     "tool_a": {
@@ -57,54 +57,24 @@
     ],
     "rows": [
       {
-        "dimension": "Ease of use",
-        "tool_a": "Clean design interface geared toward designers; quick when you know design tools but can feel technical for beginners.",
-        "tool_b": "Template-driven setup with straightforward controls designed for photographers and non-technical creators."
+        "dimension": "Best for",
+        "tool_a": "Framer suits teams comparing website builder options and affiliate-focused operators who care about partner economics.",
+        "tool_b": "Pixpa suits teams comparing website builder options and affiliate-focused operators who care about repeat commissions over time."
       },
       {
-        "dimension": "Design flexibility & interactions",
-        "tool_a": "Top-tier — fine control over layout, responsive behavior, and custom animations.",
-        "tool_b": "Limited to template options and simpler interactions; great for polished portfolios but not for bespoke UI."
+        "dimension": "Affiliate commission",
+        "tool_a": "50% of first year",
+        "tool_b": "55% Recurring (12 months)"
       },
       {
-        "dimension": "Templates & themes",
-        "tool_a": "Fewer opinionated templates but powerful blank-canvas options to build unique sites.",
-        "tool_b": "Many ready-made portfolio templates optimized for images and client presentation."
+        "dimension": "Monetization style",
+        "tool_a": "Mixed payout terms",
+        "tool_b": "Recurring payouts"
       },
       {
-        "dimension": "Portfolio features",
-        "tool_a": "Covers galleries well but lacks dedicated client-proofing and delivery features out of the box.",
-        "tool_b": "Designed for portfolios — image galleries, passworded client galleries, and proofing workflows included."
-      },
-      {
-        "dimension": "Client proofing & workflows",
-        "tool_a": "Not a core focus; typically requires integrations or custom setups.",
-        "tool_b": "Built-in proofing, client galleries, and simple delivery tools make client work seamless."
-      },
-      {
-        "dimension": "E-commerce",
-        "tool_a": "Supports commerce capabilities and custom storefronts with flexibility, geared toward bespoke shops.",
-        "tool_b": "Straightforward e-commerce for selling prints, downloads, and services, with photographer-friendly options."
-      },
-      {
-        "dimension": "SEO & performance",
-        "tool_a": "Optimized for fast loading and clean output; strong performance and SEO fundamentals when configured.",
-        "tool_b": "SEO-friendly templates and basic optimization tools tailored to creatives; performance is good for portfolio sites."
-      },
-      {
-        "dimension": "Integrations & extensibility",
-        "tool_a": "Developer-friendly with integrations and the ability to extend sites with custom code and APIs.",
-        "tool_b": "Includes common integrations for payments and marketing; fewer developer-grade extension options."
-      },
-      {
-        "dimension": "Pricing & value",
-        "tool_a": "Value is high for teams and designers who need custom sites; may feel premium if you need many designer features.",
-        "tool_b": "Competitive for creatives who want an all-in-one portfolio and client workflow without extra tools or plugins."
-      },
-      {
-        "dimension": "Support & community",
-        "tool_a": "Active design and developer community; resources are focused on design-first workflows.",
-        "tool_b": "Support aimed at creatives with guides for portfolios, selling work, and client management."
+        "dimension": "Official link",
+        "tool_a": "https://www.framer.com/affiliates",
+        "tool_b": "https://www.pixpa.com/affiliate"
       }
     ]
   },
@@ -113,16 +83,16 @@
       "type": "intro",
       "data": {
         "paragraphs": [
-          "Framer and Pixpa both let you build websites without deep backend work, but they target different users. Framer centers on design precision and modern interactions; Pixpa focuses on portfolio presentation, client workflows, and straightforward commerce for creatives.",
-          "This comparison highlights the core strengths and trade-offs so you can quickly decide which builder will reduce friction and help you convert visitors into clients or customers."
+          "Framer and Pixpa both target buyers exploring website builder options, yet they frame the decision differently.",
+          "This comparison focuses on positioning, affiliate economics, and which tool is easier to back depending on whether you value mixed payout terms or recurring payouts."
         ]
       }
     },
     {
       "type": "verdict",
       "data": {
-        "headline": "Pick Framer for design freedom, Pixpa for portfolio workflows",
-        "summary": "If you prioritize advanced design control, responsive interactions, and a modern front-end, Framer is the stronger choice. If your priority is a fast setup for portfolios, client proofing, and selling photos or services, Pixpa delivers more ready-made features for creatives."
+        "headline": "Framer vs Pixpa: two viable routes, different monetization stories",
+        "summary": "Framer and Pixpa both belong in a website builder conversation, but they are easier to recommend for different reasons. Framer is the stronger pick if you want partner economics, while Pixpa stands out if you want repeat commissions over time."
       }
     },
     {
@@ -130,22 +100,24 @@
       "data": {
         "tool_a": {
           "pros": [
-            "High design flexibility with precise layout and animation controls",
-            "Modern sites with performant code and smooth interactions"
+            "Clear website builder positioning for focused evaluation.",
+            "Commission-led offer (50% of first year) creates a straightforward affiliate narrative.",
+            "Useful when the buying motion matches Framer category framing."
           ],
           "cons": [
-            "Steeper learning curve for non-designers compared with template-first builders",
-            "Fewer built-in photographer-specific features like proofing or client galleries"
+            "Positioning may feel narrower if you want a broader website builder angle.",
+            "Commission terms alone do not explain product depth or implementation fit."
           ]
         },
         "tool_b": {
           "pros": [
-            "Purpose-built portfolio features: galleries, proofing, and client deliverables",
-            "Simple built-in e-commerce and pricing tailored to photographers and creatives"
+            "Strong fit for buyers scanning website builder alternatives.",
+            "Commission-led offer (55% Recurring (12 months)) gives it a distinct partner story.",
+            "Adds a credible alternative when you want contrast inside the same page."
           ],
           "cons": [
-            "Less flexible for custom animations and highly bespoke layouts",
-            "Design system and interactions are more template-driven than hand-crafted"
+            "May be less compelling if your primary filter is mixed payout terms.",
+            "Category-level inputs still leave deeper product trade-offs unresolved."
           ]
         }
       }
@@ -154,10 +126,14 @@
       "type": "highlights",
       "data": {
         "tool_a": [
-          "Design-first builder with advanced interactions, responsive controls, and high-performance exports."
+          "Category: Website Builder.",
+          "Affiliate structure: 50% of first year.",
+          "Best framed around partner economics."
         ],
         "tool_b": [
-          "All-in-one portfolio platform with galleries, client proofing, and built-in sales workflows for creatives."
+          "Category: Website Builder.",
+          "Affiliate structure: 55% Recurring (12 months).",
+          "Best framed around repeat commissions over time."
         ]
       }
     },
@@ -166,24 +142,16 @@
       "data": {
         "items": [
           {
-            "question": "Is Framer good for photographers?",
-            "answer": "Yes — Framer can create beautiful, fast photography sites, but it lacks built-in client proofing and delivery tools that photographers often need; you may need third-party apps or custom setups."
+            "question": "What is the main difference between Framer and Pixpa?",
+            "answer": "Framer is framed around website builder positioning and partner economics, while Pixpa is framed around website builder positioning and repeat commissions over time."
           },
           {
-            "question": "Does Pixpa support online stores?",
-            "answer": "Yes — Pixpa includes built-in e-commerce features for selling prints, digital downloads, and services, designed to be simple for creatives to use."
+            "question": "Who should choose Framer over Pixpa?",
+            "answer": "Framer suits teams comparing website builder options and affiliate-focused operators who care about partner economics."
           },
           {
-            "question": "Can I switch platforms later if I start on one and want the other?",
-            "answer": "You can migrate content between platforms, but moving complex layouts, interactions, or client galleries may require manual work; plan exports and backups before switching."
-          },
-          {
-            "question": "Which platform is faster for launching a portfolio site?",
-            "answer": "Pixpa is typically faster for launching a polished portfolio because of ready-made templates and built-in workflows; Framer takes longer but gives more control over the final design."
-          },
-          {
-            "question": "Which builder is better for SEO and site speed?",
-            "answer": "Both platforms provide good SEO basics and decent performance, but Framer's output and optimization tools can give an edge for advanced speed and technical SEO when configured correctly."
+            "question": "Who should choose Pixpa over Framer?",
+            "answer": "Pixpa suits teams comparing website builder options and affiliate-focused operators who care about repeat commissions over time."
           }
         ]
       }
@@ -224,9 +192,9 @@
   },
   "metadata": {
     "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
-    "generated_at": "2026-06-03T08:49:46.895345+00:00",
+    "generated_at": "2026-06-05T02:38:24.281911+00:00",
     "generator": "generate_avsb_pages.py",
-    "llm_status": "llm",
-    "llm_model": "gpt-5-mini-2025-08-07"
+    "llm_status": "fallback",
+    "llm_model": null
   }
 }

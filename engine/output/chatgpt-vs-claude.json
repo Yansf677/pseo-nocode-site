@@ -1,0 +1,200 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "chatgpt-vs-claude",
+  "url_path": "/compare/chatgpt-vs-claude",
+  "locale": "en",
+  "seo": {
+    "title": "ChatGPT vs Claude: Verdict, Pros & Cons",
+    "meta_description": "Compare ChatGPT vs Claude with verdict, buyer fit, affiliate terms, pros and cons, and FAQ in one page.",
+    "canonical_url": "https://stackcompare.xyz/compare/chatgpt-vs-claude"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "ChatGPT vs Claude",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit ChatGPT",
+      "href": "https://chatgpt.com/"
+    },
+    "secondary_cta": {
+      "label": "Visit Claude",
+      "href": "https://claude.ai/"
+    },
+    "badges": [
+      "AI Assistant",
+      "affiliate-program comparison"
+    ]
+  },
+  "summary": {
+    "winner_hint": "Winner depends on your growth motion",
+    "best_for_a": "ChatGPT suits teams comparing ai assistant options and affiliate-focused operators who care about partner economics.",
+    "best_for_b": "Claude suits teams comparing ai assistant options and affiliate-focused operators who care about partner economics.",
+    "quick_take": "ChatGPT and Claude both sit in the broader ai assistant landscape, but they appeal to slightly different buying motions. ChatGPT leans into mixed payout terms, while Claude leans into mixed payout terms. The better fit depends on whether you want the cleaner affiliate story, the broader positioning angle, or both."
+  },
+  "entities": {
+    "tool_a": {
+      "name": "ChatGPT",
+      "slug": "chatgpt",
+      "category": "AI Assistant",
+      "commission": "N/A",
+      "link": "https://chatgpt.com/"
+    },
+    "tool_b": {
+      "name": "Claude",
+      "slug": "claude",
+      "category": "AI Assistant",
+      "commission": "N/A",
+      "link": "https://claude.ai/"
+    }
+  },
+  "comparison_table": {
+    "columns": [
+      "Dimension",
+      "ChatGPT",
+      "Claude"
+    ],
+    "rows": [
+      {
+        "dimension": "Best for",
+        "tool_a": "ChatGPT suits teams comparing ai assistant options and affiliate-focused operators who care about partner economics.",
+        "tool_b": "Claude suits teams comparing ai assistant options and affiliate-focused operators who care about partner economics."
+      },
+      {
+        "dimension": "Affiliate commission",
+        "tool_a": "N/A",
+        "tool_b": "N/A"
+      },
+      {
+        "dimension": "Monetization style",
+        "tool_a": "Mixed payout terms",
+        "tool_b": "Mixed payout terms"
+      },
+      {
+        "dimension": "Official link",
+        "tool_a": "https://chatgpt.com/",
+        "tool_b": "https://claude.ai/"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "ChatGPT and Claude both target buyers exploring ai assistant options, yet they frame the decision differently.",
+          "This comparison focuses on positioning, affiliate economics, and which tool is easier to back depending on whether you value mixed payout terms or mixed payout terms."
+        ]
+      }
+    },
+    {
+      "type": "verdict",
+      "data": {
+        "headline": "ChatGPT vs Claude: two viable routes, different monetization stories",
+        "summary": "ChatGPT and Claude both belong in a ai assistant conversation, but they are easier to recommend for different reasons. ChatGPT is the stronger pick if you want partner economics, while Claude stands out if you want partner economics."
+      }
+    },
+    {
+      "type": "pros_cons",
+      "data": {
+        "tool_a": {
+          "pros": [
+            "Clear ai assistant positioning for focused evaluation.",
+            "Commission-led offer (N/A) creates a straightforward affiliate narrative.",
+            "Useful when the buying motion matches ChatGPT category framing."
+          ],
+          "cons": [
+            "Positioning may feel narrower if you want a broader ai assistant angle.",
+            "Commission terms alone do not explain product depth or implementation fit."
+          ]
+        },
+        "tool_b": {
+          "pros": [
+            "Strong fit for buyers scanning ai assistant alternatives.",
+            "Commission-led offer (N/A) gives it a distinct partner story.",
+            "Adds a credible alternative when you want contrast inside the same page."
+          ],
+          "cons": [
+            "May be less compelling if your primary filter is mixed payout terms.",
+            "Category-level inputs still leave deeper product trade-offs unresolved."
+          ]
+        }
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "Category: AI Assistant.",
+          "Affiliate structure: N/A.",
+          "Best framed around partner economics."
+        ],
+        "tool_b": [
+          "Category: AI Assistant.",
+          "Affiliate structure: N/A.",
+          "Best framed around partner economics."
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "What is the main difference between ChatGPT and Claude?",
+            "answer": "ChatGPT is framed around ai assistant positioning and partner economics, while Claude is framed around ai assistant positioning and partner economics."
+          },
+          {
+            "question": "Who should choose ChatGPT over Claude?",
+            "answer": "ChatGPT suits teams comparing ai assistant options and affiliate-focused operators who care about partner economics."
+          },
+          {
+            "question": "Who should choose Claude over ChatGPT?",
+            "answer": "Claude suits teams comparing ai assistant options and affiliate-focused operators who care about partner economics."
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": [
+          {
+            "label": "ChatGPT vs Gemini",
+            "href": "/compare/chatgpt-vs-gemini"
+          },
+          {
+            "label": "ChatGPT vs Perplexity",
+            "href": "/compare/chatgpt-vs-perplexity"
+          },
+          {
+            "label": "Claude vs Gemini",
+            "href": "/compare/claude-vs-gemini"
+          }
+        ]
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "ChatGPT vs Claude",
+    "secondary_keywords": [
+      "ChatGPT alternative to Claude",
+      "Claude alternative to ChatGPT",
+      "best AI Assistant tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
+    "generated_at": "2026-06-05T02:38:24.281911+00:00",
+    "generator": "generate_avsb_pages.py",
+    "llm_status": "fallback",
+    "llm_model": null
+  }
+}

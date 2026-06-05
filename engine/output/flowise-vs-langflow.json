@@ -1,0 +1,200 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "flowise-vs-langflow",
+  "url_path": "/compare/flowise-vs-langflow",
+  "locale": "en",
+  "seo": {
+    "title": "Flowise vs Langflow: Verdict, Pros & Cons",
+    "meta_description": "Compare Flowise vs Langflow with verdict, buyer fit, affiliate terms, pros and cons, and FAQ in one page.",
+    "canonical_url": "https://stackcompare.xyz/compare/flowise-vs-langflow"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "Flowise vs Langflow",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit Flowise",
+      "href": "https://flowiseai.com/"
+    },
+    "secondary_cta": {
+      "label": "Visit Langflow",
+      "href": "https://www.langflow.org/"
+    },
+    "badges": [
+      "AI Agent Builder",
+      "affiliate-program comparison"
+    ]
+  },
+  "summary": {
+    "winner_hint": "Winner depends on your growth motion",
+    "best_for_a": "Flowise suits teams comparing ai agent builder options and affiliate-focused operators who care about partner economics.",
+    "best_for_b": "Langflow suits teams comparing ai agent builder options and affiliate-focused operators who care about partner economics.",
+    "quick_take": "Flowise and Langflow both sit in the broader ai agent builder landscape, but they appeal to slightly different buying motions. Flowise leans into mixed payout terms, while Langflow leans into mixed payout terms. The better fit depends on whether you want the cleaner affiliate story, the broader positioning angle, or both."
+  },
+  "entities": {
+    "tool_a": {
+      "name": "Flowise",
+      "slug": "flowise",
+      "category": "AI Agent Builder",
+      "commission": "N/A",
+      "link": "https://flowiseai.com/"
+    },
+    "tool_b": {
+      "name": "Langflow",
+      "slug": "langflow",
+      "category": "AI Agent Builder",
+      "commission": "N/A",
+      "link": "https://www.langflow.org/"
+    }
+  },
+  "comparison_table": {
+    "columns": [
+      "Dimension",
+      "Flowise",
+      "Langflow"
+    ],
+    "rows": [
+      {
+        "dimension": "Best for",
+        "tool_a": "Flowise suits teams comparing ai agent builder options and affiliate-focused operators who care about partner economics.",
+        "tool_b": "Langflow suits teams comparing ai agent builder options and affiliate-focused operators who care about partner economics."
+      },
+      {
+        "dimension": "Affiliate commission",
+        "tool_a": "N/A",
+        "tool_b": "N/A"
+      },
+      {
+        "dimension": "Monetization style",
+        "tool_a": "Mixed payout terms",
+        "tool_b": "Mixed payout terms"
+      },
+      {
+        "dimension": "Official link",
+        "tool_a": "https://flowiseai.com/",
+        "tool_b": "https://www.langflow.org/"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "Flowise and Langflow both target buyers exploring ai agent builder options, yet they frame the decision differently.",
+          "This comparison focuses on positioning, affiliate economics, and which tool is easier to back depending on whether you value mixed payout terms or mixed payout terms."
+        ]
+      }
+    },
+    {
+      "type": "verdict",
+      "data": {
+        "headline": "Flowise vs Langflow: two viable routes, different monetization stories",
+        "summary": "Flowise and Langflow both belong in a ai agent builder conversation, but they are easier to recommend for different reasons. Flowise is the stronger pick if you want partner economics, while Langflow stands out if you want partner economics."
+      }
+    },
+    {
+      "type": "pros_cons",
+      "data": {
+        "tool_a": {
+          "pros": [
+            "Clear ai agent builder positioning for focused evaluation.",
+            "Commission-led offer (N/A) creates a straightforward affiliate narrative.",
+            "Useful when the buying motion matches Flowise category framing."
+          ],
+          "cons": [
+            "Positioning may feel narrower if you want a broader ai agent builder angle.",
+            "Commission terms alone do not explain product depth or implementation fit."
+          ]
+        },
+        "tool_b": {
+          "pros": [
+            "Strong fit for buyers scanning ai agent builder alternatives.",
+            "Commission-led offer (N/A) gives it a distinct partner story.",
+            "Adds a credible alternative when you want contrast inside the same page."
+          ],
+          "cons": [
+            "May be less compelling if your primary filter is mixed payout terms.",
+            "Category-level inputs still leave deeper product trade-offs unresolved."
+          ]
+        }
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "Category: AI Agent Builder.",
+          "Affiliate structure: N/A.",
+          "Best framed around partner economics."
+        ],
+        "tool_b": [
+          "Category: AI Agent Builder.",
+          "Affiliate structure: N/A.",
+          "Best framed around partner economics."
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "What is the main difference between Flowise and Langflow?",
+            "answer": "Flowise is framed around ai agent builder positioning and partner economics, while Langflow is framed around ai agent builder positioning and partner economics."
+          },
+          {
+            "question": "Who should choose Flowise over Langflow?",
+            "answer": "Flowise suits teams comparing ai agent builder options and affiliate-focused operators who care about partner economics."
+          },
+          {
+            "question": "Who should choose Langflow over Flowise?",
+            "answer": "Langflow suits teams comparing ai agent builder options and affiliate-focused operators who care about partner economics."
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": [
+          {
+            "label": "Dify vs Flowise",
+            "href": "/compare/dify-vs-flowise"
+          },
+          {
+            "label": "Dify vs Langflow",
+            "href": "/compare/dify-vs-langflow"
+          },
+          {
+            "label": "Coze vs Flowise",
+            "href": "/compare/coze-vs-flowise"
+          }
+        ]
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "Flowise vs Langflow",
+    "secondary_keywords": [
+      "Flowise alternative to Langflow",
+      "Langflow alternative to Flowise",
+      "best AI Agent Builder tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
+    "generated_at": "2026-06-05T02:38:24.281911+00:00",
+    "generator": "generate_avsb_pages.py",
+    "llm_status": "fallback",
+    "llm_model": null
+  }
+}

@@ -6,8 +6,8 @@
   "url_path": "/compare/carrd-vs-dorik",
   "locale": "en",
   "seo": {
-    "title": "Carrd vs Dorik — Which Website Builder Should You Pick?",
-    "meta_description": "Compare Carrd and Dorik side-by-side to find the best builder for your project. See which platform wins for landing pages, multi-page sites, e-commerce, pricing",
+    "title": "Carrd vs Dorik: Verdict, Pros & Cons",
+    "meta_description": "Compare Carrd vs Dorik with verdict, buyer fit, affiliate terms, pros and cons, and FAQ in one page.",
     "canonical_url": "https://stackcompare.xyz/compare/carrd-vs-dorik"
   },
   "hero": {
@@ -28,10 +28,10 @@
     ]
   },
   "summary": {
-    "winner_hint": "Best for simple, fast landing pages",
-    "best_for_a": "Carrd is ideal for creators, freelancers, and startups who need a single-page site or landing page launched in minutes.",
-    "best_for_b": "Dorik is better for small businesses and teams that want a fuller multi-page site with more built-in features and integrations.",
-    "quick_take": "If you want a lightning-fast way to publish a single, beautiful landing page or link-in-bio site, Carrd is the cleaner, cheaper choice. If you need a more traditional website with multiple pages, built-in widgets, and stronger integrations, Dorik gives you more structure and features at the cost of a slight learning curve."
+    "winner_hint": "Winner depends on your growth motion",
+    "best_for_a": "Carrd suits teams comparing one-page website builder options and affiliate-focused operators who care about long-term recurring revenue.",
+    "best_for_b": "Dorik suits teams comparing website builder options and affiliate-focused operators who care about long-term recurring revenue.",
+    "quick_take": "Carrd and Dorik both sit in the broader website builder landscape, but they appeal to slightly different buying motions. Carrd leans into recurring lifetime payouts, while Dorik leans into recurring lifetime payouts. The better fit depends on whether you want the cleaner affiliate story, the broader positioning angle, or both."
   },
   "entities": {
     "tool_a": {
@@ -57,59 +57,24 @@
     ],
     "rows": [
       {
-        "dimension": "Best use case",
-        "tool_a": "Single landing pages, link-in-bio, lightweight portfolios launched fast",
-        "tool_b": "Multi-page business sites, brochure sites, and projects needing integrations"
+        "dimension": "Best for",
+        "tool_a": "Carrd suits teams comparing one-page website builder options and affiliate-focused operators who care about long-term recurring revenue.",
+        "tool_b": "Dorik suits teams comparing website builder options and affiliate-focused operators who care about long-term recurring revenue."
       },
       {
-        "dimension": "Ease of use",
-        "tool_a": "Extremely beginner-friendly editor focused on simplicity",
-        "tool_b": "Intuitive but slightly more complex due to multi-page and extra features"
+        "dimension": "Affiliate commission",
+        "tool_a": "30% Recurring Lifetime",
+        "tool_b": "40% Recurring Lifetime"
       },
       {
-        "dimension": "Design flexibility",
-        "tool_a": "Good for minimalist designs; fewer advanced layout controls",
-        "tool_b": "More layout blocks and customization for richer pages"
+        "dimension": "Monetization style",
+        "tool_a": "Recurring lifetime payouts",
+        "tool_b": "Recurring lifetime payouts"
       },
       {
-        "dimension": "Pages & structure",
-        "tool_a": "Optimized for single-page sites only",
-        "tool_b": "Built for multi-page sites with navigation and sections"
-      },
-      {
-        "dimension": "Templates & themes",
-        "tool_a": "Lean, polished templates tuned for one-pagers",
-        "tool_b": "Larger template library geared to full websites"
-      },
-      {
-        "dimension": "Custom code & integrations",
-        "tool_a": "Limited custom code; basic embed options",
-        "tool_b": "Better custom code support and more third-party integrations"
-      },
-      {
-        "dimension": "E-commerce",
-        "tool_a": "Possible with embedded checkout or third-party widgets, but not native",
-        "tool_b": "Supports simple e-commerce flows and Stripe integrations natively"
-      },
-      {
-        "dimension": "Performance & hosting",
-        "tool_a": "Lightweight pages load fast; hosting included",
-        "tool_b": "Performance is solid; hosting included but pages can be heavier"
-      },
-      {
-        "dimension": "SEO & analytics",
-        "tool_a": "Basic SEO controls and easy metadata editing",
-        "tool_b": "More SEO tools and integrations for analytics and tracking"
-      },
-      {
-        "dimension": "Support & docs",
-        "tool_a": "Clear docs and community resources; limited direct support on free plans",
-        "tool_b": "Comprehensive docs and support options, better for team workflows"
-      },
-      {
-        "dimension": "Price/value",
-        "tool_a": "Excellent value for single-page projects and tight budgets",
-        "tool_b": "Better return for sites needing multi-page structure and integrations"
+        "dimension": "Official link",
+        "tool_a": "https://carrd.co/affiliates",
+        "tool_b": "https://dorik.com/affiliate"
       }
     ]
   },
@@ -118,16 +83,16 @@
       "type": "intro",
       "data": {
         "paragraphs": [
-          "Both Carrd and Dorik let you build attractive sites without hiring a developer, but they target different needs. Carrd focuses on single-page sites and extreme simplicity; Dorik aims to replace basic website platforms with multi-page layouts and more built-in functionality.",
-          "This comparison breaks down the key differences—ease of use, customization, e-commerce, integrations, price, and real-world use cases—so you can pick the tool that best matches your project and budget."
+          "Carrd and Dorik both target buyers exploring website builder options, yet they frame the decision differently.",
+          "This comparison focuses on positioning, affiliate economics, and which tool is easier to back depending on whether you value recurring lifetime payouts or recurring lifetime payouts."
         ]
       }
     },
     {
       "type": "verdict",
       "data": {
-        "headline": "Choose Carrd for speed and simplicity, Dorik for multi-page features",
-        "summary": "Carrd wins when your priority is speed, price, and an ultra-simple workflow for one-page sites. Dorik wins when you need multi-page support, more built-in components, and better integration options for a small-business site."
+        "headline": "Carrd vs Dorik: two viable routes, different monetization stories",
+        "summary": "Carrd and Dorik both belong in a website builder conversation, but they are easier to recommend for different reasons. Carrd is the stronger pick if you want long-term recurring revenue, while Dorik stands out if you want long-term recurring revenue."
       }
     },
     {
@@ -135,22 +100,24 @@
       "data": {
         "tool_a": {
           "pros": [
-            "Fast setup for single-page sites with an extremely intuitive editor",
-            "Very affordable—great free tier and inexpensive upgrades"
+            "Clear one-page website builder positioning for focused evaluation.",
+            "Commission-led offer (30% Recurring Lifetime) creates a straightforward affiliate narrative.",
+            "Useful when the buying motion matches Carrd category framing."
           ],
           "cons": [
-            "Limited to one-page layouts and relatively basic site features",
-            "Fewer native integrations and limited e-commerce options"
+            "Positioning may feel narrower if you want a broader website builder angle.",
+            "Commission terms alone do not explain product depth or implementation fit."
           ]
         },
         "tool_b": {
           "pros": [
-            "Supports multi-page sites with more built-in components and blocks",
-            "Stronger integration options and simple e-commerce support"
+            "Strong fit for buyers scanning website builder alternatives.",
+            "Commission-led offer (40% Recurring Lifetime) gives it a distinct partner story.",
+            "Adds a credible alternative when you want contrast inside the same page."
           ],
           "cons": [
-            "Slightly steeper learning curve than Carrd for newcomers",
-            "Advanced features and smoother workflows require higher tiers"
+            "May be less compelling if your primary filter is recurring lifetime payouts.",
+            "Category-level inputs still leave deeper product trade-offs unresolved."
           ]
         }
       }
@@ -159,14 +126,14 @@
       "type": "highlights",
       "data": {
         "tool_a": [
-          "Ultra-simple one-page builder",
-          "Quick publishing and low cost",
-          "Great for landing pages, portfolios, and link-in-bio"
+          "Category: One-page Website Builder.",
+          "Affiliate structure: 30% Recurring Lifetime.",
+          "Best framed around long-term recurring revenue."
         ],
         "tool_b": [
-          "Multi-page support and richer block library",
-          "More integrations and basic e-commerce",
-          "Better suited for small business websites"
+          "Category: Website Builder.",
+          "Affiliate structure: 40% Recurring Lifetime.",
+          "Best framed around long-term recurring revenue."
         ]
       }
     },
@@ -175,24 +142,16 @@
       "data": {
         "items": [
           {
-            "question": "Can I use a custom domain with Carrd or Dorik?",
-            "answer": "Yes—both platforms let you connect custom domains on paid plans, making either tool suitable for professional sites."
+            "question": "What is the main difference between Carrd and Dorik?",
+            "answer": "Carrd is framed around one-page website builder positioning and long-term recurring revenue, while Dorik is framed around website builder positioning and long-term recurring revenue."
           },
           {
-            "question": "Which platform is cheaper?",
-            "answer": "Carrd is generally cheaper for single-page needs; Dorik’s pricing is slightly higher but gives more multi-page and feature value."
+            "question": "Who should choose Carrd over Dorik?",
+            "answer": "Carrd suits teams comparing one-page website builder options and affiliate-focused operators who care about long-term recurring revenue."
           },
           {
-            "question": "Can I sell products or accept payments?",
-            "answer": "Dorik has more built-in e-commerce capabilities and payment integrations; Carrd can accept payments via embedded checkout solutions but lacks full native e-commerce."
-          },
-          {
-            "question": "Which one is better for SEO?",
-            "answer": "Both offer basic SEO controls; Dorik provides additional features and integrations that can help larger sites manage SEO and analytics more effectively."
-          },
-          {
-            "question": "Can I export my site if I want to move?",
-            "answer": "Export options are limited on both platforms; Dorik sometimes offers better export flexibility, but moving complex sites often requires manual migration."
+            "question": "Who should choose Dorik over Carrd?",
+            "answer": "Dorik suits teams comparing website builder options and affiliate-focused operators who care about long-term recurring revenue."
           }
         ]
       }
@@ -233,9 +192,9 @@
   },
   "metadata": {
     "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
-    "generated_at": "2026-06-03T08:49:46.895345+00:00",
+    "generated_at": "2026-06-05T02:38:24.281911+00:00",
     "generator": "generate_avsb_pages.py",
-    "llm_status": "llm",
-    "llm_model": "gpt-5-mini-2025-08-07"
+    "llm_status": "fallback",
+    "llm_model": null
   }
 }

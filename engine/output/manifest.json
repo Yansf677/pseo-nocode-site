@@ -2,51 +2,51 @@
   "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
   "template": "engine/page_spec_template.json",
   "mode": "same-category",
-  "generated_at": "2026-06-03T08:49:46.895345+00:00",
-  "page_count": 67,
+  "generated_at": "2026-06-05T02:38:24.281911+00:00",
+  "page_count": 97,
   "llm": {
-    "enabled": true,
-    "model": "gpt-5-mini-2025-08-07",
+    "enabled": false,
+    "model": null,
     "counts": {
-      "llm": 66,
-      "fallback": 1
+      "llm": 0,
+      "fallback": 97
     }
   },
   "pages": [
     {
       "page_key": "webflow-vs-carrd",
       "url_path": "/compare/webflow-vs-carrd",
-      "title": "Webflow vs Carrd — Choose the Best Site Builder for Your Project",
+      "title": "Webflow vs Carrd: Verdict, Pros & Cons",
       "file": "webflow-vs-carrd.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "webflow-vs-framer",
       "url_path": "/compare/webflow-vs-framer",
-      "title": "Webflow vs Framer — Which Website Builder Should You Use in 2026?",
+      "title": "Webflow vs Framer: Verdict, Pros & Cons",
       "file": "webflow-vs-framer.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "webflow-vs-dorik",
       "url_path": "/compare/webflow-vs-dorik",
-      "title": "Webflow vs Dorik — Which Website Builder Should You Choose?",
+      "title": "Webflow vs Dorik: Verdict, Pros & Cons",
       "file": "webflow-vs-dorik.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "webflow-vs-ycode",
       "url_path": "/compare/webflow-vs-ycode",
-      "title": "Webflow vs Ycode: Compare Website Builders for Design, CMS & Apps",
+      "title": "Webflow vs Ycode: Verdict, Pros & Cons",
       "file": "webflow-vs-ycode.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "webflow-vs-pixpa",
       "url_path": "/compare/webflow-vs-pixpa",
-      "title": "Webflow vs Pixpa — Best Website Builder for Designers & Photograp",
+      "title": "Webflow vs Pixpa: Verdict, Pros & Cons",
       "file": "webflow-vs-pixpa.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "webflow-vs-strikingly",
@@ -58,429 +58,639 @@
     {
       "page_key": "webflow-vs-wix",
       "url_path": "/compare/webflow-vs-wix",
-      "title": "Webflow vs Wix — Which Website Builder Should You Choose?",
+      "title": "Webflow vs Wix: Verdict, Pros & Cons",
       "file": "webflow-vs-wix.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "webflow-vs-squarespace",
       "url_path": "/compare/webflow-vs-squarespace",
-      "title": "Webflow vs Squarespace — Choose the Best Website Builder for Desi",
+      "title": "Webflow vs Squarespace: Verdict, Pros & Cons",
       "file": "webflow-vs-squarespace.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "notion-vs-obsidian",
+      "url_path": "/compare/notion-vs-obsidian",
+      "title": "Notion vs Obsidian: Verdict, Pros & Cons",
+      "file": "notion-vs-obsidian.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "notion-vs-coda",
+      "url_path": "/compare/notion-vs-coda",
+      "title": "Notion vs Coda: Verdict, Pros & Cons",
+      "file": "notion-vs-coda.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "notion-vs-clickup",
+      "url_path": "/compare/notion-vs-clickup",
+      "title": "Notion vs ClickUp: Verdict, Pros & Cons",
+      "file": "notion-vs-clickup.json",
+      "llm_status": "fallback"
     },
     {
       "page_key": "bubble-vs-softr",
       "url_path": "/compare/bubble-vs-softr",
-      "title": "Bubble vs Softr: Which No-Code App Builder Should You Use?",
+      "title": "Bubble vs Softr: Verdict, Pros & Cons",
       "file": "bubble-vs-softr.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "bubble-vs-adalo",
       "url_path": "/compare/bubble-vs-adalo",
-      "title": "Bubble vs Adalo: Which No-Code App Builder Is Right for You?",
+      "title": "Bubble vs Adalo: Verdict, Pros & Cons",
       "file": "bubble-vs-adalo.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "bubble-vs-glide",
       "url_path": "/compare/bubble-vs-glide",
-      "title": "Bubble vs Glide — Best No-Code App Builder for Your Project",
+      "title": "Bubble vs Glide: Verdict, Pros & Cons",
       "file": "bubble-vs-glide.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "kit-convertkit-vs-activecampaign",
       "url_path": "/compare/kit-convertkit-vs-activecampaign",
-      "title": "Kit (ConvertKit) vs ActiveCampaign — Which Email Tool Should You ",
+      "title": "Kit (ConvertKit) vs ActiveCampaign: Verdict, Pros & Cons",
       "file": "kit-convertkit-vs-activecampaign.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "kit-convertkit-vs-getresponse",
       "url_path": "/compare/kit-convertkit-vs-getresponse",
-      "title": "ConvertKit (Kit) vs GetResponse — Best Email Marketing Tool for C",
+      "title": "Kit (ConvertKit) vs GetResponse: Verdict, Pros & Cons",
       "file": "kit-convertkit-vs-getresponse.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "kit-convertkit-vs-aweber",
       "url_path": "/compare/kit-convertkit-vs-aweber",
-      "title": "Kit (ConvertKit) vs AWeber — Best Email Marketing for Creators or",
+      "title": "Kit (ConvertKit) vs AWeber: Verdict, Pros & Cons",
       "file": "kit-convertkit-vs-aweber.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "kit-convertkit-vs-mailerlite",
       "url_path": "/compare/kit-convertkit-vs-mailerlite",
-      "title": "Kit (ConvertKit) vs MailerLite — Which Email Tool Is Best for You",
+      "title": "Kit (ConvertKit) vs MailerLite: Verdict, Pros & Cons",
       "file": "kit-convertkit-vs-mailerlite.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "softr-vs-adalo",
       "url_path": "/compare/softr-vs-adalo",
-      "title": "Softr vs Adalo: Which No-Code App Builder Should You Use?",
+      "title": "Softr vs Adalo: Verdict, Pros & Cons",
       "file": "softr-vs-adalo.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "softr-vs-glide",
       "url_path": "/compare/softr-vs-glide",
-      "title": "Softr vs Glide — Compare No-Code App Builders for Web vs Mobile",
+      "title": "Softr vs Glide: Verdict, Pros & Cons",
       "file": "softr-vs-glide.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "carrd-vs-framer",
       "url_path": "/compare/carrd-vs-framer",
-      "title": "Carrd vs Framer — Which Website Builder Converts Better?",
+      "title": "Carrd vs Framer: Verdict, Pros & Cons",
       "file": "carrd-vs-framer.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "carrd-vs-dorik",
       "url_path": "/compare/carrd-vs-dorik",
-      "title": "Carrd vs Dorik — Which Website Builder Should You Pick?",
+      "title": "Carrd vs Dorik: Verdict, Pros & Cons",
       "file": "carrd-vs-dorik.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "carrd-vs-ycode",
       "url_path": "/compare/carrd-vs-ycode",
-      "title": "Carrd vs Ycode: Which Website Builder Is Right for Your Project?",
+      "title": "Carrd vs Ycode: Verdict, Pros & Cons",
       "file": "carrd-vs-ycode.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "carrd-vs-pixpa",
       "url_path": "/compare/carrd-vs-pixpa",
-      "title": "Carrd vs Pixpa — One-page Simplicity vs Creative Multi-page Websi",
+      "title": "Carrd vs Pixpa: Verdict, Pros & Cons",
       "file": "carrd-vs-pixpa.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "carrd-vs-strikingly",
       "url_path": "/compare/carrd-vs-strikingly",
-      "title": "Carrd vs Strikingly — Best Choice for Landing Pages or Simple Sit",
+      "title": "Carrd vs Strikingly: Verdict, Pros & Cons",
       "file": "carrd-vs-strikingly.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "carrd-vs-wix",
       "url_path": "/compare/carrd-vs-wix",
-      "title": "Carrd vs Wix — Choose the Best Website Builder for Landing Pages ",
+      "title": "Carrd vs Wix: Verdict, Pros & Cons",
       "file": "carrd-vs-wix.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "carrd-vs-squarespace",
       "url_path": "/compare/carrd-vs-squarespace",
-      "title": "Carrd vs Squarespace — Best Choice for Landing Pages or Full Webs",
+      "title": "Carrd vs Squarespace: Verdict, Pros & Cons",
       "file": "carrd-vs-squarespace.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "zapier-vs-make",
       "url_path": "/compare/zapier-vs-make",
-      "title": "Zapier vs Make: Choose the Best Automation Tool for Your Workflow",
+      "title": "Zapier vs Make: Verdict, Pros & Cons",
       "file": "zapier-vs-make.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "zapier-vs-pabbly-connect",
       "url_path": "/compare/zapier-vs-pabbly-connect",
-      "title": "Zapier vs Pabbly Connect — Choose the Best Automation Tool for Yo",
+      "title": "Zapier vs Pabbly Connect: Verdict, Pros & Cons",
       "file": "zapier-vs-pabbly-connect.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "zapier-vs-integrately",
       "url_path": "/compare/zapier-vs-integrately",
-      "title": "Zapier vs Integrately: Which Automation Tool Is Best for Affiliat",
+      "title": "Zapier vs Integrately: Verdict, Pros & Cons",
       "file": "zapier-vs-integrately.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "make-vs-pabbly-connect",
       "url_path": "/compare/make-vs-pabbly-connect",
-      "title": "Make vs Pabbly Connect — Which Automation Tool Is Right for You?",
+      "title": "Make vs Pabbly Connect: Verdict, Pros & Cons",
       "file": "make-vs-pabbly-connect.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "make-vs-integrately",
       "url_path": "/compare/make-vs-integrately",
-      "title": "Make vs Integrately: Best Automation for Affiliate Marketers | Co",
+      "title": "Make vs Integrately: Verdict, Pros & Cons",
       "file": "make-vs-integrately.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "circle-vs-circle-so",
       "url_path": "/compare/circle-vs-circle-so",
-      "title": "Circle vs Circle.so — Which to Choose for Your Online Community?",
+      "title": "Circle vs Circle.so: Verdict, Pros & Cons",
       "file": "circle-vs-circle-so.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "framer-vs-dorik",
       "url_path": "/compare/framer-vs-dorik",
-      "title": "Framer vs Dorik — Which Website Builder Is Right for You?",
+      "title": "Framer vs Dorik: Verdict, Pros & Cons",
       "file": "framer-vs-dorik.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "framer-vs-ycode",
       "url_path": "/compare/framer-vs-ycode",
-      "title": "Framer vs Ycode — Choose the Right Website Builder for Conversion",
+      "title": "Framer vs Ycode: Verdict, Pros & Cons",
       "file": "framer-vs-ycode.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "framer-vs-pixpa",
       "url_path": "/compare/framer-vs-pixpa",
-      "title": "Framer vs Pixpa — Best Website Builder for Designers vs Photograp",
+      "title": "Framer vs Pixpa: Verdict, Pros & Cons",
       "file": "framer-vs-pixpa.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "framer-vs-strikingly",
       "url_path": "/compare/framer-vs-strikingly",
-      "title": "Framer vs Strikingly — Best Website Builder for Designers or Quic",
+      "title": "Framer vs Strikingly: Verdict, Pros & Cons",
       "file": "framer-vs-strikingly.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "framer-vs-wix",
       "url_path": "/compare/framer-vs-wix",
-      "title": "Framer vs Wix: Which Website Builder Should You Choose?",
+      "title": "Framer vs Wix: Verdict, Pros & Cons",
       "file": "framer-vs-wix.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "framer-vs-squarespace",
       "url_path": "/compare/framer-vs-squarespace",
-      "title": "Framer vs Squarespace — Which Website Builder Converts Better?",
+      "title": "Framer vs Squarespace: Verdict, Pros & Cons",
       "file": "framer-vs-squarespace.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "activecampaign-vs-getresponse",
       "url_path": "/compare/activecampaign-vs-getresponse",
-      "title": "ActiveCampaign vs GetResponse: Which Email Tool Is Right for You?",
+      "title": "ActiveCampaign vs GetResponse: Verdict, Pros & Cons",
       "file": "activecampaign-vs-getresponse.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "activecampaign-vs-aweber",
       "url_path": "/compare/activecampaign-vs-aweber",
-      "title": "ActiveCampaign vs AWeber — Automation vs Simplicity",
+      "title": "ActiveCampaign vs AWeber: Verdict, Pros & Cons",
       "file": "activecampaign-vs-aweber.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "activecampaign-vs-mailerlite",
       "url_path": "/compare/activecampaign-vs-mailerlite",
-      "title": "ActiveCampaign vs MailerLite — Which Email Tool Should You Choose",
+      "title": "ActiveCampaign vs MailerLite: Verdict, Pros & Cons",
       "file": "activecampaign-vs-mailerlite.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "getresponse-vs-aweber",
       "url_path": "/compare/getresponse-vs-aweber",
-      "title": "GetResponse vs AWeber: Which Email Marketing Tool Is Best for You",
+      "title": "GetResponse vs AWeber: Verdict, Pros & Cons",
       "file": "getresponse-vs-aweber.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "getresponse-vs-mailerlite",
       "url_path": "/compare/getresponse-vs-mailerlite",
-      "title": "GetResponse vs MailerLite — Which Email Marketing Tool Is Right f",
+      "title": "GetResponse vs MailerLite: Verdict, Pros & Cons",
       "file": "getresponse-vs-mailerlite.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "aweber-vs-mailerlite",
       "url_path": "/compare/aweber-vs-mailerlite",
-      "title": "AWeber vs MailerLite — Compare Features, Pricing & Deliverability",
+      "title": "AWeber vs MailerLite: Verdict, Pros & Cons",
       "file": "aweber-vs-mailerlite.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "shopify-vs-bigcommerce",
       "url_path": "/compare/shopify-vs-bigcommerce",
-      "title": "Shopify vs BigCommerce: Which E‑commerce Platform Is Right for Yo",
+      "title": "Shopify vs BigCommerce: Verdict, Pros & Cons",
       "file": "shopify-vs-bigcommerce.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "shopify-vs-ecwid",
       "url_path": "/compare/shopify-vs-ecwid",
-      "title": "Shopify vs Ecwid: Which E-commerce Platform Should You Choose?",
+      "title": "Shopify vs Ecwid: Verdict, Pros & Cons",
       "file": "shopify-vs-ecwid.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "shopify-vs-payhip",
       "url_path": "/compare/shopify-vs-payhip",
-      "title": "Shopify vs Payhip — Which Is Best for Selling Online in 2026?",
+      "title": "Shopify vs Payhip: Verdict, Pros & Cons",
       "file": "shopify-vs-payhip.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "bigcommerce-vs-ecwid",
       "url_path": "/compare/bigcommerce-vs-ecwid",
-      "title": "BigCommerce vs Ecwid — Which Ecommerce Platform Should You Choose",
+      "title": "BigCommerce vs Ecwid: Verdict, Pros & Cons",
       "file": "bigcommerce-vs-ecwid.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "bigcommerce-vs-payhip",
       "url_path": "/compare/bigcommerce-vs-payhip",
-      "title": "BigCommerce vs Payhip — Which Is Better for Affiliate Selling?",
+      "title": "BigCommerce vs Payhip: Verdict, Pros & Cons",
       "file": "bigcommerce-vs-payhip.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "ecwid-vs-payhip",
       "url_path": "/compare/ecwid-vs-payhip",
-      "title": "Ecwid vs Payhip — Which is Best for Affiliate Sales and Creators?",
+      "title": "Ecwid vs Payhip: Verdict, Pros & Cons",
       "file": "ecwid-vs-payhip.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "dorik-vs-ycode",
       "url_path": "/compare/dorik-vs-ycode",
-      "title": "Dorik vs Ycode: Choose the Right Website Builder for Static Sites",
+      "title": "Dorik vs Ycode: Verdict, Pros & Cons",
       "file": "dorik-vs-ycode.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "dorik-vs-pixpa",
       "url_path": "/compare/dorik-vs-pixpa",
-      "title": "Dorik vs Pixpa — Which Website Builder Is Best for Your Site?",
+      "title": "Dorik vs Pixpa: Verdict, Pros & Cons",
       "file": "dorik-vs-pixpa.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "dorik-vs-strikingly",
       "url_path": "/compare/dorik-vs-strikingly",
-      "title": "Dorik vs Strikingly — Which Website Builder Should You Choose?",
+      "title": "Dorik vs Strikingly: Verdict, Pros & Cons",
       "file": "dorik-vs-strikingly.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "dorik-vs-wix",
       "url_path": "/compare/dorik-vs-wix",
-      "title": "Dorik vs Wix — Which Website Builder Should You Choose?",
+      "title": "Dorik vs Wix: Verdict, Pros & Cons",
       "file": "dorik-vs-wix.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "dorik-vs-squarespace",
       "url_path": "/compare/dorik-vs-squarespace",
-      "title": "Dorik vs Squarespace — Which Website Builder Should You Pick in 2",
+      "title": "Dorik vs Squarespace: Verdict, Pros & Cons",
       "file": "dorik-vs-squarespace.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "ycode-vs-pixpa",
       "url_path": "/compare/ycode-vs-pixpa",
-      "title": "Ycode vs Pixpa — Best Website Builder for Creatives or Custom Web",
+      "title": "Ycode vs Pixpa: Verdict, Pros & Cons",
       "file": "ycode-vs-pixpa.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "ycode-vs-strikingly",
       "url_path": "/compare/ycode-vs-strikingly",
-      "title": "Ycode vs Strikingly — Which Website Builder Is Right for You?",
+      "title": "Ycode vs Strikingly: Verdict, Pros & Cons",
       "file": "ycode-vs-strikingly.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "ycode-vs-wix",
       "url_path": "/compare/ycode-vs-wix",
-      "title": "Ycode vs Wix: Which Website Builder Is Right for Your Site?",
+      "title": "Ycode vs Wix: Verdict, Pros & Cons",
       "file": "ycode-vs-wix.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "ycode-vs-squarespace",
       "url_path": "/compare/ycode-vs-squarespace",
-      "title": "Ycode vs Squarespace — Choose the Right Website Builder",
+      "title": "Ycode vs Squarespace: Verdict, Pros & Cons",
       "file": "ycode-vs-squarespace.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "pixpa-vs-strikingly",
       "url_path": "/compare/pixpa-vs-strikingly",
-      "title": "Pixpa vs Strikingly — Best Website Builder for Photographers & On",
+      "title": "Pixpa vs Strikingly: Verdict, Pros & Cons",
       "file": "pixpa-vs-strikingly.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "pixpa-vs-wix",
       "url_path": "/compare/pixpa-vs-wix",
-      "title": "Pixpa vs Wix: Best Website Builder for Photographers and Creative",
+      "title": "Pixpa vs Wix: Verdict, Pros & Cons",
       "file": "pixpa-vs-wix.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "pixpa-vs-squarespace",
       "url_path": "/compare/pixpa-vs-squarespace",
-      "title": "Pixpa vs Squarespace — Which Website Builder Is Best for Creative",
+      "title": "Pixpa vs Squarespace: Verdict, Pros & Cons",
       "file": "pixpa-vs-squarespace.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "adalo-vs-glide",
       "url_path": "/compare/adalo-vs-glide",
-      "title": "Adalo vs Glide — Which No‑Code App Builder Is Right for You?",
+      "title": "Adalo vs Glide: Verdict, Pros & Cons",
       "file": "adalo-vs-glide.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "teachable-vs-thinkific",
       "url_path": "/compare/teachable-vs-thinkific",
-      "title": "Teachable vs Thinkific — Which Online Course Platform Is Best for",
+      "title": "Teachable vs Thinkific: Verdict, Pros & Cons",
       "file": "teachable-vs-thinkific.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "pabbly-connect-vs-integrately",
       "url_path": "/compare/pabbly-connect-vs-integrately",
-      "title": "Pabbly Connect vs Integrately: Which Automation Tool Should You C",
+      "title": "Pabbly Connect vs Integrately: Verdict, Pros & Cons",
       "file": "pabbly-connect-vs-integrately.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "typeform-vs-tally-so",
       "url_path": "/compare/typeform-vs-tally-so",
-      "title": "Typeform vs Tally.so — Compare Online Form Builders",
+      "title": "Typeform vs Tally.so: Verdict, Pros & Cons",
       "file": "typeform-vs-tally-so.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "strikingly-vs-wix",
       "url_path": "/compare/strikingly-vs-wix",
-      "title": "Strikingly vs Wix — Which Website Builder Is Right for You?",
+      "title": "Strikingly vs Wix: Verdict, Pros & Cons",
       "file": "strikingly-vs-wix.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "strikingly-vs-squarespace",
       "url_path": "/compare/strikingly-vs-squarespace",
-      "title": "Strikingly vs Squarespace — Which Website Builder Is Best for You",
+      "title": "Strikingly vs Squarespace: Verdict, Pros & Cons",
       "file": "strikingly-vs-squarespace.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
     },
     {
       "page_key": "wix-vs-squarespace",
       "url_path": "/compare/wix-vs-squarespace",
-      "title": "Wix vs Squarespace: Which Website Builder Should You Choose?",
+      "title": "Wix vs Squarespace: Verdict, Pros & Cons",
       "file": "wix-vs-squarespace.json",
-      "llm_status": "llm"
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "chatgpt-vs-claude",
+      "url_path": "/compare/chatgpt-vs-claude",
+      "title": "ChatGPT vs Claude: Verdict, Pros & Cons",
+      "file": "chatgpt-vs-claude.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "chatgpt-vs-gemini",
+      "url_path": "/compare/chatgpt-vs-gemini",
+      "title": "ChatGPT vs Gemini: Verdict, Pros & Cons",
+      "file": "chatgpt-vs-gemini.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "chatgpt-vs-perplexity",
+      "url_path": "/compare/chatgpt-vs-perplexity",
+      "title": "ChatGPT vs Perplexity: Verdict, Pros & Cons",
+      "file": "chatgpt-vs-perplexity.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "claude-vs-gemini",
+      "url_path": "/compare/claude-vs-gemini",
+      "title": "Claude vs Gemini: Verdict, Pros & Cons",
+      "file": "claude-vs-gemini.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "claude-vs-perplexity",
+      "url_path": "/compare/claude-vs-perplexity",
+      "title": "Claude vs Perplexity: Verdict, Pros & Cons",
+      "file": "claude-vs-perplexity.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "gemini-vs-perplexity",
+      "url_path": "/compare/gemini-vs-perplexity",
+      "title": "Gemini vs Perplexity: Verdict, Pros & Cons",
+      "file": "gemini-vs-perplexity.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "dify-vs-coze",
+      "url_path": "/compare/dify-vs-coze",
+      "title": "Dify vs Coze: Verdict, Pros & Cons",
+      "file": "dify-vs-coze.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "dify-vs-flowise",
+      "url_path": "/compare/dify-vs-flowise",
+      "title": "Dify vs Flowise: Verdict, Pros & Cons",
+      "file": "dify-vs-flowise.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "dify-vs-langflow",
+      "url_path": "/compare/dify-vs-langflow",
+      "title": "Dify vs Langflow: Verdict, Pros & Cons",
+      "file": "dify-vs-langflow.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "coze-vs-flowise",
+      "url_path": "/compare/coze-vs-flowise",
+      "title": "Coze vs Flowise: Verdict, Pros & Cons",
+      "file": "coze-vs-flowise.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "coze-vs-langflow",
+      "url_path": "/compare/coze-vs-langflow",
+      "title": "Coze vs Langflow: Verdict, Pros & Cons",
+      "file": "coze-vs-langflow.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "flowise-vs-langflow",
+      "url_path": "/compare/flowise-vs-langflow",
+      "title": "Flowise vs Langflow: Verdict, Pros & Cons",
+      "file": "flowise-vs-langflow.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "midjourney-vs-stable-diffusion",
+      "url_path": "/compare/midjourney-vs-stable-diffusion",
+      "title": "Midjourney vs Stable Diffusion: Verdict, Pros & Cons",
+      "file": "midjourney-vs-stable-diffusion.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "midjourney-vs-leonardo-ai",
+      "url_path": "/compare/midjourney-vs-leonardo-ai",
+      "title": "Midjourney vs Leonardo AI: Verdict, Pros & Cons",
+      "file": "midjourney-vs-leonardo-ai.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "midjourney-vs-ideogram",
+      "url_path": "/compare/midjourney-vs-ideogram",
+      "title": "Midjourney vs Ideogram: Verdict, Pros & Cons",
+      "file": "midjourney-vs-ideogram.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "stable-diffusion-vs-leonardo-ai",
+      "url_path": "/compare/stable-diffusion-vs-leonardo-ai",
+      "title": "Stable Diffusion vs Leonardo AI: Verdict, Pros & Cons",
+      "file": "stable-diffusion-vs-leonardo-ai.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "stable-diffusion-vs-ideogram",
+      "url_path": "/compare/stable-diffusion-vs-ideogram",
+      "title": "Stable Diffusion vs Ideogram: Verdict, Pros & Cons",
+      "file": "stable-diffusion-vs-ideogram.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "leonardo-ai-vs-ideogram",
+      "url_path": "/compare/leonardo-ai-vs-ideogram",
+      "title": "Leonardo AI vs Ideogram: Verdict, Pros & Cons",
+      "file": "leonardo-ai-vs-ideogram.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "obsidian-vs-coda",
+      "url_path": "/compare/obsidian-vs-coda",
+      "title": "Obsidian vs Coda: Verdict, Pros & Cons",
+      "file": "obsidian-vs-coda.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "obsidian-vs-clickup",
+      "url_path": "/compare/obsidian-vs-clickup",
+      "title": "Obsidian vs ClickUp: Verdict, Pros & Cons",
+      "file": "obsidian-vs-clickup.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "coda-vs-clickup",
+      "url_path": "/compare/coda-vs-clickup",
+      "title": "Coda vs ClickUp: Verdict, Pros & Cons",
+      "file": "coda-vs-clickup.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "canva-vs-figma",
+      "url_path": "/compare/canva-vs-figma",
+      "title": "Canva vs Figma: Verdict, Pros & Cons",
+      "file": "canva-vs-figma.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "canva-vs-miro",
+      "url_path": "/compare/canva-vs-miro",
+      "title": "Canva vs Miro: Verdict, Pros & Cons",
+      "file": "canva-vs-miro.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "canva-vs-figjam",
+      "url_path": "/compare/canva-vs-figjam",
+      "title": "Canva vs FigJam: Verdict, Pros & Cons",
+      "file": "canva-vs-figjam.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "figma-vs-miro",
+      "url_path": "/compare/figma-vs-miro",
+      "title": "Figma vs Miro: Verdict, Pros & Cons",
+      "file": "figma-vs-miro.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "figma-vs-figjam",
+      "url_path": "/compare/figma-vs-figjam",
+      "title": "Figma vs FigJam: Verdict, Pros & Cons",
+      "file": "figma-vs-figjam.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "miro-vs-figjam",
+      "url_path": "/compare/miro-vs-figjam",
+      "title": "Miro vs FigJam: Verdict, Pros & Cons",
+      "file": "miro-vs-figjam.json",
+      "llm_status": "fallback"
     }
   ]
 }

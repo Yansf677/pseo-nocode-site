@@ -1,0 +1,200 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "dify-vs-flowise",
+  "url_path": "/compare/dify-vs-flowise",
+  "locale": "en",
+  "seo": {
+    "title": "Dify vs Flowise: Verdict, Pros & Cons",
+    "meta_description": "Compare Dify vs Flowise with verdict, buyer fit, affiliate terms, pros and cons, and FAQ in one page.",
+    "canonical_url": "https://stackcompare.xyz/compare/dify-vs-flowise"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "Dify vs Flowise",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit Dify",
+      "href": "https://dify.ai/"
+    },
+    "secondary_cta": {
+      "label": "Visit Flowise",
+      "href": "https://flowiseai.com/"
+    },
+    "badges": [
+      "AI Agent Builder",
+      "affiliate-program comparison"
+    ]
+  },
+  "summary": {
+    "winner_hint": "Winner depends on your growth motion",
+    "best_for_a": "Dify suits teams comparing ai agent builder options and affiliate-focused operators who care about partner economics.",
+    "best_for_b": "Flowise suits teams comparing ai agent builder options and affiliate-focused operators who care about partner economics.",
+    "quick_take": "Dify and Flowise both sit in the broader ai agent builder landscape, but they appeal to slightly different buying motions. Dify leans into mixed payout terms, while Flowise leans into mixed payout terms. The better fit depends on whether you want the cleaner affiliate story, the broader positioning angle, or both."
+  },
+  "entities": {
+    "tool_a": {
+      "name": "Dify",
+      "slug": "dify",
+      "category": "AI Agent Builder",
+      "commission": "N/A",
+      "link": "https://dify.ai/"
+    },
+    "tool_b": {
+      "name": "Flowise",
+      "slug": "flowise",
+      "category": "AI Agent Builder",
+      "commission": "N/A",
+      "link": "https://flowiseai.com/"
+    }
+  },
+  "comparison_table": {
+    "columns": [
+      "Dimension",
+      "Dify",
+      "Flowise"
+    ],
+    "rows": [
+      {
+        "dimension": "Best for",
+        "tool_a": "Dify suits teams comparing ai agent builder options and affiliate-focused operators who care about partner economics.",
+        "tool_b": "Flowise suits teams comparing ai agent builder options and affiliate-focused operators who care about partner economics."
+      },
+      {
+        "dimension": "Affiliate commission",
+        "tool_a": "N/A",
+        "tool_b": "N/A"
+      },
+      {
+        "dimension": "Monetization style",
+        "tool_a": "Mixed payout terms",
+        "tool_b": "Mixed payout terms"
+      },
+      {
+        "dimension": "Official link",
+        "tool_a": "https://dify.ai/",
+        "tool_b": "https://flowiseai.com/"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "Dify and Flowise both target buyers exploring ai agent builder options, yet they frame the decision differently.",
+          "This comparison focuses on positioning, affiliate economics, and which tool is easier to back depending on whether you value mixed payout terms or mixed payout terms."
+        ]
+      }
+    },
+    {
+      "type": "verdict",
+      "data": {
+        "headline": "Dify vs Flowise: two viable routes, different monetization stories",
+        "summary": "Dify and Flowise both belong in a ai agent builder conversation, but they are easier to recommend for different reasons. Dify is the stronger pick if you want partner economics, while Flowise stands out if you want partner economics."
+      }
+    },
+    {
+      "type": "pros_cons",
+      "data": {
+        "tool_a": {
+          "pros": [
+            "Clear ai agent builder positioning for focused evaluation.",
+            "Commission-led offer (N/A) creates a straightforward affiliate narrative.",
+            "Useful when the buying motion matches Dify category framing."
+          ],
+          "cons": [
+            "Positioning may feel narrower if you want a broader ai agent builder angle.",
+            "Commission terms alone do not explain product depth or implementation fit."
+          ]
+        },
+        "tool_b": {
+          "pros": [
+            "Strong fit for buyers scanning ai agent builder alternatives.",
+            "Commission-led offer (N/A) gives it a distinct partner story.",
+            "Adds a credible alternative when you want contrast inside the same page."
+          ],
+          "cons": [
+            "May be less compelling if your primary filter is mixed payout terms.",
+            "Category-level inputs still leave deeper product trade-offs unresolved."
+          ]
+        }
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "Category: AI Agent Builder.",
+          "Affiliate structure: N/A.",
+          "Best framed around partner economics."
+        ],
+        "tool_b": [
+          "Category: AI Agent Builder.",
+          "Affiliate structure: N/A.",
+          "Best framed around partner economics."
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "What is the main difference between Dify and Flowise?",
+            "answer": "Dify is framed around ai agent builder positioning and partner economics, while Flowise is framed around ai agent builder positioning and partner economics."
+          },
+          {
+            "question": "Who should choose Dify over Flowise?",
+            "answer": "Dify suits teams comparing ai agent builder options and affiliate-focused operators who care about partner economics."
+          },
+          {
+            "question": "Who should choose Flowise over Dify?",
+            "answer": "Flowise suits teams comparing ai agent builder options and affiliate-focused operators who care about partner economics."
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": [
+          {
+            "label": "Dify vs Coze",
+            "href": "/compare/dify-vs-coze"
+          },
+          {
+            "label": "Dify vs Langflow",
+            "href": "/compare/dify-vs-langflow"
+          },
+          {
+            "label": "Coze vs Flowise",
+            "href": "/compare/coze-vs-flowise"
+          }
+        ]
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "Dify vs Flowise",
+    "secondary_keywords": [
+      "Dify alternative to Flowise",
+      "Flowise alternative to Dify",
+      "best AI Agent Builder tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
+    "generated_at": "2026-06-05T02:38:24.281911+00:00",
+    "generator": "generate_avsb_pages.py",
+    "llm_status": "fallback",
+    "llm_model": null
+  }
+}

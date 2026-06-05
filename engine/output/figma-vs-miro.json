@@ -1,0 +1,200 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "figma-vs-miro",
+  "url_path": "/compare/figma-vs-miro",
+  "locale": "en",
+  "seo": {
+    "title": "Figma vs Miro: Verdict, Pros & Cons",
+    "meta_description": "Compare Figma vs Miro with verdict, buyer fit, affiliate terms, pros and cons, and FAQ in one page.",
+    "canonical_url": "https://stackcompare.xyz/compare/figma-vs-miro"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "Figma vs Miro",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit Figma",
+      "href": "https://www.figma.com/"
+    },
+    "secondary_cta": {
+      "label": "Visit Miro",
+      "href": "https://miro.com/"
+    },
+    "badges": [
+      "Design",
+      "affiliate-program comparison"
+    ]
+  },
+  "summary": {
+    "winner_hint": "Winner depends on your growth motion",
+    "best_for_a": "Figma suits teams comparing design options and affiliate-focused operators who care about partner economics.",
+    "best_for_b": "Miro suits teams comparing design options and affiliate-focused operators who care about partner economics.",
+    "quick_take": "Figma and Miro both sit in the broader design landscape, but they appeal to slightly different buying motions. Figma leans into mixed payout terms, while Miro leans into mixed payout terms. The better fit depends on whether you want the cleaner affiliate story, the broader positioning angle, or both."
+  },
+  "entities": {
+    "tool_a": {
+      "name": "Figma",
+      "slug": "figma",
+      "category": "Design",
+      "commission": "N/A",
+      "link": "https://www.figma.com/"
+    },
+    "tool_b": {
+      "name": "Miro",
+      "slug": "miro",
+      "category": "Design",
+      "commission": "N/A",
+      "link": "https://miro.com/"
+    }
+  },
+  "comparison_table": {
+    "columns": [
+      "Dimension",
+      "Figma",
+      "Miro"
+    ],
+    "rows": [
+      {
+        "dimension": "Best for",
+        "tool_a": "Figma suits teams comparing design options and affiliate-focused operators who care about partner economics.",
+        "tool_b": "Miro suits teams comparing design options and affiliate-focused operators who care about partner economics."
+      },
+      {
+        "dimension": "Affiliate commission",
+        "tool_a": "N/A",
+        "tool_b": "N/A"
+      },
+      {
+        "dimension": "Monetization style",
+        "tool_a": "Mixed payout terms",
+        "tool_b": "Mixed payout terms"
+      },
+      {
+        "dimension": "Official link",
+        "tool_a": "https://www.figma.com/",
+        "tool_b": "https://miro.com/"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "Figma and Miro both target buyers exploring design options, yet they frame the decision differently.",
+          "This comparison focuses on positioning, affiliate economics, and which tool is easier to back depending on whether you value mixed payout terms or mixed payout terms."
+        ]
+      }
+    },
+    {
+      "type": "verdict",
+      "data": {
+        "headline": "Figma vs Miro: two viable routes, different monetization stories",
+        "summary": "Figma and Miro both belong in a design conversation, but they are easier to recommend for different reasons. Figma is the stronger pick if you want partner economics, while Miro stands out if you want partner economics."
+      }
+    },
+    {
+      "type": "pros_cons",
+      "data": {
+        "tool_a": {
+          "pros": [
+            "Clear design positioning for focused evaluation.",
+            "Commission-led offer (N/A) creates a straightforward affiliate narrative.",
+            "Useful when the buying motion matches Figma category framing."
+          ],
+          "cons": [
+            "Positioning may feel narrower if you want a broader design angle.",
+            "Commission terms alone do not explain product depth or implementation fit."
+          ]
+        },
+        "tool_b": {
+          "pros": [
+            "Strong fit for buyers scanning design alternatives.",
+            "Commission-led offer (N/A) gives it a distinct partner story.",
+            "Adds a credible alternative when you want contrast inside the same page."
+          ],
+          "cons": [
+            "May be less compelling if your primary filter is mixed payout terms.",
+            "Category-level inputs still leave deeper product trade-offs unresolved."
+          ]
+        }
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "Category: Design.",
+          "Affiliate structure: N/A.",
+          "Best framed around partner economics."
+        ],
+        "tool_b": [
+          "Category: Design.",
+          "Affiliate structure: N/A.",
+          "Best framed around partner economics."
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "What is the main difference between Figma and Miro?",
+            "answer": "Figma is framed around design positioning and partner economics, while Miro is framed around design positioning and partner economics."
+          },
+          {
+            "question": "Who should choose Figma over Miro?",
+            "answer": "Figma suits teams comparing design options and affiliate-focused operators who care about partner economics."
+          },
+          {
+            "question": "Who should choose Miro over Figma?",
+            "answer": "Miro suits teams comparing design options and affiliate-focused operators who care about partner economics."
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": [
+          {
+            "label": "Canva vs Figma",
+            "href": "/compare/canva-vs-figma"
+          },
+          {
+            "label": "Canva vs Miro",
+            "href": "/compare/canva-vs-miro"
+          },
+          {
+            "label": "Figma vs FigJam",
+            "href": "/compare/figma-vs-figjam"
+          }
+        ]
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "Figma vs Miro",
+    "secondary_keywords": [
+      "Figma alternative to Miro",
+      "Miro alternative to Figma",
+      "best Design tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
+    "generated_at": "2026-06-05T02:38:24.281911+00:00",
+    "generator": "generate_avsb_pages.py",
+    "llm_status": "fallback",
+    "llm_model": null
+  }
+}

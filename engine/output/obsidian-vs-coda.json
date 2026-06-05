@@ -1,0 +1,200 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "obsidian-vs-coda",
+  "url_path": "/compare/obsidian-vs-coda",
+  "locale": "en",
+  "seo": {
+    "title": "Obsidian vs Coda: Verdict, Pros & Cons",
+    "meta_description": "Compare Obsidian vs Coda with verdict, buyer fit, affiliate terms, pros and cons, and FAQ in one page.",
+    "canonical_url": "https://stackcompare.xyz/compare/obsidian-vs-coda"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "Obsidian vs Coda",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit Obsidian",
+      "href": "https://obsidian.md/"
+    },
+    "secondary_cta": {
+      "label": "Visit Coda",
+      "href": "https://coda.io/"
+    },
+    "badges": [
+      "Productivity / Knowledge Management",
+      "affiliate-program comparison"
+    ]
+  },
+  "summary": {
+    "winner_hint": "Winner depends on your growth motion",
+    "best_for_a": "Obsidian suits teams comparing productivity / knowledge management options and affiliate-focused operators who care about partner economics.",
+    "best_for_b": "Coda suits teams comparing productivity / knowledge management options and affiliate-focused operators who care about partner economics.",
+    "quick_take": "Obsidian and Coda both sit in the broader productivity / knowledge management landscape, but they appeal to slightly different buying motions. Obsidian leans into mixed payout terms, while Coda leans into mixed payout terms. The better fit depends on whether you want the cleaner affiliate story, the broader positioning angle, or both."
+  },
+  "entities": {
+    "tool_a": {
+      "name": "Obsidian",
+      "slug": "obsidian",
+      "category": "Productivity / Knowledge Management",
+      "commission": "N/A",
+      "link": "https://obsidian.md/"
+    },
+    "tool_b": {
+      "name": "Coda",
+      "slug": "coda",
+      "category": "Productivity / Knowledge Management",
+      "commission": "N/A",
+      "link": "https://coda.io/"
+    }
+  },
+  "comparison_table": {
+    "columns": [
+      "Dimension",
+      "Obsidian",
+      "Coda"
+    ],
+    "rows": [
+      {
+        "dimension": "Best for",
+        "tool_a": "Obsidian suits teams comparing productivity / knowledge management options and affiliate-focused operators who care about partner economics.",
+        "tool_b": "Coda suits teams comparing productivity / knowledge management options and affiliate-focused operators who care about partner economics."
+      },
+      {
+        "dimension": "Affiliate commission",
+        "tool_a": "N/A",
+        "tool_b": "N/A"
+      },
+      {
+        "dimension": "Monetization style",
+        "tool_a": "Mixed payout terms",
+        "tool_b": "Mixed payout terms"
+      },
+      {
+        "dimension": "Official link",
+        "tool_a": "https://obsidian.md/",
+        "tool_b": "https://coda.io/"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "Obsidian and Coda both target buyers exploring productivity / knowledge management options, yet they frame the decision differently.",
+          "This comparison focuses on positioning, affiliate economics, and which tool is easier to back depending on whether you value mixed payout terms or mixed payout terms."
+        ]
+      }
+    },
+    {
+      "type": "verdict",
+      "data": {
+        "headline": "Obsidian vs Coda: two viable routes, different monetization stories",
+        "summary": "Obsidian and Coda both belong in a productivity / knowledge management conversation, but they are easier to recommend for different reasons. Obsidian is the stronger pick if you want partner economics, while Coda stands out if you want partner economics."
+      }
+    },
+    {
+      "type": "pros_cons",
+      "data": {
+        "tool_a": {
+          "pros": [
+            "Clear productivity / knowledge management positioning for focused evaluation.",
+            "Commission-led offer (N/A) creates a straightforward affiliate narrative.",
+            "Useful when the buying motion matches Obsidian category framing."
+          ],
+          "cons": [
+            "Positioning may feel narrower if you want a broader productivity / knowledge management angle.",
+            "Commission terms alone do not explain product depth or implementation fit."
+          ]
+        },
+        "tool_b": {
+          "pros": [
+            "Strong fit for buyers scanning productivity / knowledge management alternatives.",
+            "Commission-led offer (N/A) gives it a distinct partner story.",
+            "Adds a credible alternative when you want contrast inside the same page."
+          ],
+          "cons": [
+            "May be less compelling if your primary filter is mixed payout terms.",
+            "Category-level inputs still leave deeper product trade-offs unresolved."
+          ]
+        }
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "Category: Productivity / Knowledge Management.",
+          "Affiliate structure: N/A.",
+          "Best framed around partner economics."
+        ],
+        "tool_b": [
+          "Category: Productivity / Knowledge Management.",
+          "Affiliate structure: N/A.",
+          "Best framed around partner economics."
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "What is the main difference between Obsidian and Coda?",
+            "answer": "Obsidian is framed around productivity / knowledge management positioning and partner economics, while Coda is framed around productivity / knowledge management positioning and partner economics."
+          },
+          {
+            "question": "Who should choose Obsidian over Coda?",
+            "answer": "Obsidian suits teams comparing productivity / knowledge management options and affiliate-focused operators who care about partner economics."
+          },
+          {
+            "question": "Who should choose Coda over Obsidian?",
+            "answer": "Coda suits teams comparing productivity / knowledge management options and affiliate-focused operators who care about partner economics."
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": [
+          {
+            "label": "Notion vs Obsidian",
+            "href": "/compare/notion-vs-obsidian"
+          },
+          {
+            "label": "Notion vs Coda",
+            "href": "/compare/notion-vs-coda"
+          },
+          {
+            "label": "Obsidian vs ClickUp",
+            "href": "/compare/obsidian-vs-clickup"
+          }
+        ]
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "Obsidian vs Coda",
+    "secondary_keywords": [
+      "Obsidian alternative to Coda",
+      "Coda alternative to Obsidian",
+      "best Productivity / Knowledge Management tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
+    "generated_at": "2026-06-05T02:38:24.281911+00:00",
+    "generator": "generate_avsb_pages.py",
+    "llm_status": "fallback",
+    "llm_model": null
+  }
+}

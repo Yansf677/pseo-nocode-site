@@ -6,8 +6,8 @@
   "url_path": "/compare/carrd-vs-squarespace",
   "locale": "en",
   "seo": {
-    "title": "Carrd vs Squarespace — Best Choice for Landing Pages or Full Webs",
-    "meta_description": "Compare Carrd and Squarespace: pricing, ease of use, templates, ecommerce, SEO, and support. Find whether Carrd's one-page simplicity or Squarespace's full-feat",
+    "title": "Carrd vs Squarespace: Verdict, Pros & Cons",
+    "meta_description": "Compare Carrd vs Squarespace with verdict, buyer fit, affiliate terms, pros and cons, and FAQ in one page.",
     "canonical_url": "https://stackcompare.xyz/compare/carrd-vs-squarespace"
   },
   "hero": {
@@ -28,10 +28,10 @@
     ]
   },
   "summary": {
-    "winner_hint": "Carrd for single-page speed, Squarespace for full sites",
-    "best_for_a": "Carrd is best for fast, affordable single-page sites, landing pages, and simple portfolios.",
-    "best_for_b": "Squarespace is best for businesses and creators who need a polished, multi-page website with built-in ecommerce and design flexibility.",
-    "quick_take": "If you need a one-page site launched in minutes at minimal cost, Carrd gives you a focused, no-friction solution. If you want a full-featured website with integrated ecommerce, blogging, and premium templates, Squarespace delivers a higher-polish, all-in-one platform — at a higher price and slightly more complexity."
+    "winner_hint": "Carrd for longer-tail affiliate upside",
+    "best_for_a": "Carrd suits teams comparing one-page website builder options and affiliate-focused operators who care about long-term recurring revenue.",
+    "best_for_b": "Squarespace suits teams comparing website builder options and affiliate-focused operators who care about higher upfront payout per conversion.",
+    "quick_take": "Carrd and Squarespace both sit in the broader website builder landscape, but they appeal to slightly different buying motions. Carrd leans into recurring lifetime payouts, while Squarespace leans into one-time payouts. The better fit depends on whether you want the cleaner affiliate story, the broader positioning angle, or both."
   },
   "entities": {
     "tool_a": {
@@ -57,74 +57,24 @@
     ],
     "rows": [
       {
-        "dimension": "Pricing",
-        "tool_a": "Very affordable; free tier and cheap paid plans for custom domains and extras.",
-        "tool_b": "Higher price point; plans include hosting, ecommerce, and more built-in features."
+        "dimension": "Best for",
+        "tool_a": "Carrd suits teams comparing one-page website builder options and affiliate-focused operators who care about long-term recurring revenue.",
+        "tool_b": "Squarespace suits teams comparing website builder options and affiliate-focused operators who care about higher upfront payout per conversion."
       },
       {
-        "dimension": "Ease of use",
-        "tool_a": "Extremely simple drag-and-drop interface for single pages.",
-        "tool_b": "User-friendly but more features mean a slightly steeper learning curve."
+        "dimension": "Affiliate commission",
+        "tool_a": "30% Recurring Lifetime",
+        "tool_b": "$100-$200 One-time per sale"
       },
       {
-        "dimension": "Templates & design",
-        "tool_a": "Minimal template library focused on clean, single-page layouts.",
-        "tool_b": "Large selection of polished, industry-tailored templates and design controls."
+        "dimension": "Monetization style",
+        "tool_a": "Recurring lifetime payouts",
+        "tool_b": "One-time payouts"
       },
       {
-        "dimension": "Customization",
-        "tool_a": "Basic customization (sections, embeds, simple CSS) suited to one-pagers.",
-        "tool_b": "Advanced styling, layout options, and developer tools for full sites."
-      },
-      {
-        "dimension": "Ecommerce",
-        "tool_a": "Very limited — best for simple payment buttons or embeds.",
-        "tool_b": "Built-in online store, inventory, checkout, and payment handling."
-      },
-      {
-        "dimension": "Blogging",
-        "tool_a": "Not ideal for multi-post blogs; supports simple content sections.",
-        "tool_b": "Full blogging system with categories, RSS, and SEO controls."
-      },
-      {
-        "dimension": "Integrations",
-        "tool_a": "Covers essentials via embeds and Zapier; fewer native apps.",
-        "tool_b": "Broader native integrations for marketing, analytics, and commerce."
-      },
-      {
-        "dimension": "Performance & hosting",
-        "tool_a": "Lightweight pages load quickly; hosting included for simple sites.",
-        "tool_b": "Solid hosting and CDN; performance depends on design complexity."
-      },
-      {
-        "dimension": "SEO capabilities",
-        "tool_a": "Basic SEO controls for page title, meta, and simple markup.",
-        "tool_b": "More comprehensive SEO options, blogging SEO features, and sitemaps."
-      },
-      {
-        "dimension": "Support & documentation",
-        "tool_a": "Good docs and community; limited direct support on free plans.",
-        "tool_b": "Extensive help center, guides, and customer support options."
-      },
-      {
-        "dimension": "Scalability",
-        "tool_a": "Best for single-page projects; not ideal as primary business site.",
-        "tool_b": "Designed to scale from portfolios to full business sites and stores."
-      },
-      {
-        "dimension": "Speed to publish",
-        "tool_a": "Extremely fast — publish a page in minutes.",
-        "tool_b": "Faster than starting from scratch, but building multi-page sites takes longer."
-      },
-      {
-        "dimension": "Mobile responsiveness",
-        "tool_a": "Responsive by default for simple layouts.",
-        "tool_b": "Highly responsive templates with mobile style controls."
-      },
-      {
-        "dimension": "Analytics & tracking",
-        "tool_a": "Basic analytics via third-party embeds.",
-        "tool_b": "Built-in analytics and easy integration with Google and marketing tools."
+        "dimension": "Official link",
+        "tool_a": "https://carrd.co/affiliates",
+        "tool_b": "https://www.squarespace.com/affiliates"
       }
     ]
   },
@@ -133,16 +83,16 @@
       "type": "intro",
       "data": {
         "paragraphs": [
-          "Carrd and Squarespace both let you get online quickly, but they target different priorities: Carrd focuses on speed, simplicity, and affordability for one-page sites; Squarespace focuses on robust features, aesthetics, and full website management.",
-          "This comparison breaks down the core differences — pricing, ease of use, customization, ecommerce, SEO, and support — so you can pick the tool that fits your project goals, timeline, and budget."
+          "Carrd and Squarespace both target buyers exploring website builder options, yet they frame the decision differently.",
+          "This comparison focuses on positioning, affiliate economics, and which tool is easier to back depending on whether you value recurring lifetime payouts or one-time payouts."
         ]
       }
     },
     {
       "type": "verdict",
       "data": {
-        "headline": "Choose Carrd for simplicity and speed; choose Squarespace for a complete website experience",
-        "summary": "Carrd wins for low-cost, ultra-fast single-page sites and landing pages. Squarespace wins when you need multi-page sites, refined templates, blogging, and native ecommerce — it’s the better choice for growing businesses and creators who want more built-in features and design control."
+        "headline": "Carrd vs Squarespace: two viable routes, different monetization stories",
+        "summary": "Carrd and Squarespace both belong in a website builder conversation, but they are easier to recommend for different reasons. Carrd is the stronger pick if you want long-term recurring revenue, while Squarespace stands out if you want higher upfront payout per conversion."
       }
     },
     {
@@ -150,22 +100,24 @@
       "data": {
         "tool_a": {
           "pros": [
-            "Extremely affordable with a free tier and low-cost upgrades",
-            "Fast setup and minimal learning curve for single-page sites"
+            "Clear one-page website builder positioning for focused evaluation.",
+            "Commission-led offer (30% Recurring Lifetime) creates a straightforward affiliate narrative.",
+            "Useful when the buying motion matches Carrd category framing."
           ],
           "cons": [
-            "Limited to one-page layouts and simpler features",
-            "Fewer templates and less built-in ecommerce or blogging support"
+            "Positioning may feel narrower if you want a broader website builder angle.",
+            "Commission terms alone do not explain product depth or implementation fit."
           ]
         },
         "tool_b": {
           "pros": [
-            "Elegant, professional templates and strong multi-page support",
-            "Built-in ecommerce, blogging, and marketing features"
+            "Strong fit for buyers scanning website builder alternatives.",
+            "Commission-led offer ($100-$200 One-time per sale) gives it a distinct partner story.",
+            "Adds a credible alternative when you want contrast inside the same page."
           ],
           "cons": [
-            "Higher monthly cost and a steeper learning curve",
-            "Can be overkill and slower to set up for a simple landing page"
+            "May be less compelling if your primary filter is recurring lifetime payouts.",
+            "Category-level inputs still leave deeper product trade-offs unresolved."
           ]
         }
       }
@@ -174,14 +126,14 @@
       "type": "highlights",
       "data": {
         "tool_a": [
-          "Start a single-page site in minutes",
-          "Low-cost plans ideal for experiments and micro-sites",
-          "Simple form and embed support for signups and collectives"
+          "Category: One-page Website Builder.",
+          "Affiliate structure: 30% Recurring Lifetime.",
+          "Best framed around long-term recurring revenue."
         ],
         "tool_b": [
-          "High-quality templates with strong visual polish",
-          "Native ecommerce, blogging, and marketing tools",
-          "Robust hosting, SSL, and analytics included"
+          "Category: Website Builder.",
+          "Affiliate structure: $100-$200 One-time per sale.",
+          "Best framed around higher upfront payout per conversion."
         ]
       }
     },
@@ -190,28 +142,16 @@
       "data": {
         "items": [
           {
-            "question": "Which is cheaper for a basic site?",
-            "answer": "Carrd is generally cheaper for a single landing page thanks to its free tier and low-cost paid plans. Squarespace costs more but includes hosting, templates, and built-in features."
+            "question": "What is the main difference between Carrd and Squarespace?",
+            "answer": "Carrd is framed around one-page website builder positioning and long-term recurring revenue, while Squarespace is framed around website builder positioning and higher upfront payout per conversion."
           },
           {
-            "question": "Can I sell products on Carrd?",
-            "answer": "Carrd supports simple payment buttons and embeds (e.g., Stripe links), but it lacks a full ecommerce system. For a true online store, Squarespace is a better choice."
+            "question": "Who should choose Carrd over Squarespace?",
+            "answer": "Carrd suits teams comparing one-page website builder options and affiliate-focused operators who care about long-term recurring revenue."
           },
           {
-            "question": "Is Squarespace harder to learn than Carrd?",
-            "answer": "Squarespace has more features and options, which means a slightly steeper learning curve. Carrd is designed for speed and simplicity, making it easier to pick up for one-page projects."
-          },
-          {
-            "question": "Which platform is better for blogging?",
-            "answer": "Squarespace includes a full blogging platform with post management, categories, and SEO tools. Carrd is not built for multi-post blogs and is better for static pages."
-          },
-          {
-            "question": "Can I move my Carrd site to Squarespace later?",
-            "answer": "There’s no one-click migration; you can recreate your content in Squarespace by copying text and media. Carrd’s simple structure makes manual migration straightforward."
-          },
-          {
-            "question": "Which platform is more customizable with code?",
-            "answer": "Both allow custom code, but Squarespace provides more hooks and a richer set of developer features for complex customizations. Carrd supports custom CSS and embeds for lighter tweaks."
+            "question": "Who should choose Squarespace over Carrd?",
+            "answer": "Squarespace suits teams comparing website builder options and affiliate-focused operators who care about higher upfront payout per conversion."
           }
         ]
       }
@@ -252,9 +192,9 @@
   },
   "metadata": {
     "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
-    "generated_at": "2026-06-03T08:49:46.895345+00:00",
+    "generated_at": "2026-06-05T02:38:24.281911+00:00",
     "generator": "generate_avsb_pages.py",
-    "llm_status": "llm",
-    "llm_model": "gpt-5-mini-2025-08-07"
+    "llm_status": "fallback",
+    "llm_model": null
   }
 }

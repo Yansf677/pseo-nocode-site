@@ -1,0 +1,200 @@
+{
+  "$schema_version": "1.0",
+  "page_type": "comparison",
+  "template_family": "tool-comparison-avsb",
+  "page_key": "midjourney-vs-stable-diffusion",
+  "url_path": "/compare/midjourney-vs-stable-diffusion",
+  "locale": "en",
+  "seo": {
+    "title": "Midjourney vs Stable Diffusion: Verdict, Pros & Cons",
+    "meta_description": "Compare Midjourney vs Stable Diffusion with verdict, buyer fit, affiliate terms, pros and cons, and FAQ in one page.",
+    "canonical_url": "https://stackcompare.xyz/compare/midjourney-vs-stable-diffusion"
+  },
+  "hero": {
+    "eyebrow": "No-Code Tools Comparison",
+    "headline": "Midjourney vs Stable Diffusion",
+    "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
+    "primary_cta": {
+      "label": "Visit Midjourney",
+      "href": "https://www.midjourney.com/"
+    },
+    "secondary_cta": {
+      "label": "Visit Stable Diffusion",
+      "href": "https://stability.ai/stable-image"
+    },
+    "badges": [
+      "AI Image Generation",
+      "affiliate-program comparison"
+    ]
+  },
+  "summary": {
+    "winner_hint": "Winner depends on your growth motion",
+    "best_for_a": "Midjourney suits teams comparing ai image generation options and affiliate-focused operators who care about partner economics.",
+    "best_for_b": "Stable Diffusion suits teams comparing ai image generation options and affiliate-focused operators who care about partner economics.",
+    "quick_take": "Midjourney and Stable Diffusion both sit in the broader ai image generation landscape, but they appeal to slightly different buying motions. Midjourney leans into mixed payout terms, while Stable Diffusion leans into mixed payout terms. The better fit depends on whether you want the cleaner affiliate story, the broader positioning angle, or both."
+  },
+  "entities": {
+    "tool_a": {
+      "name": "Midjourney",
+      "slug": "midjourney",
+      "category": "AI Image Generation",
+      "commission": "N/A",
+      "link": "https://www.midjourney.com/"
+    },
+    "tool_b": {
+      "name": "Stable Diffusion",
+      "slug": "stable-diffusion",
+      "category": "AI Image Generation",
+      "commission": "N/A",
+      "link": "https://stability.ai/stable-image"
+    }
+  },
+  "comparison_table": {
+    "columns": [
+      "Dimension",
+      "Midjourney",
+      "Stable Diffusion"
+    ],
+    "rows": [
+      {
+        "dimension": "Best for",
+        "tool_a": "Midjourney suits teams comparing ai image generation options and affiliate-focused operators who care about partner economics.",
+        "tool_b": "Stable Diffusion suits teams comparing ai image generation options and affiliate-focused operators who care about partner economics."
+      },
+      {
+        "dimension": "Affiliate commission",
+        "tool_a": "N/A",
+        "tool_b": "N/A"
+      },
+      {
+        "dimension": "Monetization style",
+        "tool_a": "Mixed payout terms",
+        "tool_b": "Mixed payout terms"
+      },
+      {
+        "dimension": "Official link",
+        "tool_a": "https://www.midjourney.com/",
+        "tool_b": "https://stability.ai/stable-image"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "intro",
+      "data": {
+        "paragraphs": [
+          "Midjourney and Stable Diffusion both target buyers exploring ai image generation options, yet they frame the decision differently.",
+          "This comparison focuses on positioning, affiliate economics, and which tool is easier to back depending on whether you value mixed payout terms or mixed payout terms."
+        ]
+      }
+    },
+    {
+      "type": "verdict",
+      "data": {
+        "headline": "Midjourney vs Stable Diffusion: two viable routes, different monetization stories",
+        "summary": "Midjourney and Stable Diffusion both belong in a ai image generation conversation, but they are easier to recommend for different reasons. Midjourney is the stronger pick if you want partner economics, while Stable Diffusion stands out if you want partner economics."
+      }
+    },
+    {
+      "type": "pros_cons",
+      "data": {
+        "tool_a": {
+          "pros": [
+            "Clear ai image generation positioning for focused evaluation.",
+            "Commission-led offer (N/A) creates a straightforward affiliate narrative.",
+            "Useful when the buying motion matches Midjourney category framing."
+          ],
+          "cons": [
+            "Positioning may feel narrower if you want a broader ai image generation angle.",
+            "Commission terms alone do not explain product depth or implementation fit."
+          ]
+        },
+        "tool_b": {
+          "pros": [
+            "Strong fit for buyers scanning ai image generation alternatives.",
+            "Commission-led offer (N/A) gives it a distinct partner story.",
+            "Adds a credible alternative when you want contrast inside the same page."
+          ],
+          "cons": [
+            "May be less compelling if your primary filter is mixed payout terms.",
+            "Category-level inputs still leave deeper product trade-offs unresolved."
+          ]
+        }
+      }
+    },
+    {
+      "type": "highlights",
+      "data": {
+        "tool_a": [
+          "Category: AI Image Generation.",
+          "Affiliate structure: N/A.",
+          "Best framed around partner economics."
+        ],
+        "tool_b": [
+          "Category: AI Image Generation.",
+          "Affiliate structure: N/A.",
+          "Best framed around partner economics."
+        ]
+      }
+    },
+    {
+      "type": "faq",
+      "data": {
+        "items": [
+          {
+            "question": "What is the main difference between Midjourney and Stable Diffusion?",
+            "answer": "Midjourney is framed around ai image generation positioning and partner economics, while Stable Diffusion is framed around ai image generation positioning and partner economics."
+          },
+          {
+            "question": "Who should choose Midjourney over Stable Diffusion?",
+            "answer": "Midjourney suits teams comparing ai image generation options and affiliate-focused operators who care about partner economics."
+          },
+          {
+            "question": "Who should choose Stable Diffusion over Midjourney?",
+            "answer": "Stable Diffusion suits teams comparing ai image generation options and affiliate-focused operators who care about partner economics."
+          }
+        ]
+      }
+    },
+    {
+      "type": "related_comparisons",
+      "data": {
+        "links": [
+          {
+            "label": "Midjourney vs Leonardo AI",
+            "href": "/compare/midjourney-vs-leonardo-ai"
+          },
+          {
+            "label": "Midjourney vs Ideogram",
+            "href": "/compare/midjourney-vs-ideogram"
+          },
+          {
+            "label": "Stable Diffusion vs Leonardo AI",
+            "href": "/compare/stable-diffusion-vs-leonardo-ai"
+          }
+        ]
+      }
+    }
+  ],
+  "taxonomy": {
+    "primary_keyword": "Midjourney vs Stable Diffusion",
+    "secondary_keywords": [
+      "Midjourney alternative to Stable Diffusion",
+      "Stable Diffusion alternative to Midjourney",
+      "best AI Image Generation tools"
+    ],
+    "cluster": "no-code-tools-comparison"
+  },
+  "render_hints": {
+    "layout": "comparison-default",
+    "theme": "saas",
+    "show_affiliate_disclaimer": true
+  },
+  "metadata": {
+    "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
+    "generated_at": "2026-06-05T02:38:24.281911+00:00",
+    "generator": "generate_avsb_pages.py",
+    "llm_status": "fallback",
+    "llm_model": null
+  }
+}
