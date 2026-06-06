@@ -16,7 +16,7 @@
     "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
     "primary_cta": {
       "label": "Visit Make",
-      "href": "https://www.make.com/en/affiliate"
+      "href": "https://www.make.com/en/register?pc=stackcompare"
     },
     "secondary_cta": {
       "label": "Visit Pabbly Connect",
@@ -39,7 +39,7 @@
       "slug": "make",
       "category": "Automation",
       "commission": "20% Recurring (12 months)",
-      "link": "https://www.make.com/en/affiliate"
+      "link": "https://www.make.com/en/register?pc=stackcompare"
     },
     "tool_b": {
       "name": "Pabbly Connect",
@@ -73,7 +73,7 @@
       },
       {
         "dimension": "Official link",
-        "tool_a": "https://www.make.com/en/affiliate",
+        "tool_a": "https://www.make.com/en/register?pc=stackcompare",
         "tool_b": "https://www.pabbly.com/connect-affiliates/"
       }
     ]
@@ -192,7 +192,7 @@
   },
   "metadata": {
     "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
-    "generated_at": "2026-06-06T16:40:42.105636+00:00",
+    "generated_at": "2026-06-06T17:08:19.992401+00:00",
     "generator": "generate_avsb_pages.py",
     "llm_status": "fallback",
     "llm_model": null
