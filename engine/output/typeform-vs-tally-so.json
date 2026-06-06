@@ -16,7 +16,7 @@
     "subheadline": "A side-by-side comparison for buyers, operators, and affiliate-content readers.",
     "primary_cta": {
       "label": "Visit Typeform",
-      "href": "https://www.typeform.com/affiliates"
+      "href": "https://typeform.cello.so/ToKXaz4yn5n"
     },
     "secondary_cta": {
       "label": "Visit Tally.so",
@@ -39,7 +39,7 @@
       "slug": "typeform",
       "category": "Online Forms",
       "commission": "20% Recurring Lifetime",
-      "link": "https://www.typeform.com/affiliates"
+      "link": "https://typeform.cello.so/ToKXaz4yn5n"
     },
     "tool_b": {
       "name": "Tally.so",
@@ -73,7 +73,7 @@
       },
       {
         "dimension": "Official link",
-        "tool_a": "https://www.typeform.com/affiliates",
+        "tool_a": "https://typeform.cello.so/ToKXaz4yn5n",
         "tool_b": "https://tally.so/help/affiliate-program"
       }
     ]
@@ -179,7 +179,7 @@
   },
   "metadata": {
     "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
-    "generated_at": "2026-06-06T17:08:19.992401+00:00",
+    "generated_at": "2026-06-06T17:25:19.972533+00:00",
     "generator": "generate_avsb_pages.py",
     "llm_status": "fallback",
     "llm_model": null
