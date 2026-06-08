@@ -2,17 +2,31 @@
   "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
   "template": "engine/page_spec_template.json",
   "mode": "same-category",
-  "generated_at": "2026-06-06T17:25:19.972533+00:00",
-  "page_count": 97,
+  "generated_at": "2026-06-08T12:19:17.844428+00:00",
+  "page_count": 100,
   "llm": {
     "enabled": false,
     "model": null,
     "counts": {
       "llm": 0,
-      "fallback": 97
+      "fallback": 100
     }
   },
   "pages": [
+    {
+      "page_key": "systeme-io-vs-clickfunnels",
+      "url_path": "/compare/systeme-io-vs-clickfunnels",
+      "title": "Systeme.io vs ClickFunnels: Verdict, Pros & Cons",
+      "file": "systeme-io-vs-clickfunnels.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "systeme-io-vs-kajabi",
+      "url_path": "/compare/systeme-io-vs-kajabi",
+      "title": "Systeme.io vs Kajabi: Verdict, Pros & Cons",
+      "file": "systeme-io-vs-kajabi.json",
+      "llm_status": "fallback"
+    },
     {
       "page_key": "webflow-vs-carrd",
       "url_path": "/compare/webflow-vs-carrd",
@@ -67,6 +81,13 @@
       "url_path": "/compare/webflow-vs-squarespace",
       "title": "Webflow vs Squarespace: Verdict, Pros & Cons",
       "file": "webflow-vs-squarespace.json",
+      "llm_status": "fallback"
+    },
+    {
+      "page_key": "clickfunnels-vs-kajabi",
+      "url_path": "/compare/clickfunnels-vs-kajabi",
+      "title": "ClickFunnels vs Kajabi: Verdict, Pros & Cons",
+      "file": "clickfunnels-vs-kajabi.json",
       "llm_status": "fallback"
     },
     {

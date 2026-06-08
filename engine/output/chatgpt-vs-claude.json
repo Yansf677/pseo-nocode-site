@@ -192,7 +192,7 @@
   },
   "metadata": {
     "source_csv": "engine/top_50_nocode_affiliate_programs.csv",
-    "generated_at": "2026-06-06T17:25:19.972533+00:00",
+    "generated_at": "2026-06-08T12:19:17.844428+00:00",
     "generator": "generate_avsb_pages.py",
     "llm_status": "fallback",
     "llm_model": null
