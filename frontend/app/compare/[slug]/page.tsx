@@ -200,6 +200,36 @@ function getToolPrefix(index: "A" | "B", name: string) {
   return `${index} · ${name}`;
 }
 
+function getSafeHref(href?: string) {
+  return href && href.trim().length > 0 ? href : "#comparison-table";
+}
+
+function ConversionDock({ spec }: { spec: PageSpec }) {
+  const { entities, summary } = spec;
+  const winnerText = summary.winner_hint || "Pick the tool that matches your workflow best.";
+
+  return (
+    <aside className="conversion-dock glass-panel" aria-label="Decision shortcut">
+      <div className="conversion-dock-copy">
+        <span className="conversion-dock-kicker">Decision shortcut</span>
+        <strong>Ready to choose?</strong>
+        <p>{winnerText}</p>
+      </div>
+      <div className="conversion-dock-actions">
+        <a href={getSafeHref(entities.tool_a.link)} className="conversion-dock-button conversion-dock-button-a">
+          Try {entities.tool_a.name}
+          <span aria-hidden="true">↗</span>
+        </a>
+        <a href={getSafeHref(entities.tool_b.link)} className="conversion-dock-button conversion-dock-button-b">
+          Try {entities.tool_b.name}
+          <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+      <span className="conversion-dock-note">Compare first · open vendor next</span>
+    </aside>
+  );
+}
+
 function buildComparisonJsonLd(spec: PageSpec) {
   const canonical = spec.seo.canonical_url || toAbsoluteUrl(spec.url_path);
   const faqSection = spec.sections?.find(
@@ -382,7 +412,7 @@ export default function ComparePage({
         </section>
 
         {comparison_table ? (
-          <section className="glass-panel comparison-table-panel">
+          <section id="comparison-table" className="glass-panel comparison-table-panel">
             <div className="section-header-row">
               <div>
                 <h2 className="section-title">At a glance</h2>
@@ -421,6 +451,8 @@ export default function ComparePage({
           toolAName={entities.tool_a.name}
           toolBName={entities.tool_b.name}
         />
+
+        <ConversionDock spec={spec} />
 
         {sections?.map((section) => {
           if (section.type === "intro") {
