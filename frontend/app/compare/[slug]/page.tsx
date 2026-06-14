@@ -4,6 +4,7 @@ import path from "node:path";
 import fs from "node:fs";
 import { dedupeKeywords, stripHtml, toAbsoluteUrl } from "../../../lib/seo";
 import VoteBattle from "../../../components/VoteBattle";
+import DecisionShortcut from "../../../components/DecisionShortcut";
 
 interface SeoSpec {
   title: string;
@@ -445,6 +446,8 @@ export default function ComparePage({
             </div>
           </section>
         ) : null}
+
+        <DecisionShortcut entities={entities} summary={summary} />
 
         <VoteBattle
           slug={params.slug}
