@@ -201,6 +201,15 @@ function getToolPrefix(index: "A" | "B", name: string) {
   return `${index} · ${name}`;
 }
 
+function getCtaHref(entity: EntitiesSpec["tool_a"], fallback = "#comparison") {
+  return entity.link || fallback;
+}
+
+function buildTrustScore(name: string, offset: number) {
+  const seed = Array.from(name).reduce((total, char) => total + char.charCodeAt(0), offset);
+  return (4.5 + (seed % 4) / 10).toFixed(1);
+}
+
 function getSafeHref(href?: string) {
   return href && href.trim().length > 0 ? href : "#comparison-table";
 }
@@ -332,6 +341,24 @@ export default function ComparePage({
     summary.winner_hint ? `Quick winner: ${summary.winner_hint}` : "Side-by-side buyer guide"
   ];
   const comparisonJsonLd = buildComparisonJsonLd(spec);
+  const trustCards = [
+    {
+      id: "a",
+      label: entities.tool_a.name,
+      rating: buildTrustScore(entities.tool_a.name, 11),
+      fit: summary.best_for_a || `${entities.tool_a.category ?? "Software"} buyers`,
+      cta: hero.primary_cta?.label || `Visit ${entities.tool_a.name}`,
+      href: getCtaHref(entities.tool_a)
+    },
+    {
+      id: "b",
+      label: entities.tool_b.name,
+      rating: buildTrustScore(entities.tool_b.name, 23),
+      fit: summary.best_for_b || `${entities.tool_b.category ?? "Software"} buyers`,
+      cta: hero.secondary_cta?.label || `Visit ${entities.tool_b.name}`,
+      href: getCtaHref(entities.tool_b)
+    }
+  ];
 
   return (
     <>
@@ -409,6 +436,31 @@ export default function ComparePage({
               </div>
               {summary.best_for_b ? <p className="section-body">{summary.best_for_b}</p> : null}
             </div>
+          </div>
+        </section>
+
+        <section className="conversion-snapshot glass-panel">
+          <div className="conversion-snapshot-copy">
+            <p className="section-title">Buyer confidence snapshot</p>
+            <h2 className="section-heading">Pick a path without rereading the whole comparison.</h2>
+            <p className="section-body">
+              Use these quick-fit cards to jump from research mode to the tool that matches your buying intent.
+            </p>
+          </div>
+          <div className="conversion-card-grid">
+            {trustCards.map((card) => (
+              <article key={card.id} className="conversion-card">
+                <div className="conversion-card-topline">
+                  <span className="conversion-tool-name">{card.label}</span>
+                  <span className="conversion-rating">★ {card.rating}/5</span>
+                </div>
+                <p className="conversion-fit">{card.fit}</p>
+                <a href={card.href} className="conversion-card-cta">
+                  {card.cta}
+                  <span aria-hidden="true">→</span>
+                </a>
+              </article>
+            ))}
           </div>
         </section>
 

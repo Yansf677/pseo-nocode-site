@@ -348,6 +348,7 @@ a:hover {
 .related-panel,
 .insight-panel,
 .compare-side-card,
+.conversion-snapshot,
 .empty-state-panel {
   padding: 1.4rem;
 }
@@ -583,6 +584,88 @@ a:hover {
   color: rgb(199, 210, 254);
   background: rgba(67, 56, 202, 0.28);
   border-color: rgba(129, 140, 248, 0.16);
+}
+
+.conversion-snapshot {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.25fr);
+  gap: 1rem;
+  align-items: stretch;
+  border-color: rgba(110, 231, 183, 0.18);
+  background:
+    linear-gradient(135deg, rgba(6, 78, 59, 0.18), rgba(15, 23, 42, 0.72)),
+    rgba(15, 23, 42, 0.68);
+}
+
+.conversion-snapshot-copy {
+  position: relative;
+  z-index: 1;
+}
+
+.conversion-card-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.conversion-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 1rem;
+  border-radius: 1.1rem;
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  background: rgba(5, 10, 22, 0.5);
+}
+
+.conversion-card-topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.conversion-tool-name {
+  color: var(--text-primary);
+  font-weight: 800;
+}
+
+.conversion-rating {
+  flex: 0 0 auto;
+  color: #fde68a;
+  font-size: 0.84rem;
+  font-weight: 800;
+}
+
+.conversion-fit {
+  flex: 1;
+  margin: 0.75rem 0 1rem;
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.conversion-card-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  width: 100%;
+  min-height: 2.6rem;
+  border-radius: 9999px;
+  color: rgb(2, 6, 23);
+  background: linear-gradient(135deg, #6ee7b7 0%, #67e8f9 50%, #60a5fa 100%);
+  font-size: 0.9rem;
+  font-weight: 800;
+  transition: transform 180ms ease, filter 180ms ease, box-shadow 180ms ease;
+}
+
+.conversion-card-cta:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.05);
+  box-shadow: 0 18px 34px rgba(45, 212, 191, 0.22);
 }
 
 .table-scroll-shell {
@@ -1017,7 +1100,8 @@ a:hover {
   .compare-hero,
   .compare-hero-layout,
   .compare-overview-grid,
-  .compare-highlights-grid {
+  .compare-highlights-grid,
+  .conversion-snapshot {
     grid-template-columns: 1fr;
   }
 
@@ -1029,6 +1113,7 @@ a:hover {
 @media (max-width: 820px) {
   .feature-strip,
   .compare-bestfor-grid,
+  .conversion-card-grid,
   .vote-battle-actions,
   .vote-battle-scoreboard {
     grid-template-columns: 1fr;
@@ -1057,6 +1142,7 @@ a:hover {
   .related-panel,
   .insight-panel,
   .compare-side-card,
+  .conversion-snapshot,
   .empty-state-panel {
     padding: 1.15rem;
     border-radius: 1.2rem;
