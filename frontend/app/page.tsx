@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import BuyerIntentQuiz from "../components/BuyerIntentQuiz";
 import manifest from "../../engine/output/manifest.json";
 import { dedupeKeywords, siteUrl, toAbsoluteUrl } from "../lib/seo";
 
@@ -101,10 +102,10 @@ export default function HomePage() {
                 </span>
               </div>
               <h1 className="text-balance text-3xl font-semibold tracking-tight text-slate-50 md:text-4xl lg:text-5xl">
-                不只是网址列表，而是一整个「工具对决」社区场。
+                Find the right software battle before you choose a tool.
               </h1>
               <p className="max-w-2xl text-sm text-slate-300 md:text-base">
-                浏览热门 AI、SaaS、效率与设计工具 A vs B 对决，配上模拟投票热度和标签分类，逛起来更像社区，不像在查表格。
+                Browse high-intent AI, SaaS, productivity, design, and website builder comparisons with vote-style momentum and clear next steps.
               </p>
               <div className="flex flex-wrap items-center gap-3">
                 {pages[0] ? (
@@ -112,7 +113,7 @@ export default function HomePage() {
                     href={pages[0].url_path}
                     className="inline-flex items-center justify-center gap-2 rounded-full bg-amber-400 px-5 py-2 text-sm font-semibold text-slate-950 shadow-lg shadow-amber-500/40 transition hover:bg-amber-300"
                   >
-                    进入当前最热对决
+                    Open the hottest battle
                     <span aria-hidden="true">→</span>
                   </Link>
                 ) : null}
@@ -120,7 +121,7 @@ export default function HomePage() {
                   href="#battle-list"
                   className="inline-flex items-center justify-center gap-2 rounded-full border border-slate-700 bg-slate-900/70 px-4 py-2 text-sm font-medium text-slate-200 hover:border-slate-500 hover:bg-slate-900"
                 >
-                  浏览全部 Battle
+                  Browse all battles
                 </a>
               </div>
             </div>
@@ -129,7 +130,7 @@ export default function HomePage() {
               <div className="rounded-2xl border border-amber-500/30 bg-gradient-to-br from-slate-900 via-slate-900 to-amber-950/60 p-4 shadow-xl shadow-amber-500/30">
                 <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-amber-200/90">
                   <span className="inline-flex h-1.5 w-1.5 rounded-full bg-emerald-400" />
-                  Live Vote Battle 模拟热度
+                  Live Vote Battle momentum
                 </p>
                 <div className="mt-3 space-y-3">
                   {trendingPages.map((page, index) => {
@@ -151,7 +152,7 @@ export default function HomePage() {
                             Trending Battle #{index + 1}
                           </span>
                           <span className="text-[11px] text-slate-400">
-                            模拟 {votes.toLocaleString()} 票参与
+                            Simulated {votes.toLocaleString()} votes
                           </span>
                         </div>
                         <div className="mt-2 flex items-center gap-2 text-sm font-semibold text-slate-50">
@@ -169,10 +170,10 @@ export default function HomePage() {
                         </div>
                         <div className="mt-2 flex items-center justify-between text-[11px] text-slate-400">
                           <span>
-                            {left} · {leftVotes.toLocaleString()} 票
+                            {left} · {leftVotes.toLocaleString()} votes
                           </span>
                           <span>
-                            {right} · {rightVotes.toLocaleString()} 票
+                            {right} · {rightVotes.toLocaleString()} votes
                           </span>
                         </div>
                       </Link>
@@ -183,6 +184,8 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+
+        <BuyerIntentQuiz pages={pages} />
 
         <section className="border-b border-slate-800 bg-slate-950/80">
           <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-4 md:flex-row md:items-center md:justify-between">
@@ -211,7 +214,7 @@ export default function HomePage() {
               </button>
             </div>
             <p className="text-xs text-slate-400 md:text-sm">
-              标签暂为静态展示，用来营造「社区逛街」的氛围感。
+              Category chips help visitors scan the comparison library faster.
             </p>
           </div>
         </section>
@@ -220,14 +223,14 @@ export default function HomePage() {
           <div className="mb-4 flex items-center justify-between gap-3">
             <div>
               <h2 className="text-base font-semibold text-slate-50 md:text-lg">
-                全部 Battle 列表
+                All comparison battles
               </h2>
               <p className="text-xs text-slate-400 md:text-sm">
-                像刷社区一样，一张张卡片逛过去，看到感兴趣的就点进去深挖。
+                Scan the cards like a community feed, then click into the matchups that fit your buying intent.
               </p>
             </div>
             <span className="rounded-full bg-slate-900/80 px-3 py-1 text-xs text-slate-300">
-              {pages.length} 个对决 · 模拟投票总量 {(
+              {pages.length} battles · simulated vote volume {(
                 pages.length * 520
               ).toLocaleString()}+
             </span>
@@ -290,19 +293,19 @@ export default function HomePage() {
 
                   <div className="mt-3 space-y-2">
                     <div className="flex items-center justify-between text-[11px] text-slate-400">
-                      <span>模拟 {votes.toLocaleString()} 票 · 社区热度</span>
+                      <span>Simulated {votes.toLocaleString()} votes · community momentum</span>
                       <span className="inline-flex items-center gap-1 text-amber-200">
                         <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
-                        高点击意图
+                        high-click intent
                       </span>
                     </div>
                     <div className="h-1.5 overflow-hidden rounded-full bg-slate-800">
                       <div className="h-full w-[60%] rounded-full bg-gradient-to-r from-emerald-400 via-amber-400 to-rose-500 group-hover:w-[72%]" />
                     </div>
                     <div className="flex items-center justify-between text-[11px] text-slate-400">
-                      <span>点击卡片查看完整对比落地页</span>
+                      <span>Click the card to view the full comparison landing page</span>
                       <span className="inline-flex items-center gap-1 text-amber-200">
-                        <span className="text-xs">详情</span>
+                        <span className="text-xs">Details</span>
                         <span aria-hidden="true">→</span>
                       </span>
                     </div>
