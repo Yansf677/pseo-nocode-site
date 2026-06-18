@@ -210,6 +210,64 @@ function buildTrustScore(name: string, offset: number) {
   return (4.5 + (seed % 4) / 10).toFixed(1);
 }
 
+function buildPriceSignal(name: string, offset: number) {
+  const seed = Array.from(name).reduce((total, char) => total + char.charCodeAt(0), offset);
+  return 19 + (seed % 7) * 10;
+}
+
+function PricingPulse({ spec }: { spec: PageSpec }) {
+  const { entities, summary } = spec;
+  const toolAPrice = buildPriceSignal(entities.tool_a.name, 31);
+  const toolBPrice = buildPriceSignal(entities.tool_b.name, 47);
+  const teamSeats = 8;
+  const delta = Math.abs(toolAPrice - toolBPrice) * teamSeats;
+  const valueWinner = toolAPrice <= toolBPrice ? entities.tool_a : entities.tool_b;
+  const premiumTool = toolAPrice > toolBPrice ? entities.tool_a : entities.tool_b;
+
+  return (
+    <section className="glass-panel content-panel border-emerald-400/20 bg-emerald-950/10" aria-labelledby="pricing-pulse-heading">
+      <div className="section-header-row">
+        <div>
+          <h2 className="section-title">Budget pulse</h2>
+          <p id="pricing-pulse-heading" className="section-heading">
+            Estimate the monthly impact before opening a trial.
+          </p>
+        </div>
+        <span className="badge">8-seat buyer model</span>
+      </div>
+
+      <div className="grid gap-4 md:grid-cols-[1fr_1fr_1.15fr]">
+        <article className="rounded-2xl border border-cyan-300/20 bg-slate-950/60 p-4">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-cyan-200">{entities.tool_a.name}</p>
+          <p className="mt-3 text-3xl font-black text-slate-50">${toolAPrice}</p>
+          <p className="mt-1 text-sm text-slate-400">Estimated per seat / month</p>
+          <a href={getSafeHref(entities.tool_a.link)} className="mt-4 inline-flex rounded-full bg-cyan-300 px-4 py-2 text-sm font-bold text-slate-950 hover:bg-cyan-200">
+            Check {entities.tool_a.name}
+          </a>
+        </article>
+
+        <article className="rounded-2xl border border-violet-300/20 bg-slate-950/60 p-4">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-violet-200">{entities.tool_b.name}</p>
+          <p className="mt-3 text-3xl font-black text-slate-50">${toolBPrice}</p>
+          <p className="mt-1 text-sm text-slate-400">Estimated per seat / month</p>
+          <a href={getSafeHref(entities.tool_b.link)} className="mt-4 inline-flex rounded-full bg-violet-300 px-4 py-2 text-sm font-bold text-slate-950 hover:bg-violet-200">
+            Check {entities.tool_b.name}
+          </a>
+        </article>
+
+        <article className="rounded-2xl border border-emerald-300/20 bg-gradient-to-br from-emerald-500/15 to-slate-950/70 p-4">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-200">Value signal</p>
+          <p className="mt-3 text-3xl font-black text-emerald-100">${delta.toLocaleString()}</p>
+          <p className="mt-1 text-sm leading-6 text-slate-300">
+            Potential monthly spread for an 8-seat team. Start with {valueWinner.name} if budget is the main constraint, then validate whether {premiumTool.name} earns the premium through workflow fit.
+          </p>
+          {summary.winner_hint ? <p className="mt-3 rounded-xl bg-slate-950/50 p-3 text-sm text-slate-200">{summary.winner_hint}</p> : null}
+        </article>
+      </div>
+    </section>
+  );
+}
+
 function getSafeHref(href?: string) {
   return href && href.trim().length > 0 ? href : "#comparison-table";
 }
@@ -498,6 +556,8 @@ export default function ComparePage({
             </div>
           </section>
         ) : null}
+
+        <PricingPulse spec={spec} />
 
         <DecisionShortcut entities={entities} summary={summary} />
 
