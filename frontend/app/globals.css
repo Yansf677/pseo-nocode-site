@@ -1272,7 +1272,6 @@ a:hover {
 
 .decision-shortcut-panel {
   display: grid;
-  grid-template-columns: minmax(0, 0.75fr) minmax(0, 1.25fr);
   gap: 1.25rem;
   align-items: stretch;
   border-color: rgba(45, 212, 191, 0.24);
@@ -1284,13 +1283,12 @@ a:hover {
 .decision-shortcut-copy {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   gap: 0.8rem;
 }
 
 .decision-shortcut-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.9rem;
 }
 
@@ -1298,7 +1296,7 @@ a:hover {
   position: relative;
   overflow: hidden;
   display: flex;
-  min-height: 13rem;
+  min-height: 14rem;
   flex-direction: column;
   justify-content: space-between;
   gap: 0.85rem;
@@ -1330,11 +1328,15 @@ a:hover {
 }
 
 .decision-shortcut-card-a::before {
-  background: linear-gradient(135deg, rgba(34, 211, 238, 0.16), transparent 62%);
+  background: linear-gradient(135deg, rgba(34, 197, 94, 0.24), transparent 62%);
 }
 
 .decision-shortcut-card-b::before {
-  background: linear-gradient(135deg, rgba(168, 85, 247, 0.18), transparent 62%);
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.24), transparent 62%);
+}
+
+.decision-shortcut-card-neutral::before {
+  background: linear-gradient(135deg, rgba(251, 191, 36, 0.2), transparent 62%);
 }
 
 .decision-shortcut-eyebrow {
@@ -1367,8 +1369,7 @@ a:hover {
   font-weight: 800;
 }
 
-@media (max-width: 820px) {
-  .decision-shortcut-panel,
+@media (max-width: 960px) {
   .decision-shortcut-grid {
     grid-template-columns: 1fr;
   }
