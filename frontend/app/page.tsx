@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import fs from "node:fs";
+import path from "node:path";
 import BuyerIntentQuiz from "../components/BuyerIntentQuiz";
 import manifest from "../../engine/output/manifest.json";
 import { dedupeKeywords, siteUrl, toAbsoluteUrl } from "../lib/seo";
@@ -8,6 +10,76 @@ interface ManifestPage {
   page_key: string;
   url_path: string;
   title: string;
+}
+
+interface QuizCatalogEntry {
+  toolName: string;
+  compareUrl: string;
+  compareTitle: string;
+  affiliateUrl: string;
+  affiliateLabel: string;
+  category: string;
+}
+
+interface QuizPageSpec {
+  url_path: string;
+  seo?: { title?: string };
+  entities?: {
+    tool_a?: { name?: string; category?: string; link?: string };
+    tool_b?: { name?: string; category?: string; link?: string };
+  };
+}
+
+const QUIZ_TOOL_NAMES = [
+  "Carrd",
+  "Framer",
+  "Webflow",
+  "Systeme.io",
+  "Softr",
+  "Glide",
+  "Bubble",
+  "Dify",
+  "Shopify",
+  "Ecwid",
+  "BigCommerce"
+] as const;
+
+const QUIZ_DATA_ROOT = path.join(process.cwd(), "../engine/output");
+
+function loadQuizCatalog(): Record<string, QuizCatalogEntry> {
+  try {
+    const toolSet = new Set<string>(QUIZ_TOOL_NAMES);
+    const catalog: Record<string, QuizCatalogEntry> = {};
+    const files = fs
+      .readdirSync(QUIZ_DATA_ROOT)
+      .filter((file) => file.endsWith(".json") && file !== "manifest.json");
+
+    for (const file of files) {
+      const raw = fs.readFileSync(path.join(QUIZ_DATA_ROOT, file), "utf8");
+      const spec = JSON.parse(raw) as QuizPageSpec;
+      const entities = [spec.entities?.tool_a, spec.entities?.tool_b];
+
+      for (const entity of entities) {
+        const toolName = entity?.name?.trim();
+        if (!toolName || !toolSet.has(toolName) || catalog[toolName]) {
+          continue;
+        }
+
+        catalog[toolName] = {
+          toolName,
+          compareUrl: spec.url_path,
+          compareTitle: spec.seo?.title || `${toolName} comparison`,
+          affiliateUrl: entity?.link?.trim() || spec.url_path,
+          affiliateLabel: `Visit ${toolName}`,
+          category: entity?.category?.trim() || "No-code software"
+        };
+      }
+    }
+
+    return catalog;
+  } catch {
+    return {};
+  }
 }
 
 const pages = ((manifest as { pages?: ManifestPage[] }).pages ?? []) as ManifestPage[];
@@ -56,6 +128,7 @@ function getVotesForIndex(index: number): number {
 }
 
 const trendingPages = pages.slice(0, 3);
+const quizCatalog = loadQuizCatalog();
 
 export default function HomePage() {
   const itemListJsonLd = {
@@ -185,7 +258,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        <BuyerIntentQuiz pages={pages} />
+        <BuyerIntentQuiz catalog={quizCatalog} />
 
         <section className="border-b border-slate-800 bg-slate-950/80">
           <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-4 md:flex-row md:items-center md:justify-between">

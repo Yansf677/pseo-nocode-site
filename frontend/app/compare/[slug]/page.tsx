@@ -272,6 +272,12 @@ function getSafeHref(href?: string) {
   return href && href.trim().length > 0 ? href : "#comparison-table";
 }
 
+function getNotIdealFor(cons?: string[]) {
+  return cons && cons.length > 0
+    ? cons[0]
+    : "You need the opposite trade-offs from this tool's strongest angle.";
+}
+
 function ConversionDock({ spec }: { spec: PageSpec }) {
   const { entities, summary } = spec;
   const winnerText = summary.winner_hint || "Pick the tool that matches your workflow best.";
@@ -399,6 +405,23 @@ export default function ComparePage({
     summary.winner_hint ? `Quick winner: ${summary.winner_hint}` : "Side-by-side buyer guide"
   ];
   const comparisonJsonLd = buildComparisonJsonLd(spec);
+  const prosConsSection = sections?.find((section): section is SectionProsCons => section.type === "pros_cons");
+  const decisionCards = [
+    {
+      id: "a",
+      tool: entities.tool_a,
+      chooseIf: summary.best_for_a || `${entities.tool_a.name} is the better fit when you want its default strengths first.`,
+      notIdealFor: getNotIdealFor(prosConsSection?.data.tool_a.cons),
+      tone: "emerald"
+    },
+    {
+      id: "b",
+      tool: entities.tool_b,
+      chooseIf: summary.best_for_b || `${entities.tool_b.name} is the better fit when you want its default strengths first.`,
+      notIdealFor: getNotIdealFor(prosConsSection?.data.tool_b.cons),
+      tone: "violet"
+    }
+  ];
   const trustCards = [
     {
       id: "a",
@@ -450,6 +473,31 @@ export default function ComparePage({
                   <span key={metric} className="metric-pill">
                     ✦ {metric}
                   </span>
+                ))}
+              </div>
+              <div className="mt-5 grid gap-3 md:grid-cols-2">
+                {decisionCards.map((card) => (
+                  <article
+                    key={card.id}
+                    className={`rounded-2xl border p-4 backdrop-blur ${
+                      card.tone === "emerald"
+                        ? "border-emerald-300/25 bg-emerald-400/8"
+                        : "border-violet-300/25 bg-violet-400/8"
+                    }`}
+                  >
+                    <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-300">
+                      Choose {card.tool.name} if...
+                    </p>
+                    <p className="mt-2 text-sm leading-6 text-slate-100">{card.chooseIf}</p>
+                    <div className="mt-4 flex flex-wrap gap-2">
+                      <span className="rounded-full border border-white/10 bg-slate-950/60 px-3 py-1 text-[11px] font-medium text-slate-200">
+                        Best for: {card.chooseIf}
+                      </span>
+                      <span className="rounded-full border border-white/10 bg-slate-950/60 px-3 py-1 text-[11px] font-medium text-slate-300">
+                        Not ideal for: {card.notIdealFor}
+                      </span>
+                    </div>
+                  </article>
                 ))}
               </div>
             </div>
