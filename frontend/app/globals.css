@@ -130,7 +130,6 @@ a:hover {
   position: relative;
   overflow: hidden;
   display: grid;
-  grid-template-columns: minmax(0, 1.3fr) minmax(20rem, 0.9fr);
   gap: 1.25rem;
   padding: 1.5rem;
   border-radius: 1.75rem;
@@ -140,6 +139,14 @@ a:hover {
     radial-gradient(circle at top left, rgba(34, 211, 238, 0.14), transparent 36%),
     radial-gradient(circle at bottom right, rgba(129, 140, 248, 0.16), transparent 32%);
   box-shadow: var(--shadow-soft);
+}
+
+.hero-panel {
+  grid-template-columns: minmax(0, 1.3fr) minmax(20rem, 0.9fr);
+}
+
+.compare-hero {
+  grid-template-columns: minmax(0, 1fr);
 }
 
 .hero-panel::before,
