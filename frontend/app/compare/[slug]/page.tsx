@@ -6,6 +6,7 @@ import { dedupeKeywords, stripHtml, toAbsoluteUrl } from "../../../lib/seo";
 import VoteBattle from "../../../components/VoteBattle";
 import DecisionShortcut from "../../../components/DecisionShortcut";
 import InteractivePricing from "../../../components/InteractivePricing";
+import ChooseByIntent from "../../../components/ChooseByIntent";
 
 interface SeoSpec {
   title: string;
@@ -445,6 +446,15 @@ export default function ComparePage({
                         Not ideal for: {card.notIdealFor}
                       </span>
                     </div>
+                    <a
+                      href={getSafeHref(card.tool.link)}
+                      target="_blank"
+                      rel="noreferrer"
+                      className={"mt-4 inline-flex w-fit items-center gap-2 rounded-full px-4 py-2 text-sm font-bold text-slate-950 transition hover:opacity-90 " + (card.tone === "emerald" ? "bg-emerald-300" : "bg-violet-300")}
+                    >
+                      Open {card.tool.name}
+                      <span aria-hidden="true">↗</span>
+                    </a>
                   </article>
                 ))}
               </div>
@@ -465,6 +475,8 @@ export default function ComparePage({
             </div>
           </div>
         </header>
+
+        <ChooseByIntent toolA={entities.tool_a} toolB={entities.tool_b} />
 
         <section className="compare-overview-grid">
           <div className="glass-panel insight-panel">

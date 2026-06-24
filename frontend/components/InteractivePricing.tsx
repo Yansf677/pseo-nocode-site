@@ -40,7 +40,11 @@ export default function InteractivePricing({ toolA, toolB, summary }: Interactiv
   const toolBTotal = toolBPrice * teamSeats;
 
   return (
-    <section className="glass-panel content-panel border-emerald-400/20 bg-emerald-950/10" aria-labelledby="pricing-pulse-heading">
+    <section
+      id="pricing-calculator"
+      className="glass-panel content-panel border-emerald-400/20 bg-emerald-950/10"
+      aria-labelledby="pricing-pulse-heading"
+    >
       <div className="section-header-row gap-4">
         <div>
           <h2 className="section-title">Budget pulse</h2>
