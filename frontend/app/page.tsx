@@ -3,6 +3,7 @@ import Link from "next/link";
 import fs from "node:fs";
 import path from "node:path";
 import BuyerIntentQuiz from "../components/BuyerIntentQuiz";
+import BattleLibrary from "../components/BattleLibrary";
 import manifest from "../../engine/output/manifest.json";
 import { dedupeKeywords, siteUrl, toAbsoluteUrl } from "../lib/seo";
 
@@ -28,6 +29,17 @@ interface QuizPageSpec {
     tool_a?: { name?: string; category?: string; link?: string };
     tool_b?: { name?: string; category?: string; link?: string };
   };
+}
+
+interface BattleCard {
+  pageKey: string;
+  urlPath: string;
+  title: string;
+  left: string;
+  right: string;
+  categories: string[];
+  votes: number;
+  tags: string[];
 }
 
 const QUIZ_TOOL_NAMES = [
@@ -122,13 +134,72 @@ function parseBattleTitle(title: string): { left: string; right: string } {
 }
 
 function getVotesForIndex(index: number): number {
-  // deterministic pseudo-random but stable per index
   const base = 320 + (index * 47) % 480;
   return base;
 }
 
+function loadBattleCards(sourcePages: ManifestPage[]): BattleCard[] {
+  try {
+    return sourcePages.map((page, index) => {
+      const specPath = path.join(QUIZ_DATA_ROOT, `${page.page_key}.json`);
+      const raw = fs.readFileSync(specPath, "utf8");
+      const spec = JSON.parse(raw) as QuizPageSpec;
+      const { left, right } = parseBattleTitle(page.title);
+      const categories = Array.from(
+        new Set(
+          [spec.entities?.tool_a?.category, spec.entities?.tool_b?.category]
+            .map((category) => category?.trim())
+            .filter((category): category is string => Boolean(category))
+        )
+      );
+
+      return {
+        pageKey: page.page_key,
+        urlPath: page.url_path,
+        title: page.title,
+        left,
+        right,
+        categories,
+        votes: getVotesForIndex(index + 3) + 120,
+        tags: [left, right, ...categories]
+      };
+    });
+  } catch {
+    return sourcePages.map((page, index) => {
+      const { left, right } = parseBattleTitle(page.title);
+
+      return {
+        pageKey: page.page_key,
+        urlPath: page.url_path,
+        title: page.title,
+        left,
+        right,
+        categories: [],
+        votes: getVotesForIndex(index + 3) + 120,
+        tags: [left, right]
+      };
+    });
+  }
+}
+
+function buildCategoryCounts(battles: BattleCard[]) {
+  const counts = new Map<string, number>();
+
+  for (const battle of battles) {
+    for (const category of battle.categories) {
+      counts.set(category, (counts.get(category) || 0) + 1);
+    }
+  }
+
+  return Array.from(counts.entries())
+    .map(([name, count]) => ({ name, count }))
+    .sort((left, right) => right.count - left.count || left.name.localeCompare(right.name));
+}
+
 const trendingPages = pages.slice(0, 3);
 const quizCatalog = loadQuizCatalog();
+const battleCards = loadBattleCards(pages);
+const battleCategoryCounts = buildCategoryCounts(battleCards);
 
 export default function HomePage() {
   const itemListJsonLd = {
@@ -259,135 +330,7 @@ export default function HomePage() {
         </section>
 
         <BuyerIntentQuiz catalog={quizCatalog} />
-
-        <section className="border-b border-slate-800 bg-slate-950/80">
-          <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-4 md:flex-row md:items-center md:justify-between">
-            <div className="flex flex-wrap items-center gap-2 text-xs md:text-sm">
-              <span className="rounded-full bg-slate-900/80 px-3 py-1 text-slate-200">All</span>
-              <button className="rounded-full border border-slate-700 bg-slate-900/40 px-3 py-1 text-slate-300 hover:border-sky-400 hover:text-sky-200">
-                AI
-              </button>
-              <button className="rounded-full border border-slate-700 bg-slate-900/40 px-3 py-1 text-slate-300 hover:border-violet-400 hover:text-violet-200">
-                AI Agents
-              </button>
-              <button className="rounded-full border border-slate-700 bg-slate-900/40 px-3 py-1 text-slate-300 hover:border-emerald-400 hover:text-emerald-200">
-                Productivity
-              </button>
-              <button className="rounded-full border border-slate-700 bg-slate-900/40 px-3 py-1 text-slate-300 hover:border-fuchsia-400 hover:text-fuchsia-200">
-                Design
-              </button>
-              <button className="rounded-full border border-slate-700 bg-slate-900/40 px-3 py-1 text-slate-300 hover:border-amber-400 hover:text-amber-200">
-                Website Builder
-              </button>
-              <button className="rounded-full border border-slate-700 bg-slate-900/40 px-3 py-1 text-slate-300 hover:border-cyan-400 hover:text-cyan-200">
-                Automation
-              </button>
-              <button className="rounded-full border border-slate-700 bg-slate-900/40 px-3 py-1 text-slate-300 hover:border-rose-400 hover:text-rose-200">
-                SaaS
-              </button>
-            </div>
-            <p className="text-xs text-slate-400 md:text-sm">
-              Category chips help visitors scan the comparison library faster.
-            </p>
-          </div>
-        </section>
-
-        <section id="battle-list" className="mx-auto max-w-6xl px-4 py-8 md:py-10">
-          <div className="mb-4 flex items-center justify-between gap-3">
-            <div>
-              <h2 className="text-base font-semibold text-slate-50 md:text-lg">
-                All comparison battles
-              </h2>
-              <p className="text-xs text-slate-400 md:text-sm">
-                Scan the cards like a community feed, then click into the matchups that fit your buying intent.
-              </p>
-            </div>
-            <span className="rounded-full bg-slate-900/80 px-3 py-1 text-xs text-slate-300">
-              {pages.length} battles · simulated vote volume {(
-                pages.length * 520
-              ).toLocaleString()}+
-            </span>
-          </div>
-
-          <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
-            {pages.map((page, index) => {
-              const { left, right } = parseBattleTitle(page.title);
-              const votes = getVotesForIndex(index + 3) + 120;
-              const isHot = index < 6;
-              const isNew = index < 3;
-
-              return (
-                <Link
-                  key={page.page_key}
-                  href={page.url_path}
-                  className="group flex flex-col justify-between rounded-2xl border border-slate-800 bg-gradient-to-b from-slate-900/80 to-slate-950/90 p-4 shadow-lg shadow-black/40 transition hover:-translate-y-1 hover:border-amber-400/60 hover:bg-slate-900/90 hover:shadow-amber-500/20"
-                >
-                  <div>
-                    <div className="mb-2 flex items-center justify-between gap-2 text-[11px] text-slate-400">
-                      <div className="flex flex-wrap items-center gap-1.5">
-                        <span className="rounded-full bg-slate-900/80 px-2 py-0.5 font-medium text-slate-300">
-                          #{String(index + 1).padStart(2, "0")} Battle
-                        </span>
-                        {isHot && (
-                          <span className="inline-flex items-center gap-1 rounded-full bg-rose-500/10 px-2 py-0.5 text-[11px] font-medium text-rose-200">
-                            <span>🔥</span>
-                            Hot
-                          </span>
-                        )}
-                        {isNew && (
-                          <span className="inline-flex items-center gap-1 rounded-full bg-emerald-500/10 px-2 py-0.5 text-[11px] font-medium text-emerald-200">
-                            <span>✨</span>
-                            Fresh
-                          </span>
-                        )}
-                        <span className="inline-flex items-center gap-1 rounded-full bg-sky-500/10 px-2 py-0.5 text-[11px] font-medium text-sky-200">
-                          <span>🗳</span>
-                          Vote Battle
-                        </span>
-                      </div>
-                      <span className="text-[11px] text-slate-500">{page.page_key}</span>
-                    </div>
-
-                    <div className="flex items-start gap-2">
-                      <div className="flex flex-1 flex-col gap-1">
-                        <div className="flex items-center gap-2 text-sm font-semibold text-slate-50 md:text-base">
-                          <span className="truncate">{left}</span>
-                          <span className="inline-flex items-center justify-center rounded-full bg-amber-400 px-2 py-0.5 text-[11px] font-black tracking-wide text-slate-950">
-                            VS
-                          </span>
-                          <span className="truncate">{right}</span>
-                        </div>
-                        <p className="line-clamp-2 text-xs text-slate-400 md:text-[13px]">
-                          {page.title}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="mt-3 space-y-2">
-                    <div className="flex items-center justify-between text-[11px] text-slate-400">
-                      <span>Simulated {votes.toLocaleString()} votes · community momentum</span>
-                      <span className="inline-flex items-center gap-1 text-amber-200">
-                        <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
-                        high-click intent
-                      </span>
-                    </div>
-                    <div className="h-1.5 overflow-hidden rounded-full bg-slate-800">
-                      <div className="h-full w-[60%] rounded-full bg-gradient-to-r from-emerald-400 via-amber-400 to-rose-500 group-hover:w-[72%]" />
-                    </div>
-                    <div className="flex items-center justify-between text-[11px] text-slate-400">
-                      <span>Click the card to view the full comparison landing page</span>
-                      <span className="inline-flex items-center gap-1 text-amber-200">
-                        <span className="text-xs">Details</span>
-                        <span aria-hidden="true">→</span>
-                      </span>
-                    </div>
-                  </div>
-                </Link>
-              );
-            })}
-          </div>
-        </section>
+        <BattleLibrary battles={battleCards} categoryCounts={battleCategoryCounts} />
       </main>
     </>
   );
