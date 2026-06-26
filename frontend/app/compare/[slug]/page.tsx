@@ -7,6 +7,7 @@ import VoteBattle from "../../../components/VoteBattle";
 import DecisionShortcut from "../../../components/DecisionShortcut";
 import InteractivePricing from "../../../components/InteractivePricing";
 import ChooseByIntent from "../../../components/ChooseByIntent";
+import DecisionMomentum from "../../../components/DecisionMomentum";
 
 interface SeoSpec {
   title: string;
@@ -477,6 +478,8 @@ export default function ComparePage({
         </header>
 
         <ChooseByIntent toolA={entities.tool_a} toolB={entities.tool_b} />
+
+        <DecisionMomentum toolA={entities.tool_a} toolB={entities.tool_b} summary={summary} />
 
         <section className="compare-overview-grid">
           <div className="glass-panel insight-panel">
