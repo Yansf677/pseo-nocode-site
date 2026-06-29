@@ -4,6 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import BuyerIntentQuiz from "../components/BuyerIntentQuiz";
 import BattleLibrary from "../components/BattleLibrary";
+import HomeGrowthSections from "../components/HomeGrowthSections";
 import manifest from "../../engine/output/manifest.json";
 import { dedupeKeywords, siteUrl, toAbsoluteUrl } from "../lib/seo";
 
@@ -330,6 +331,7 @@ export default function HomePage() {
         </section>
 
         <BuyerIntentQuiz catalog={quizCatalog} />
+        <HomeGrowthSections battles={battleCards} categoryCounts={battleCategoryCounts} />
         <BattleLibrary battles={battleCards} categoryCounts={battleCategoryCounts} />
       </main>
     </>
